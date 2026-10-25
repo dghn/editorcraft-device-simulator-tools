@@ -55,8 +55,10 @@ namespace DeviceSimulatorTools.Editor
                     menu.AddItem("Screenshot — Clean PNG", false, () => SaveOne(w, false));
                     menu.AddItem("Screenshot — Framed PNG", false, () => SaveOne(w, true));
                     menu.AddItem("Capture selected favorites…", false, () => StartFavorites(w));
+                    menu.AddItem("Batch UI audit & comparison…", false, () => SimulatorReviewWindow.Open(w, true));
+                    menu.AddItem("Comparison gallery…", false, () => SimulatorReviewWindow.Open(w, false));
                 }
-                else menu.AddItem("Cancel capture", false, () => Finish("Capture cancelled; completed images retained."));
+                else menu.AddItem("Cancel batch", false, () => Finish("Batch cancelled; completed results retained."));
                 menu.AddItem("Safe area inspector", false, () => SimulatorSafeAreaInspector.Open(w));
                 menu.AddSeparator("");
                 menu.AddItem("Settings…", false, SimulatorCaptureSettings.Open);
@@ -183,11 +185,20 @@ namespace DeviceSimulatorTools.Editor
             try { File.WriteAllBytes(path, texture.EncodeToPNG()); }
             finally { UnityEngine.Object.DestroyImmediate(texture); }
         }
-        internal static bool Busy => batchWindow != null;
+        internal static bool Busy => queue != null;
         static EditorWindow batchWindow;
         static UnityEngine.Object original;
         static ScreenOrientation originalOrientation;
-        static Queue<UnityEngine.Object> queue;
+        internal sealed class BatchJob
+        {
+            internal UnityEngine.Object Device;
+            internal ScreenOrientation? Orientation;
+        }
+        static Queue<BatchJob> queue;
+        static BatchJob currentJob;
+        static Action<EditorWindow, string> frameReady;
+        static Action<string> completed;
+        static bool interactiveExport;
         static string folder;
         static double readyAt, deadline;
         static bool waiting;
@@ -205,35 +216,62 @@ namespace DeviceSimulatorTools.Editor
         }
         internal static void Begin(EditorWindow w, UnityEngine.Object[] assets, string destination)
         {
-            if (Busy || assets.Length == 0) return;
-            Directory.CreateDirectory(destination); folder = destination; batchWindow = w;
-            original = Current(w); originalOrientation = SimulatorCompatibility.State(w).Orientation;
-            queue = new Queue<UnityEngine.Object>(assets); total = assets.Length; images.Clear(); waiting = false;
+            BeginBatch(w, assets.Select(a => new BatchJob { Device = a }).ToArray(), destination, null, null, true);
+        }
+        internal static BatchJob[] ReviewJobs(UnityEngine.Object[] assets, bool allOrientations)
+        {
+            return assets.SelectMany(asset => allOrientations
+                ? ((JArray)Spec(asset)["screens"][0]["orientations"]).Select(o => (ScreenOrientation)(int)o["orientation"])
+                    .Where(o => o >= ScreenOrientation.Portrait && o <= ScreenOrientation.LandscapeRight).Distinct()
+                    .Select(o => new BatchJob { Device = asset, Orientation = o })
+                : new[] { new BatchJob { Device = asset } }).ToArray();
+        }
+        internal static void BeginBatch(EditorWindow w, BatchJob[] jobs, string destination,
+            Action<EditorWindow, string> onFrame, Action<string> onComplete, bool reveal = false)
+        {
+            if (Busy) throw new InvalidOperationException("Another Simulator batch is running.");
+            if (w == null || jobs.Length == 0) throw new InvalidOperationException("Select at least one device.");
+            var previous = Current(w);
+            var previousOrientation = SimulatorCompatibility.State(w).Orientation;
+            Directory.CreateDirectory(destination);
+            original = previous; originalOrientation = previousOrientation;
+            folder = destination; batchWindow = w;
+            queue = new Queue<BatchJob>(jobs); total = jobs.Length; images.Clear(); waiting = false;
+            frameReady = onFrame; completed = onComplete; interactiveExport = reveal;
             EditorApplication.update += Tick; AssemblyReloadEvents.beforeAssemblyReload += Cancel;
             EditorApplication.playModeStateChanged += OnPlayMode;
         }
         internal static void CancelFor(EditorWindow owner) { if (owner != null && batchWindow == owner) Cancel(); }
-        static void Cancel() => Finish("Capture interrupted.");
+        static void Cancel() => Finish("Batch interrupted; completed results retained.");
         static void OnPlayMode(PlayModeStateChange state) { if (state == PlayModeStateChange.ExitingPlayMode || state == PlayModeStateChange.ExitingEditMode) Cancel(); }
         static void Tick()
         {
             try
             {
                 if (batchWindow == null) { Finish("Simulator closed."); return; }
-                if (EditorUtility.DisplayCancelableProgressBar("Favorite device captures", "The game continues running; these are sequential layout snapshots.", (float)images.Count / total)) { Cancel(); return; }
+                if (EditorUtility.DisplayCancelableProgressBar("Simulator device batch", "The game continues running; these are sequential layout snapshots.", (float)images.Count / total)) { Cancel(); return; }
                 batchWindow.Repaint();
                 if (!waiting)
                 {
                     if (queue.Count == 0) { Finish(null); return; }
-                    Select(batchWindow, queue.Dequeue()); batchWindow.Focus();
+                    currentJob = queue.Dequeue();
+                    Select(batchWindow, currentJob.Device);
+                    if (currentJob.Orientation.HasValue) SimulatorCompatibility.RestoreOrientation(batchWindow, currentJob.Orientation.Value);
+                    batchWindow.Focus();
                     readyAt = EditorApplication.timeSinceStartup + 1.5; deadline = readyAt + 10; waiting = true; return;
                 }
                 if (EditorApplication.timeSinceStartup < readyAt) return;
+                if (Current(batchWindow) != currentJob.Device) throw new InvalidOperationException("Device changed during the batch. Please leave Simulator controls unchanged until it finishes.");
                 var rt = Preview(batchWindow); var s = SimulatorCompatibility.State(batchWindow);
+                if (currentJob.Orientation.HasValue && s.Orientation != currentJob.Orientation.Value)
+                    throw new InvalidOperationException("The requested orientation was not applied. Check Player orientation settings.");
                 if (rt == null || rt.width != s.Width || rt.height != s.Height)
                 { if (EditorApplication.timeSinceStartup > deadline) throw new Exception("Timed out waiting for a full-resolution Simulator frame."); return; }
                 string file = images.Count.ToString("D3") + "_" + FileName(batchWindow) + ".png";
-                Write(batchWindow, Path.Combine(folder, file), false); images.Add(file); waiting = false;
+                Canvas.ForceUpdateCanvases();
+                string path = Path.Combine(folder, file);
+                Write(batchWindow, path, false); images.Add(file);
+                frameReady?.Invoke(batchWindow, path); waiting = false;
             }
             catch (Exception e) { Finish(e.Message); }
         }
@@ -260,11 +298,18 @@ namespace DeviceSimulatorTools.Editor
                     string html = "<!doctype html><meta charset='utf-8'><title>Simulator captures</title><style>body{background:#282828;color:white;font:14px sans-serif}main{display:flex;flex-wrap:wrap;gap:16px}figure{margin:0;width:280px}img{max-width:280px;max-height:560px}figcaption{overflow-wrap:anywhere}</style><h1>Favorite device captures</h1><p>Sequential snapshots, not frozen game state or automatic UI pass/fail.</p><main>";
                     foreach (string file in images) html += "<figure><img src='" + file + "'><figcaption>" + file + "</figcaption></figure>";
                     File.WriteAllText(Path.Combine(folder, "index.html"), html + "</main>");
-                    if (error == null) EditorUtility.RevealInFinder(Path.Combine(folder, "index.html"));
+                    if (error == null && interactiveExport) EditorUtility.RevealInFinder(Path.Combine(folder, "index.html"));
                 }
                 if (error != null) Debug.LogWarning("Simulator capture: " + error);
             }
-            finally { batchWindow = null; original = null; queue = null; folder = null; }
+            catch (Exception e) { error = (error == null ? "" : error + " ") + e.GetBaseException().Message; Debug.LogWarning("Simulator batch: " + error); }
+            finally
+            {
+                var callback = completed;
+                batchWindow = null; original = null; queue = null; folder = null;
+                currentJob = null; frameReady = null; completed = null;
+                callback?.Invoke(error);
+            }
         }
     }
 
@@ -334,18 +379,13 @@ namespace DeviceSimulatorTools.Editor
             var rt = Selection.activeTransform as RectTransform; Rect? selected = null;
             if (rt != null && rt.gameObject.scene.IsValid() && rt.gameObject.activeInHierarchy)
             {
-                var canvas = rt.GetComponentInParent<Canvas>();
-                if (canvas != null) canvas = canvas.rootCanvas;
-                if (canvas != null && canvas.renderMode != RenderMode.WorldSpace)
+                if (SimulatorUIAudit.TryBounds(rt, out var bounds, out var boundsReason))
                 {
-                    var corners = new Vector3[4]; rt.GetWorldCorners(corners);
-                    var cam = canvas.renderMode == RenderMode.ScreenSpaceOverlay ? null : canvas.worldCamera;
-                    var pts = corners.Select(p => RectTransformUtility.WorldToScreenPoint(cam, p)).ToArray();
-                    selected = Rect.MinMaxRect(pts.Min(p=>p.x),pts.Min(p=>p.y),pts.Max(p=>p.x),pts.Max(p=>p.y));
-                    var r = selected.Value;
-                    bool inside = r.xMin >= safe.xMin && r.yMin >= safe.yMin && r.xMax <= safe.xMax && r.yMax <= safe.yMax;
+                    selected = bounds;
+                    bool inside = SimulatorUIAudit.Overflow(bounds, safe, 0) == Vector4.zero;
                     EditorGUILayout.HelpBox(rt.name + (inside ? ": inside safe area" : ": extends outside safe area"), inside ? MessageType.Info : MessageType.Warning);
                 }
+                else EditorGUILayout.HelpBox(boundsReason, MessageType.Info);
             }
             if (!selected.HasValue) EditorGUILayout.LabelField("Select an active scene screen-space UI RectTransform to inspect its bounds.", EditorStyles.wordWrappedLabel);
             float top = GUILayoutUtility.GetLastRect().yMax + 8;

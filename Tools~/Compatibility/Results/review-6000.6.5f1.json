@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "unity": "6000.6.5f1",
+  "checks": [
+    "bounds math, tolerance, exclusions including descendants, hidden/inactive UI, unsupported Canvas, supported orientation jobs",
+    "two-device/four-orientation audit, exact 80px overflow, PNG/thumbnail/JSON output, restored state, issue navigation",
+    "comparison-only capture, bounded gallery cache, cancellation and partial retention",
+    "window teardown cancels batch",
+    "existing favorite PNG/HTML capture preserved",
+    "failure callback cleanup and restoration; play-mode transition interruption"
+  ],
+  "error": null,
+  "scope": "Isolated Editor integration probe; play-mode interruption handler invoked directly. Native Unity 6 gallery inspected separately."
+}

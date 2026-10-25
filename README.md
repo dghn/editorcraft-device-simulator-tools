@@ -28,7 +28,7 @@
 **Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
 
 The first tool in the **EditorCraft** collection, Device Simulator Tools extends Unity's Device Simulator with a compact device picker,
-local favorites, paired foldable screens, PNG capture and a safe-area inspector.
+local favorites, paired foldable screens, PNG capture, batch UI audits and a native comparison gallery.
 Built and maintained by [Daghan Demirci](https://github.com/dghn).
 
 > **v0.2.0** · Supports Unity **2022.3.62f2 (2022 LTS)** and **6000.6.5f1 (Unity 6)**.
@@ -60,8 +60,31 @@ the Editor and registry catalog and is not a count of distinct physical models.
 
 ## See the tools in action
 
-Short, looping demos captured from the actual **Unity 2022.3.62f2** plugin panel.
+The workflow GIFs below were captured from the actual **Unity 2022.3.62f2** plugin panel.
 Timing is edited for readability; screenshot results are real exported PNGs.
+
+### Find UI overflow across devices — new on main
+
+![Batch UI audit and native comparison gallery](Documentation~/assets/demos/ui-audit-gallery.jpg)
+
+Check a UI root across favorite devices and their recorded orientations. See exactly
+which object crosses the screen or safe-area boundary, with per-edge pixel distances.
+Exclude intentional backgrounds, adjust tolerance and click an issue to select its
+object and device. Compare snapshots side by side in Unity, filtered by orientation.
+
+This is an actual **Unity 6000.6.5f1** gallery showing a neutral test fixture on Redmi
+13C and POCO F7. The red element intentionally extends **80 px** beyond the right
+screen edge; green outlines show the safe area. Eight snapshots were captured; the
+gallery is filtered to the two portrait results. Captures are sequential and checks
+cover geometry, not clipping or text readability.
+
+[Usage and limits](Documentation~/UI_AUDIT.md) ·
+[Actual JSON report](Documentation~/assets/demos/ui-audit-report/report.json) ·
+[HTML report and PNGs](Documentation~/assets/demos/ui-audit-report/index.html)
+
+The HTML report opens locally after downloading; GitHub displays its source.
+These features are available on `main` for the next release; the `v0.2.0` tag remains
+unchanged. They were tested in Unity **2022.3.62f2** and **6000.6.5f1**.
 
 ### Search by model
 
@@ -145,18 +168,20 @@ Star the devices you revisit. Search, filters and favorites stay local and persi
 between sessions. The picker prefers maintained profiles over matching bundled names
 while leaving Unity's registry catalog unchanged.
 
-### 02 — Inspect the layout
+### 02 — Audit the layout
 
-Read pixel insets and view the safe-area boundary. Select an active screen-space UI
-RectTransform to compare its bounds against that boundary. Switch between paired
-inner and outer foldable profiles from the EditorCraft Device Tools panel.
+Inspect a single UI element or audit a whole UI root across favorite devices and
+profile orientations. Review per-edge screen/safe-area overflow, exclude intentional
+backgrounds and jump from a warning to the affected scene object. Switch between
+paired inner and outer foldable profiles from the EditorCraft Device Tools panel.
 
 ### 03 — Capture and compare
 
-Export a clean PNG or include the device frame. Capture the favorites matching your
-current filters into an HTML gallery. Output folders are remembered locally; each
-export gets a collision-safe name. Batch completion or cancellation restores the
-original device and orientation, and completed captures remain available.
+Export a clean PNG or include the device frame. Compare up to four snapshots side by
+side inside Unity, with an orientation filter and paged thumbnails. Export HTML/JSON
+reports plus PNGs, or use the existing favorite-capture HTML gallery. Batch completion
+or cancellation restores the original device and orientation and retains completed
+results.
 
 | Capability | Included today |
 | --- | --- |
@@ -164,8 +189,21 @@ original device and orientation, and completed captures remain available.
 | Picker | Search, platform/type filters, favorites, keyboard navigation |
 | Foldables | Paired inner/outer profile switching |
 | Captures | Clean/framed PNG, orientation handling, sequential batch gallery |
-| Layout inspection | Safe-area insets and selected screen-space UI bounds |
+| Comparison | Native four-tile gallery, orientation filter, HTML/JSON/PNG export |
+| Layout inspection | Single-object inspector; batch screen/safe-area audit, exclusions and per-edge warnings |
 | Package scope | Editor-only assembly, installed through UPM |
+
+## Batch UI audit and Unity comparison gallery
+
+Choose **Test Tools → Batch UI audit & comparison…** to check a scene UI root across
+filtered favorite devices and their profile orientations. Reports show per-edge
+screen/safe-area overflow, exclusions and unsupported objects; click an issue to
+select its device and scene object. **Comparison gallery…** also works without a
+UI audit, with four snapshots side by side and an orientation filter.
+
+Export HTML/JSON reports and full-resolution PNGs. Captures are sequential; checks
+cover geometric bounds rather than clipping, occlusion or text readability.
+[Usage and limits](Documentation~/UI_AUDIT.md).
 
 ## Get started
 

@@ -1,0 +1,374 @@
+{
+    "createdUtc": "2026-10-25T02:08:37.6274370Z",
+    "status": "Complete",
+    "root": "Audit fixture",
+    "scope": "Active UI Graphics and Selectables",
+    "audit": true,
+    "tolerance": 1.0,
+    "limitations": "Sequential snapshots of a running application. Geometric bounds only; masks, occlusion, text overflow and physical hardware are not validated. Safe areas depend on the device profile. Skipped items are not passes.",
+    "exclusions": [
+        "Audit fixture/Excluded background"
+    ],
+    "frames": [
+        {
+            "device": "Redmi 13C",
+            "deviceGuid": "3ee915dce1605751899d8470b059828b",
+            "image": "000_Redmi_13C_Portrait.png",
+            "thumbnail": "000_Redmi_13C_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 720,
+            "height": 1600,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 720.0,
+                "height": 1532.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 700.0,
+                        "y": 750.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "Redmi 13C",
+            "deviceGuid": "3ee915dce1605751899d8470b059828b",
+            "image": "001_Redmi_13C_PortraitUpsideDown.png",
+            "thumbnail": "001_Redmi_13C_PortraitUpsideDown_thumb.png",
+            "orientation": 2,
+            "width": 720,
+            "height": 1600,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 68.0,
+                "width": 720.0,
+                "height": 1532.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 700.0,
+                        "y": 750.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "Redmi 13C",
+            "deviceGuid": "3ee915dce1605751899d8470b059828b",
+            "image": "002_Redmi_13C_LandscapeLeft.png",
+            "thumbnail": "002_Redmi_13C_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 1600,
+            "height": 720,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 68.0,
+                "y": 0.0,
+                "width": 1532.0,
+                "height": 720.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 1580.0,
+                        "y": 310.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "Redmi 13C",
+            "deviceGuid": "3ee915dce1605751899d8470b059828b",
+            "image": "003_Redmi_13C_LandscapeRight.png",
+            "thumbnail": "003_Redmi_13C_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 1600,
+            "height": 720,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1532.0,
+                "height": 720.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 1580.0,
+                        "y": 310.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 148.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "POCO F7",
+            "deviceGuid": "6b33492cbb0c5d47b15606741fe484e4",
+            "image": "004_POCO_F7_Portrait.png",
+            "thumbnail": "004_POCO_F7_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 1280,
+            "height": 2772,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1280.0,
+                "height": 2646.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 1260.0,
+                        "y": 1336.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "POCO F7",
+            "deviceGuid": "6b33492cbb0c5d47b15606741fe484e4",
+            "image": "005_POCO_F7_PortraitUpsideDown.png",
+            "thumbnail": "005_POCO_F7_PortraitUpsideDown_thumb.png",
+            "orientation": 2,
+            "width": 1280,
+            "height": 2772,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 126.0,
+                "width": 1280.0,
+                "height": 2646.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 1260.0,
+                        "y": 1336.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "POCO F7",
+            "deviceGuid": "6b33492cbb0c5d47b15606741fe484e4",
+            "image": "006_POCO_F7_LandscapeLeft.png",
+            "thumbnail": "006_POCO_F7_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2772,
+            "height": 1280,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 126.0,
+                "y": 0.0,
+                "width": 2646.0,
+                "height": 1280.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 2752.0,
+                        "y": 590.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "POCO F7",
+            "deviceGuid": "6b33492cbb0c5d47b15606741fe484e4",
+            "image": "007_POCO_F7_LandscapeRight.png",
+            "thumbnail": "007_POCO_F7_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2772,
+            "height": 1280,
+            "checkedCount": 2,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 2646.0,
+                "height": 1280.0
+            },
+            "issues": [
+                {
+                    "path": "Audit fixture/Outside right",
+                    "objectId": "GlobalObjectId_V1-0-00000000000000000000000000000000-0-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 2752.0,
+                        "y": 590.0,
+                        "width": 100.0,
+                        "height": 100.0
+                    },
+                    "safeOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 206.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 80.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        }
+    ]
+}

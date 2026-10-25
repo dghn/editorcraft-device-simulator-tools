@@ -1,5 +1,15 @@
 # Changelog
 
+## Unreleased
+
+- Add batch UI/safe-area audits using the existing device/capture runner: selected
+  favorite devices, profile orientations, root/exclusion scope, per-edge pixel
+  warnings, skipped-object diagnostics and scene-object navigation.
+- Add an in-Editor side-by-side comparison gallery with orientation filtering,
+  paged thumbnails and exportable HTML/JSON reports plus PNGs.
+- Share projected-bound checks with the single-object safe-area inspector. Preserve
+  original device/orientation and partial results on cancellation and failure.
+
 ## 0.2.0 — 2026-10-25
 
 - Add six workflow GIFs and a sample HTML capture gallery; show tested support for

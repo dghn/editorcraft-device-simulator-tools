@@ -93,3 +93,20 @@ EditorCraft demo layout; this loop shows two real screen states, not a hinge ani
 The demo layout is original. Device frame artwork retains the provenance and unresolved
 redistribution status documented in [Third-party notices](../THIRD_PARTY_NOTICES.md).
 The screenshots are not blanket MIT-licensed images. Resolve this before public release.
+
+
+## Batch UI audit and native gallery — new on main
+
+![Actual Unity UI audit gallery](assets/demos/ui-audit-gallery.jpg)
+
+A neutral test fixture makes the issue visible: the red UI element extends 80 px
+past the right screen edge on two devices. The native gallery shows safe-area
+outlines, per-edge warnings and links back to the object and device. Filter the
+orientation to compare matching views, then export HTML/JSON reports and PNGs.
+
+Captured from Unity 6000.6.5f1. The batch captured eight device/orientation snapshots;
+this view filters to portrait. This is a real tool screenshot, not a mockup, and the
+fixture is intentionally simple. Checks are geometric; masked pixels, text clipping
+and physical hardware are outside their scope.
+
+[Read the workflow and limits](UI_AUDIT.md). Available on `main` for the next release.
