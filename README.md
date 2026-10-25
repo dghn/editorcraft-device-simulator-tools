@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version: 0.3.0" src="https://img.shields.io/badge/version-0.3.0-70e0c4?style=flat-square" />
+  <img alt="Version: 0.3.1" src="https://img.shields.io/badge/version-0.3.1-70e0c4?style=flat-square" />
   <img alt="Supported: Unity 2022.3.62f2 (2022 LTS)" src="https://img.shields.io/badge/Unity_2022_LTS-2022.3.62f2-70e0c4?style=flat-square" />
   <img alt="Supported: Unity 6 (6000.6.5f1)" src="https://img.shields.io/badge/Unity-6000.6.5f1-94adc9?style=flat-square" />
   <img alt="181 custom profiles" src="https://img.shields.io/badge/profiles-181-70e0c4?style=flat-square" />
@@ -31,8 +31,8 @@ The first tool in the **EditorCraft** collection, Device Simulator Tools extends
 local favorites, paired foldable screens, PNG capture, batch UI audits and a native comparison gallery.
 Built and maintained by [Daghan Demirci](https://github.com/dghn).
 
-> **v0.3.0** · Supports Unity **2022.3.62f2 (2022 LTS)** and **6000.6.5f1 (Unity 6)**.
-> [Release notes](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.3.0) · [Installation verification](Documentation~/INSTALL_VERIFICATION.md).
+> **v0.3.1** · Supports Unity **2022.3.62f2 (2022 LTS)** and **6000.6.5f1 (Unity 6)**.
+> [Release notes](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.3.1) · [Installation verification](Documentation~/INSTALL_VERIFICATION.md).
 
 The banner is an original schematic illustration, not a screenshot of the tool.
 
@@ -218,11 +218,11 @@ package; do not open it as a Unity project.
 click **+ → Install package from Git URL**, and paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.0
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.1
 ```
 
 Git must be installed locally. Public HTTPS installation needs no GitHub account or
-SSH key. The URL is pinned to **v0.3.0**, including both supported Unity versions and the features shown here.
+SSH key. The URL is pinned to **v0.3.1**, including both supported Unity versions and the features shown here.
 
 
 UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependencies.
@@ -237,7 +237,7 @@ Run this from the **target Unity project root** (the folder containing `Assets`,
 available on Windows. Close Unity while editing its manifest, then reopen it.
 
 ```sh
-python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "v0.3.0", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#v0.3.0"], check=True)'
+python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "v0.3.1", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#v0.3.1"], check=True)'
 ```
 
 This clones the installer into a temporary directory and registers the Git dependency
@@ -253,12 +253,12 @@ For a dedicated SSH alias, set `EDITORCRAFT_GIT_URL` to
 command. In Bash/zsh you can prefix the command with
 `EDITORCRAFT_GIT_URL=ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git`.
 In PowerShell set `$env:EDITORCRAFT_GIT_URL` first. The value is the repository URL
-without a `#ref`; this command uses `v0.3.0`.
+without a `#ref`; this command uses `v0.3.1`.
 
 If the repository is already cloned, use the installer directly:
 
 ```sh
-python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject" --url "https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.0"
+python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject" --url "https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.1"
 ```
 
 Coding agents: run the command only in the intended project, inspect the manifest

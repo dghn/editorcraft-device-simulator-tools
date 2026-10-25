@@ -1,0 +1,14 @@
+{
+  "unity": "2022.3.62f2",
+  "passed": true,
+  "pickerFavorites": 5,
+  "batchFavorites": 5,
+  "checks": [
+    "actual picker star handler -> saved preferences -> batch selection",
+    "five screenshot devices",
+    "search/platform/type filters",
+    "favorites toggle off",
+    "empty favorites",
+    "stale no-match warning clears and count refreshes"
+  ]
+}

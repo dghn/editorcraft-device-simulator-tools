@@ -99,6 +99,13 @@ namespace DeviceSimulatorTools.Editor
                     .StartsWith("Packages/com.daghandemirci.device-simulator-tools/", StringComparison.Ordinal)).First().Asset).ToArray();
         }
 
+        // Only preferences that affect batch selection; FavoritesOnly is a picker display option.
+        internal static string CapturePreferenceSnapshot() => new JArray(
+            EditorPrefs.GetString(PrefKey + "Favorites", "[]"),
+            EditorPrefs.GetString(PrefKey + "Search", ""),
+            EditorPrefs.GetInt(PrefKey + "Platform"),
+            EditorPrefs.GetInt(PrefKey + "Kind")).ToString(Newtonsoft.Json.Formatting.None);
+
         internal static UnityEngine.Object[] SelectedFavorites(IEnumerable<UnityEngine.Object> assets)
         {
             var ids = JArray.Parse(EditorPrefs.GetString(PrefKey + "Favorites", "[]"))

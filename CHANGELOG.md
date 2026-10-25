@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.1 — 2026-10-25
+
+- Refresh the gallery’s matching-favorite count when picker preferences change and
+  clear an obsolete no-match warning once favorite devices match again.
+- Cover the real picker star/save/batch-selection path and stale-warning recovery
+  with an Editor regression probe.
+
 ## 0.3.0 — 2026-10-25
 
 - Add batch UI/safe-area audits using the existing device/capture runner: selected

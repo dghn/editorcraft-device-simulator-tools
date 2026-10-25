@@ -19,23 +19,29 @@ namespace DeviceSimulatorTools.Editor
         [SerializeField] string reportFolder;
         [SerializeField] int page, orientationFilter;
         [SerializeField] bool showOptions = true;
-        SimulatorReviewReport report;
+        [NonSerialized] SimulatorReviewReport report;
         readonly Dictionary<string, Texture2D> thumbnails = new Dictionary<string, Texture2D>();
         Vector2 scroll;
         bool running;
-        string error;
+        string error, selectionPreferences;
+        bool selectionError;
+        int matchingFavorites = -1;
         const int PageSize = 4;
+        const string NoFavoritesMessage = "No favorites match the current picker filters. Star devices or change the search/platform/type filters.";
 
         internal static void Open(EditorWindow owner, bool enableAudit)
         {
             var window = GetWindow<SimulatorReviewWindow>("UI Audit & Gallery");
             window.simulator = owner;
             if (!window.running) window.audit = enableAudit;
+            window.selectionPreferences = null;
+            window.OnInspectorUpdate();
             if (window.root == null) window.root = Selection.activeTransform as RectTransform;
             window.minSize = new Vector2(680, 520); window.Show();
         }
         void OnEnable()
         {
+            selectionPreferences = null;
             if (!string.IsNullOrEmpty(reportFolder) && File.Exists(Path.Combine(reportFolder, "report.json")))
             {
                 try { report = JsonUtility.FromJson<SimulatorReviewReport>(File.ReadAllText(Path.Combine(reportFolder, "report.json"))); }
@@ -51,6 +57,21 @@ namespace DeviceSimulatorTools.Editor
         {
             foreach (var texture in thumbnails.Values) if (texture != null) DestroyImmediate(texture);
             thumbnails.Clear();
+        }
+        void OnInspectorUpdate()
+        {
+            string snapshot = SimulatorDevicePickerPopup.CapturePreferenceSnapshot();
+            if (!running && simulator != null && snapshot != selectionPreferences)
+            {
+                try
+                {
+                    matchingFavorites = SimulatorDevicePickerPopup.SelectedFavorites(SimulatorTestTools.Devices(simulator)).Length;
+                    selectionPreferences = snapshot;
+                    if ((selectionError || error == NoFavoritesMessage) && matchingFavorites > 0) { error = null; selectionError = false; }
+                }
+                catch { matchingFavorites = -1; } // StartReview reports actionable read errors.
+            }
+            Repaint();
         }
         void OnGUI()
         {
@@ -78,6 +99,7 @@ namespace DeviceSimulatorTools.Editor
                     }
                     if (GUILayout.Button("Add exclusion", GUILayout.Width(120))) exclusions.Add(null);
                 }
+                if (matchingFavorites >= 0) EditorGUILayout.LabelField($"Matching favorite devices: {matchingFavorites}", EditorStyles.miniLabel);
                 if (GUILayout.Button(audit ? "Audit & capture selected favorites" : "Capture selected favorites for comparison")) StartReview();
             }
             if (running && GUILayout.Button("Cancel batch (keep completed results)")) SimulatorTestTools.CancelFor(simulator);
@@ -111,6 +133,7 @@ namespace DeviceSimulatorTools.Editor
         }
         void StartReview()
         {
+            error = null; selectionError = false;
             try
             {
                 if (!SimulatorCompatibility.Available(simulator, out var reason)) throw new InvalidOperationException(reason);
@@ -118,7 +141,14 @@ namespace DeviceSimulatorTools.Editor
                     throw new InvalidOperationException("Choose an active scene UI root to audit.");
                 if (float.IsNaN(tolerance) || float.IsInfinity(tolerance)) throw new InvalidOperationException("Tolerance must be a finite number.");
                 var assets = SimulatorDevicePickerPopup.SelectedFavorites(SimulatorTestTools.Devices(simulator));
-                if (assets.Length == 0) throw new InvalidOperationException("No favorites match the current picker filters. Star devices or change the search/platform/type filters.");
+                matchingFavorites = assets.Length;
+                selectionPreferences = SimulatorDevicePickerPopup.CapturePreferenceSnapshot();
+                if (assets.Length == 0)
+                {
+                    selectionError = true;
+                    error = NoFavoritesMessage;
+                    return;
+                }
                 StartRun(assets);
             }
             catch (Exception e) { error = e.GetBaseException().Message; }
