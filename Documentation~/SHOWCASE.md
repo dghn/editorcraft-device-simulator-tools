@@ -2,7 +2,8 @@
 
 Captured on 2026-10-25 in Unity 6000.6.5f1 with the package framed PNG exporter.
 The original neutral UI was rendered in a temporary additive scene; no unrelated
-application content was used. Full-resolution PNGs are retained without retouching.
+application content was used. Full-resolution screen and device pixels are preserved. The exterior gray preview
+backing was removed using the exporter’s boundary-connected transparency mask.
 These are profile simulations, not physical-device measurements.
 
 ### iPhone Duo

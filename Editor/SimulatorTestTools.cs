@@ -120,6 +120,10 @@ namespace DeviceSimulatorTools.Editor
                 {
                     Graphics.Blit(overlay, tmp); RenderTexture.active = tmp; frame.ReadPixels(new Rect(0, 0, cw, ch), 0, 0); frame.Apply();
                     var colors = frame.GetPixels32(); var pixels = clean.GetPixels32(); var output = new Color32[colors.Length];
+                    // Our preview overlays use opaque neutral backing to prevent framebuffer
+                    // leakage. Remove only boundary-connected backing in exported PNGs.
+                    var exterior = AssetDatabase.GetAssetPath(overlay).StartsWith("Packages/com.daghandemirci.device-simulator-tools/", StringComparison.Ordinal)
+                        ? ExteriorBacking(colors, cw, ch) : null;
                     for (int y = 0; y < ch; y++) for (int x = 0; x < cw; x++)
                     {
                         var color = colors[y * cw + x];
@@ -129,6 +133,7 @@ namespace DeviceSimulatorTools.Editor
                             Color under = pixels[p.y * width + p.x]; Color over = color;
                             color = Color.Lerp(under, new Color(over.r, over.g, over.b, 1), over.a);
                         }
+                        if (exterior != null && exterior[y * cw + x]) color = new Color32(0, 0, 0, 0);
                         var q = Rotate(x, y, cw, ch, orientation); output[q.y * result.width + q.x] = color;
                     }
                     result.SetPixels32(output); result.Apply(); return result;
@@ -137,6 +142,32 @@ namespace DeviceSimulatorTools.Editor
                 finally { RenderTexture.active = old; RenderTexture.ReleaseTemporary(tmp); UnityEngine.Object.DestroyImmediate(frame); }
             }
             finally { UnityEngine.Object.DestroyImmediate(clean); }
+        }
+        // Never chroma-key the composed screenshot: UI and enclosed hardware may
+        // legitimately contain the same gray. Walk the overlay from its perimeter.
+        internal static bool[] ExteriorBacking(Color32[] colors, int width, int height)
+        {
+            var exterior = new bool[colors.Length];
+            var pending = new Queue<int>();
+            void Visit(int index)
+            {
+                if (exterior[index]) return;
+                var c = colors[index];
+                if (c.a < 253 || Math.Abs(c.r - 56) > 2 || Math.Abs(c.g - 56) > 2 || Math.Abs(c.b - 56) > 2) return;
+                exterior[index] = true;
+                pending.Enqueue(index);
+            }
+            for (int x = 0; x < width; x++) { Visit(x); Visit((height - 1) * width + x); }
+            for (int y = 0; y < height; y++) { Visit(y * width); Visit(y * width + width - 1); }
+            while (pending.Count > 0)
+            {
+                int i = pending.Dequeue(), x = i % width, y = i / width;
+                if (x > 0) Visit(i - 1);
+                if (x + 1 < width) Visit(i + 1);
+                if (y > 0) Visit(i - width);
+                if (y + 1 < height) Visit(i + width);
+            }
+            return exterior;
         }
         static Vector2Int Rotate(int x, int y, int w, int h, ScreenOrientation orientation) => orientation switch
         {
