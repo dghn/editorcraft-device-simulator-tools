@@ -1,0 +1,21 @@
+{
+  "profiles": 92,
+  "orientationChecks": 368,
+  "passed": true,
+  "playing": false,
+  "checkedOn": "2026-10-25",
+  "editor": "6000.6.5f1",
+  "pickerClassificationChecks": 6,
+  "packageProfiles": 181,
+  "packageOrientations": 676,
+  "packageOverlays": 130,
+  "limits": "Unity consistency and source fidelity passed. 22 new safe areas and 29 frames remain unverified/approximate. Four hardware captures are scaled to native resolution; Pixel measurements are emulator-only. Missing orientations are derived, not independently measured. Three additional profiles use community ROM configurations, not measured stock hardware.",
+  "sourceOrientationChecks": 72,
+  "newOfficialArtworkProfiles": 30,
+  "hardwareCutoutProfiles": 24,
+  "emulatorCutoutProfiles": 2,
+  "skinDerivedCutoutProfiles": 8,
+  "unverifiedCutoutProfiles": 22,
+  "romConfigurationProfiles": 3,
+  "romDerivedOrientationChecks": 12
+}

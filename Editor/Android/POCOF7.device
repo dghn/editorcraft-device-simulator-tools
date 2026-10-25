@@ -1,0 +1,105 @@
+{
+  "friendlyName": "POCO F7",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1280,
+      "height": 2772,
+      "dpi": 447,
+      "navigationBarHeight": 166,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2646
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 599,
+              "y": 2646,
+              "width": 82,
+              "height": 126
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 126,
+            "width": 1280,
+            "height": 2646
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 599,
+              "y": 0,
+              "width": 82,
+              "height": 126
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 126,
+            "y": 0,
+            "width": 2646,
+            "height": 1280
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 599,
+              "width": 126,
+              "height": 82
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2646,
+            "height": 1280
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2646,
+              "y": 599,
+              "width": 126,
+              "height": 82
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/POCOF7.png",
+        "borderSize": {
+          "x": 45,
+          "y": 45,
+          "z": 45,
+          "w": 45
+        },
+        "cornerRadius": 156
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "POCO F7",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

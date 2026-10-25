@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S24",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 416,
+      "navigationBarHeight": 45,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2237
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 511,
+              "y": 2237,
+              "width": 58,
+              "height": 103
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 103,
+            "width": 1080,
+            "height": 2237
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 511,
+              "y": 0,
+              "width": 58,
+              "height": 103
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 103,
+            "y": 0,
+            "width": 2237,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 511,
+              "width": 103,
+              "height": 58
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2237,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2237,
+              "y": 511,
+              "width": 103,
+              "height": 58
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS24.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 91
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S24",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

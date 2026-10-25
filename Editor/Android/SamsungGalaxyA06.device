@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A06",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 262,
+      "navigationBarHeight": 28,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1557
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 1557,
+              "width": 80,
+              "height": 43
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 43,
+            "width": 720,
+            "height": 1557
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 0,
+              "width": 80,
+              "height": 43
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 43,
+            "y": 0,
+            "width": 1557,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 320,
+              "width": 43,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1557,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1557,
+              "y": 320,
+              "width": 43,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA06.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A06",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,10 +1,12 @@
 # Maintained device profiles
 
+**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+
 Part of EditorCraft: Device Simulator Tools. Counts describe profiles, not physical-device validation.
 
-122 screen profiles: 89 Apple and 33 Android. Five inner/outer pairs give 117 distinct model names.
+181 screen profiles: 89 Apple and 92 Android. Six inner/outer pairs give 175 distinct model names.
 
-See the source catalogs in `Documentation~/provenance` for provenance and system-UI assumptions.
+See the source catalogs in `Tools/DeviceSimulator` for provenance and system-UI assumptions.
 
 ## Apple
 
@@ -102,19 +104,78 @@ See the source catalogs in `Documentation~/provenance` for provenance and system
 
 ## Android
 
+Geometry update: 30 new profiles use official artwork; 24 use hardware-matched cutout data, 2 use emulator data, 8 use skin-derived exclusions, 3 use community ROM configurations and 22 remain unverified. See [geometry accuracy](provenance/GeometryAccuracy.md).
+
+59 added profiles broaden 2025–2026 sales/usage and display coverage. This is not a verified complete top-30 ranking. See the Android source catalog and coverage notes for sources and approximate geometry limits.
+
 | Profile | Resolution | Orientations |
 | --- | --- | ---: |
 | Google Pixel 10 | 1080 × 2424 | 4 |
+| Google Pixel 10 Pro | 1280 × 2856 | 4 |
 | Google Pixel 10 Pro Fold — Inner Screen | 2076 × 2152 | 4 |
 | Google Pixel 10 Pro Fold — Outer Screen | 1080 × 2364 | 4 |
+| Google Pixel 10 Pro XL | 1344 × 2992 | 4 |
 | Google Pixel 9 | 1080 × 2424 | 4 |
 | Google Pixel 9 Pro | 1280 × 2856 | 4 |
 | Google Pixel 9 Pro XL | 1344 × 2992 | 4 |
 | Google Pixel Tablet | 1600 × 2560 | 4 |
+| HONOR Magic7 Pro | 1280 × 2800 | 4 |
+| Infinix NOTE 50 | 1080 × 2436 | 4 |
+| Motorola Moto G 2025 | 720 × 1604 | 4 |
+| Motorola Moto G 2026 | 720 × 1604 | 4 |
+| Motorola Moto G Power 2025 | 1080 × 2388 | 4 |
+| Motorola Moto G Stylus 2025 | 1220 × 2712 | 4 |
+| Motorola Moto G15 | 1080 × 2400 | 4 |
+| Nothing Phone (3a) | 1080 × 2392 | 4 |
 | OnePlus 13 | 1440 × 3168 | 4 |
+| OnePlus Pad 3 | 2400 × 3392 | 4 |
+| OPPO A5 Pro | 720 × 1604 | 4 |
+| OPPO Find N5 Inner Screen | 2248 × 2480 | 4 |
+| OPPO Find N5 Outer Screen | 1140 × 2616 | 4 |
+| POCO F7 | 1280 × 2772 | 4 |
+| realme 14 Pro+ 5G | 1272 × 2800 | 4 |
+| Redmi 13C | 720 × 1600 | 4 |
+| Redmi 14C | 720 × 1640 | 4 |
+| Redmi 15C | 720 × 1600 | 4 |
+| Redmi A5 | 720 × 1640 | 4 |
+| Redmi Note 14 | 1080 × 2400 | 4 |
+| Samsung Galaxy A05 | 720 × 1600 | 4 |
+| Samsung Galaxy A05s | 1080 × 2400 | 4 |
+| Samsung Galaxy A06 | 720 × 1600 | 4 |
+| Samsung Galaxy A07 | 720 × 1600 | 4 |
+| Samsung Galaxy A12 | 720 × 1600 | 4 |
+| Samsung Galaxy A13 | 1080 × 2408 | 4 |
+| Samsung Galaxy A13 5G | 720 × 1600 | 4 |
+| Samsung Galaxy A14 | 1080 × 2408 | 4 |
+| Samsung Galaxy A14 5G | 1080 × 2408 | 4 |
+| Samsung Galaxy A15 | 1080 × 2340 | 4 |
+| Samsung Galaxy A15 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A16 | 1080 × 2340 | 4 |
+| Samsung Galaxy A16 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A17 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A21s | 720 × 1600 | 4 |
+| Samsung Galaxy A25 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A26 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A27 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A32 | 1080 × 2400 | 4 |
+| Samsung Galaxy A34 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A35 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A36 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A37 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A54 5G | 1080 × 2340 | 4 |
 | Samsung Galaxy A55 5G | 1080 × 2340 | 4 |
 | Samsung Galaxy A56 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy A57 5G | 1080 × 2340 | 4 |
+| Samsung Galaxy S23 | 1080 × 2340 | 4 |
+| Samsung Galaxy S23 Ultra | 1440 × 3088 | 4 |
+| Samsung Galaxy S23+ | 1080 × 2340 | 4 |
+| Samsung Galaxy S24 | 1080 × 2340 | 4 |
+| Samsung Galaxy S24 FE | 1080 × 2340 | 4 |
+| Samsung Galaxy S24 Ultra | 1440 × 3120 | 4 |
+| Samsung Galaxy S24+ | 1440 × 3120 | 4 |
 | Samsung Galaxy S25 | 1080 × 2340 | 4 |
+| Samsung Galaxy S25 Edge | 1440 × 3120 | 4 |
+| Samsung Galaxy S25 FE | 1080 × 2340 | 4 |
 | Samsung Galaxy S25 Ultra | 1440 × 3120 | 4 |
 | Samsung Galaxy S25+ | 1440 × 3120 | 4 |
 | Samsung Galaxy S26 | 1080 × 2340 | 4 |
@@ -135,5 +196,9 @@ See the source catalogs in `Documentation~/provenance` for provenance and system
 | Samsung Galaxy Z Fold8 Ultra — Outer Screen | 1080 × 2520 | 4 |
 | Samsung Galaxy Z Fold8 — Inner Screen | 2448 × 1848 | 4 |
 | Samsung Galaxy Z Fold8 — Outer Screen | 1248 × 1972 | 4 |
+| Sony Xperia 10 VI | 1080 × 2520 | 4 |
+| TECNO SPARK 40 Pro+ | 1224 × 2720 | 4 |
+| vivo X200 Pro | 1260 × 2800 | 4 |
 | Xiaomi 15 | 1200 × 2670 | 4 |
+| Xiaomi Pad 7 | 2136 × 3200 | 4 |
 | Xiaomi Redmi Note 14 Pro 5G | 1220 × 2712 | 4 |

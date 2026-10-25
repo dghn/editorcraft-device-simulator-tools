@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A07",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 262,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1553
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 317,
+              "y": 1555,
+              "width": 86,
+              "height": 45
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 47,
+            "width": 720,
+            "height": 1553
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 317,
+              "y": 0,
+              "width": 86,
+              "height": 45
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 47,
+            "y": 0,
+            "width": 1553,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 317,
+              "width": 45,
+              "height": 86
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1553,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1555,
+              "y": 317,
+              "width": 45,
+              "height": 86
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA07.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 50
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A07",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

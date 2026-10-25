@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A27 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 42,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2246
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 505,
+              "y": 2246,
+              "width": 70,
+              "height": 70
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 94,
+            "width": 1080,
+            "height": 2246
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 505,
+              "y": 24,
+              "width": 70,
+              "height": 70
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 94,
+            "y": 0,
+            "width": 2246,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 24,
+              "y": 505,
+              "width": 70,
+              "height": 70
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2246,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2246,
+              "y": 505,
+              "width": 70,
+              "height": 70
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA275G.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A27 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A37 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 42,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2248
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 506,
+              "y": 2248,
+              "width": 68,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 92,
+            "width": 1080,
+            "height": 2248
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 506,
+              "y": 24,
+              "width": 68,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 92,
+            "y": 0,
+            "width": 2248,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 24,
+              "y": 506,
+              "width": 68,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2248,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2248,
+              "y": 506,
+              "width": 68,
+              "height": 68
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA375G.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 88
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A37 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

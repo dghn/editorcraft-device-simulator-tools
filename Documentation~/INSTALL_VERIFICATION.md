@@ -1,6 +1,8 @@
 # Clean UPM installation verification
 
-Verified on 2026-10-25 with Unity **6000.6.5f1** on macOS.
+**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+
+This historical Git-installation run was verified on 2026-10-25 with Unity **6000.6.5f1** on macOS.
 
 **Result: passed.** Unity resolved the private Git package, compiled the Editor
 assembly and loaded its tooling type. The final batch process exited with code 0
@@ -47,19 +49,6 @@ This verifies Git installation, dependency resolution and Editor compilation/loa
 It ran with `-batchmode -nographics`: picker interaction, foldable switching, rendered
 captures and safe-area visuals were not repeated in this clean project. Their earlier
 development-host checks remain separate. No player build or other Unity version was
-tested, and no release tag was created.
-
-
-## Public v0.1.0 release verification
-
-On 2026-10-25 the public HTTPS URL was resolved in the same isolated test project:
-
-```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.1.0
-```
-
-UPM locked commit `ba0c77e2154f1944c5f3f27ec6ff9f3214b28dfb`. The final Unity 6000.6.5f1
-batch verification exited 0 with `passed=true`, the Editor assembly loaded, 122
-profiles and 71 overlays, and no C# compiler errors or warnings. The project remained
-free of embedded copies and Pipeline. This follow-up reused the isolated project's
-Library and registry cache from the earlier fresh-project verification.
+tested in this specific Git-installation run, and no release tag was created.
+Separate package and UI validation covers both supported Editors; see
+[plugin compatibility](PLUGIN_COMPATIBILITY.md).

@@ -1,0 +1,73 @@
+{
+  "friendlyName": "OnePlus Pad 3",
+  "version": 1,
+  "screens": [
+    {
+      "width": 2400,
+      "height": 3392,
+      "dpi": 315,
+      "navigationBarHeight": 204,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2400,
+            "height": 3392
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2400,
+            "height": 3392
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3392,
+            "height": 2400
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3392,
+            "height": 2400
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/OnePlusPad3.png",
+        "borderSize": {
+          "x": 120,
+          "y": 120,
+          "z": 120,
+          "w": 120
+        },
+        "cornerRadius": 60
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "OnePlus Pad 3",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

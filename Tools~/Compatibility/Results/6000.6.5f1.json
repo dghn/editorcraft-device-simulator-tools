@@ -1,0 +1,16 @@
+{
+  "unity": "6000.6.5f1",
+  "passed": true,
+  "profiles": 181,
+  "orientationChecks": 676,
+  "pngCaptures": 8,
+  "checks": [
+    "official plugin discovered; controls present; native selector retained",
+    "all package profiles selected; dimensions and safe areas matched every stored orientation",
+    "picker UI; favorites/filter preferences; paired displays; safe-area inspector",
+    "clean and framed PNG captured in all four orientations",
+    "two-device HTML gallery; device/orientation restored; cancellation cleanup",
+    "plugin teardown leaves native controls intact"
+  ],
+  "error": null
+}

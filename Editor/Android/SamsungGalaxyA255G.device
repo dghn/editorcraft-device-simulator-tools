@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A25 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 396,
+      "navigationBarHeight": 140,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2263
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 477,
+              "y": 2263,
+              "width": 126,
+              "height": 77
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 77,
+            "width": 1080,
+            "height": 2263
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 477,
+              "y": 0,
+              "width": 126,
+              "height": 77
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 77,
+            "y": 0,
+            "width": 2263,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 477,
+              "width": 77,
+              "height": 126
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2263,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2263,
+              "y": 477,
+              "width": 77,
+              "height": 126
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA255G.png",
+        "borderSize": {
+          "x": 38,
+          "y": 38,
+          "z": 38,
+          "w": 38
+        },
+        "cornerRadius": 103
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A25 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

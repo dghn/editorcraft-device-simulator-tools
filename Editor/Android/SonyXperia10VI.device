@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Sony Xperia 10 VI",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2520,
+      "dpi": 449,
+      "navigationBarHeight": 151,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2520
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2520
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2520,
+            "height": 1080
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2520,
+            "height": 1080
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SonyXperia10VI.png",
+        "borderSize": {
+          "x": 38,
+          "y": 38,
+          "z": 38,
+          "w": 38
+        },
+        "cornerRadius": 27
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Sony Xperia 10 VI",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

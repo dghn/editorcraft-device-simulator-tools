@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A05",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 262,
+      "navigationBarHeight": 28,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1541
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 1541,
+              "width": 80,
+              "height": 59
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 59,
+            "width": 720,
+            "height": 1541
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 0,
+              "width": 80,
+              "height": 59
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 59,
+            "y": 0,
+            "width": 1541,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 320,
+              "width": 59,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1541,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1541,
+              "y": 320,
+              "width": 59,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA05.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 61
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A05",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

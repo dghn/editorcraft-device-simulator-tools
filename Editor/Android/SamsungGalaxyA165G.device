@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A16 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 140,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2242
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 446,
+              "y": 2244,
+              "width": 189,
+              "height": 96
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 98,
+            "width": 1080,
+            "height": 2242
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 445,
+              "y": 0,
+              "width": 189,
+              "height": 96
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 98,
+            "y": 0,
+            "width": 2242,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 446,
+              "width": 96,
+              "height": 189
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2242,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2244,
+              "y": 445,
+              "width": 96,
+              "height": 189
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA165G.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 124
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A16 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

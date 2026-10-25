@@ -1,0 +1,166 @@
+{
+  "SamsungGalaxyA255G": {
+    "model": "SM-A256E",
+    "sources": [
+      {
+        "file": "RomSources/SamsungGalaxyA255G/lineage_a25x.mk",
+        "url": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_a25x/760662f11d9f34ce67e5ebc38f2ed4898161ddd3/lineage_a25x.mk",
+        "sha256": "a2f0e7a1d6e9575d180d61952f63c3e312968418b552e7abf134211da79d8b5f"
+      },
+      {
+        "file": "RomSources/SamsungGalaxyA255G/BoardConfig.mk",
+        "url": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_a25x/760662f11d9f34ce67e5ebc38f2ed4898161ddd3/BoardConfig.mk",
+        "sha256": "4ff481002a4fced405e6af67722a30d1f7be94b00b66f35f678d0dc703a3fe5d"
+      },
+      {
+        "file": "RomSources/SamsungGalaxyA255G/device.mk",
+        "url": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_a25x/760662f11d9f34ce67e5ebc38f2ed4898161ddd3/device.mk",
+        "sha256": "1bb98feef5a2df464037d4f5b0090dc1aab47d4276202c9bfb3161738f954fd3"
+      },
+      {
+        "file": "RomSources/SamsungGalaxyA255G/overlay/frameworks/base/core/res/res/values/config.xml",
+        "url": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_a25x/760662f11d9f34ce67e5ebc38f2ed4898161ddd3/overlay/frameworks/base/core/res/res/values/config.xml",
+        "sha256": "5ef1c18b1f0c8c0e267f87c70c132ea43c2a46c5f6011286c6aee71c3dcbcc48"
+      },
+      {
+        "file": "RomSources/SamsungGalaxyA255G/common.mk",
+        "url": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_s5e8825-common/33dd9c99978647a44aa22089db4830f95bb91fb8/common.mk",
+        "sha256": "f617ec6c7f8679cf00028d88be4109fac13363f57206c49ac1273f35e337d6d8"
+      }
+    ],
+    "previousInsets": [
+      0,
+      92,
+      0,
+      0
+    ],
+    "insets": [
+      0,
+      77,
+      0,
+      0
+    ],
+    "cutouts": [
+      [
+        477,
+        0,
+        126,
+        77
+      ]
+    ],
+    "visualCutouts": [
+      [
+        477,
+        0,
+        126,
+        77
+      ]
+    ],
+    "densityDpi": 450,
+    "evidence": "community-rom-configuration",
+    "limitations": "Not an OEM skin or a stock-firmware hardware capture. Portrait configuration projected into immersive reference; all rotations derived. Exterior frame remains approximate."
+  },
+  "Redmi13C": {
+    "model": "23106RN0DA",
+    "sources": [
+      {
+        "file": "RomSources/Redmi13C/lineage_gale.mk",
+        "url": "https://raw.githubusercontent.com/Mayuri-Chan/android_device_xiaomi_gale/e33c9debbb2a12b2f722b6ab3ece34c4a42dc0fb/lineage_gale.mk",
+        "sha256": "f2bfee098a6732624d57bcc161518068325ef1f2fe2b0adfbff4ec1c29d49c8a"
+      },
+      {
+        "file": "RomSources/Redmi13C/README.md",
+        "url": "https://raw.githubusercontent.com/Mayuri-Chan/android_device_xiaomi_gale/e33c9debbb2a12b2f722b6ab3ece34c4a42dc0fb/README.md",
+        "sha256": "bdcc5cd51b65d6325121684ffd6530ce9b3d803277d9c87fe1ceb39c31623310"
+      },
+      {
+        "file": "RomSources/Redmi13C/overlay/FrameworksResOverlayGale/res/values/config.xml",
+        "url": "https://raw.githubusercontent.com/Mayuri-Chan/android_device_xiaomi_gale/e33c9debbb2a12b2f722b6ab3ece34c4a42dc0fb/overlay/FrameworksResOverlayGale/res/values/config.xml",
+        "sha256": "dbe93d94a4177c3bb182b4d935495eb3592f0043176c1ee457ceea7e9e4aefc5"
+      }
+    ],
+    "previousInsets": [
+      0,
+      61,
+      0,
+      0
+    ],
+    "insets": [
+      0,
+      68,
+      0,
+      0
+    ],
+    "cutouts": [
+      [
+        320,
+        0,
+        80,
+        68
+      ]
+    ],
+    "visualCutouts": [
+      [
+        320,
+        0,
+        80,
+        68
+      ]
+    ],
+    "densityDpi": null,
+    "evidence": "community-rom-configuration",
+    "limitations": "Not an OEM skin or a stock-firmware hardware capture. Portrait configuration projected into immersive reference; all rotations derived. Exterior frame remains approximate."
+  },
+  "POCOF7": {
+    "model": "25053PC47G",
+    "sources": [
+      {
+        "file": "RomSources/POCOF7/lineage_onyx.mk",
+        "url": "https://raw.githubusercontent.com/crdroidandroid/android_device_xiaomi_onyx/80e10cbdd977be75b8734e27856d77961aa991f6/lineage_onyx.mk",
+        "sha256": "ac0b84360bd069cc5cf0f8347688adf195cab9e61b2c70e3e7f4c93b5ce07a60"
+      },
+      {
+        "file": "RomSources/POCOF7/overlay/FrameworkOverlayOnyx/res/values/config.xml",
+        "url": "https://raw.githubusercontent.com/crdroidandroid/android_device_xiaomi_onyx/80e10cbdd977be75b8734e27856d77961aa991f6/overlay/FrameworkOverlayOnyx/res/values/config.xml",
+        "sha256": "e7c10f26743c49b929d0effdf9f105670173ae32e6eca39c1a8a55cb754c7b21"
+      },
+      {
+        "file": "RomSources/POCOF7/overlay/FrameworkOverlayOnyx/res/values/dimens.xml",
+        "url": "https://raw.githubusercontent.com/crdroidandroid/android_device_xiaomi_onyx/80e10cbdd977be75b8734e27856d77961aa991f6/overlay/FrameworkOverlayOnyx/res/values/dimens.xml",
+        "sha256": "ee7d302120bbd2022a8c522e2b8ebb08eed6edb277139feb663799056df70b8c"
+      }
+    ],
+    "previousInsets": [
+      0,
+      109,
+      0,
+      0
+    ],
+    "insets": [
+      0,
+      126,
+      0,
+      0
+    ],
+    "cutouts": [
+      [
+        599,
+        0,
+        82,
+        126
+      ]
+    ],
+    "visualCutouts": [
+      [
+        600,
+        45,
+        80,
+        80
+      ]
+    ],
+    "densityDpi": null,
+    "evidence": "community-rom-configuration",
+    "limitations": "Not an OEM skin or a stock-firmware hardware capture. Portrait configuration projected into immersive reference; all rotations derived. Exterior frame remains approximate.",
+    "cornerRadius": 156
+  }
+}

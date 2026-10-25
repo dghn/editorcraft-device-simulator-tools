@@ -1,0 +1,105 @@
+{
+  "friendlyName": "vivo X200 Pro",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1260,
+      "height": 2800,
+      "dpi": 453,
+      "navigationBarHeight": 168,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1260,
+            "height": 2693
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 605.0,
+              "y": 2718,
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 107,
+            "width": 1260,
+            "height": 2693
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 605.0,
+              "y": 32,
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 107,
+            "y": 0,
+            "width": 2693,
+            "height": 1260
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 32,
+              "y": 605.0,
+              "width": 50,
+              "height": 50
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2693,
+            "height": 1260
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2718,
+              "y": 605.0,
+              "width": 50,
+              "height": 50
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/vivoX200Pro.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 120
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "vivo X200 Pro",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

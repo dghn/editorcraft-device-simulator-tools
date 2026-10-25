@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A13 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 270,
+      "navigationBarHeight": 28,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1555
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 272,
+              "y": 1555,
+              "width": 176,
+              "height": 45
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 45,
+            "width": 720,
+            "height": 1555
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 272,
+              "y": 0,
+              "width": 176,
+              "height": 45
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 45,
+            "y": 0,
+            "width": 1555,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 272,
+              "width": 45,
+              "height": 176
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1555,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1555,
+              "y": 272,
+              "width": 45,
+              "height": 176
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA135G.png",
+        "borderSize": {
+          "x": 25,
+          "y": 25,
+          "z": 25,
+          "w": 25
+        },
+        "cornerRadius": 68
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A13 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

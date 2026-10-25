@@ -1,0 +1,14 @@
+{
+  "2022.3.62f2": {
+    "cleanLocalPackageCompile": true,
+    "uguiResolved": "1.0.0",
+    "source": "local package in separate empty project",
+    "noCompilerErrors": true
+  },
+  "6000.6.5f1": {
+    "cleanLocalPackageCompile": true,
+    "uguiResolved": "2.6.0",
+    "source": "local package in separate empty project",
+    "noCompilerErrors": true
+  }
+}

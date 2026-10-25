@@ -1,0 +1,2737 @@
+{
+  "checkedOn": "2026-10-25",
+  "sourcesRevision": "3884efc51ee56798d139ae64d730719b1083573c",
+  "profiles": {
+    "SamsungGalaxyA12": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        576,
+        1280
+      ],
+      "maskScale": [
+        1.25,
+        1.25
+      ]
+    },
+    "SamsungGalaxyA145G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2408
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA155G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA165G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA175G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA05": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        720,
+        1600
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            59,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              320,
+              0,
+              80,
+              59
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a05/main-gesture.json",
+          "sourceSHA256": "f38d9d34d8e2858e70c61e3b80ec6121e616eb5fab8065e20c35a753e8e1d430",
+          "sourceModel": "SM-A055F",
+          "sourceResolution": [
+            720,
+            1600
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:22:40.044887Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A055FXXS8CYC3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            59,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              320,
+              59,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a05/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "3fa224e10010129c9ba2dec0e88f38a80db16a8208897412ac50a0d4705cff18",
+          "sourceModel": "SM-A055F",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T07:50:44.397375Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A055FXXS8CYC3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            59,
+            0
+          ],
+          "cutouts": [
+            [
+              1541,
+              320,
+              59,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a05/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "80399953711b1308a70e2cc6aeca14521375d5ade71b5f8e0560d4a264029fad",
+          "sourceModel": "SM-A055F",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T07:50:51.913452Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A055FXXS8CYC3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA05s": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2400
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA06": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        720,
+        1600
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            43,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              320,
+              0,
+              80,
+              43
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a06/main-gesture.json",
+          "sourceSHA256": "1ef7760c17ed44b0031ca93f343a86e361b2dd523bb631d0e5c950687cb32444",
+          "sourceModel": "SM-A065F",
+          "sourceResolution": [
+            720,
+            1600
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:19:42.481670Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A065FXXS3AYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            43,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              320,
+              43,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a06/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "2d090af35a86deca6af0119b1385d1c9d1030970431188a793820ad8f173b603",
+          "sourceModel": "SM-A065F",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T07:46:23.202773Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A065FXXS3AYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            43,
+            0
+          ],
+          "cutouts": [
+            [
+              1557,
+              320,
+              43,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a06/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "38bd076ccf9639e6043aad70c1adb477ce2de6f30a311bdef387d522fc72705b",
+          "sourceModel": "SM-A065F",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T07:46:31.782460Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A065FXXS3AYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA07": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        720,
+        1600
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ]
+    },
+    "SamsungGalaxyA21s": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        360,
+        800
+      ],
+      "maskScale": [
+        2.0,
+        2.0
+      ]
+    },
+    "SamsungGalaxyA265G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            96,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              472,
+              0,
+              136,
+              96
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a26-5g/rtl-2026-09-30/main-gesture.json",
+          "sourceSHA256": "da4d1e8fe81a319b3722f5c753e4297a3423f21c9af254ba3eb377de57341c42",
+          "sourceModel": "SM-A266B",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:20:23.274041Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.A266BXXS9BZE5",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            96,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              472,
+              96,
+              136
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a26-5g/rtl-2026-09-30/main-landscape-1-gesture.json",
+          "sourceSHA256": "933761f711a87222b2280a5356baef8b731b9cb33beefbd03d27d630fcaef610",
+          "sourceModel": "SM-A266B",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:21:18.622216Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.A266BXXS9BZE5",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            96,
+            0
+          ],
+          "cutouts": [
+            [
+              2244,
+              472,
+              96,
+              136
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a26-5g/rtl-2026-09-30/main-landscape-3-gesture.json",
+          "sourceSHA256": "59a2f7f0ddbbf13d174460ff46e677d6445ec963911d398543ccc6284dfe9bf6",
+          "sourceModel": "SM-A266B",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:24:17.799265Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.A266BXXS9BZE5",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA275G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            94,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              505,
+              24,
+              70,
+              70
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a27-5g/main-gesture.json",
+          "sourceSHA256": "8d3ca062765ad04ff4546c56efa31bed3cebdbcd40bfcfa6256fbe688b6f5432",
+          "sourceModel": "SM-A276K",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T06:07:59.495165Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A276KKSU2AZH3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            94,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              505,
+              70,
+              70
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a27-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "35f1c4246ff367d07247bc877c012c08c43e9f8da5980a6e6ababb78cb8bae97",
+          "sourceModel": "SM-A276K",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:46:41.771324Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A276KKSU2AZH3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            94,
+            0
+          ],
+          "cutouts": [
+            [
+              2246,
+              505,
+              70,
+              70
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a27-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "0a8ab6444b1b15fc52748103c08caeab639ec5721f6fd3fd8c8fdc4327fb19cc",
+          "sourceModel": "SM-A276K",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:46:42.563615Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A276KKSU2AZH3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA32": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        540,
+        1200
+      ],
+      "maskScale": [
+        2.0,
+        2.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              468,
+              0,
+              144,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a32/main-gesture.json",
+          "sourceSHA256": "1079ae2550c1c1e75fb207c9f18f94ae22fcd88c02f141cf11c9a69050f4b798",
+          "sourceModel": "SM-A325F",
+          "sourceResolution": [
+            1080,
+            2400
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T08:08:11.053351Z",
+          "android": "13",
+          "buildId": "TP1A.220624.014.A325FXXSCDYA2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            80,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              468,
+              80,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a32/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "bd9155f931a5b972633b4ece1c18473005887dccb1c97ececfe8df11216f8659",
+          "sourceModel": "SM-A325F",
+          "sourceResolution": [
+            2400,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:15:02.086798Z",
+          "android": "13",
+          "buildId": "TP1A.220624.014.A325FXXSCDYA2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            80,
+            0
+          ],
+          "cutouts": [
+            [
+              2320,
+              468,
+              80,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a32/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "43c37bed1aa3b5311cb7b1b381e48e8591ccba2addcfad9f060ffd300ccbc9d8",
+          "sourceModel": "SM-A325F",
+          "sourceResolution": [
+            2400,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:15:10.292778Z",
+          "android": "13",
+          "buildId": "TP1A.220624.014.A325FXXSCDYA2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA345G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            75,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              468,
+              0,
+              144,
+              75
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a34-5g/main-gesture.json",
+          "sourceSHA256": "3c12826da94f4a5e07129cfa43af42cee719fe88006bd51ece6deaf1394d8209",
+          "sourceModel": "SM-A346E",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:55:09.931847Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A346EXXS9CYD1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            75,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              468,
+              75,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a34-5g/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "db7c2958c99db399fa485918adc226cee667a34673a2b930579a43fc6ba0941c",
+          "sourceModel": "SM-A346E",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:02:18.361148Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A346EXXS9CYA2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            75,
+            0
+          ],
+          "cutouts": [
+            [
+              2265,
+              468,
+              75,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a34-5g/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "94f9ea9e56d753aecf53470b516c5286b4a3661b606489f5cc31f78e05a0a090",
+          "sourceModel": "SM-A346E",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:02:26.336952Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A346EXXS9CYA2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA355G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            89,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              507,
+              23,
+              66,
+              66
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a35-5g/main-gesture.json",
+          "sourceSHA256": "b1d6f72e5dc97967c80263faa9072b33c1f1d9d7c6ef1f3a770c90bdb068041a",
+          "sourceModel": "SM-A356N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:26:13.120639Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A356NKSS9DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            89,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              23,
+              507,
+              66,
+              66
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a35-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "0ff162c5a84f9a32ce166605047a13ed2358ecb71ee153b2c6eb3b3628840be2",
+          "sourceModel": "SM-A356N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T06:53:10.658720Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A356NKSS9DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            89,
+            0
+          ],
+          "cutouts": [
+            [
+              2251,
+              507,
+              66,
+              66
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a35-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "c26afbcb93c33969c43bb63efc881828b995e04b47fc1d07904fa077a4069edd",
+          "sourceModel": "SM-A356N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T06:53:11.463207Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A356NKSS9DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA365G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            92,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              506,
+              24,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a36-5g/main-gesture.json",
+          "sourceSHA256": "b550ad5fa52f659044f44fcec3c0ffc61df2ff37b0b11eec78d4a13bf5217df2",
+          "sourceModel": "SM-A366N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T06:18:51.836025Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A366NKSS8CZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            92,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a36-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "d4d292fb02bad4acb2eca874f8ac9a295ad38521f9eb13283582ff460b737a8c",
+          "sourceModel": "SM-A366N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T06:43:35.292755Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A366NKSS8CZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            92,
+            0
+          ],
+          "cutouts": [
+            [
+              2248,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a36-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "ea6d78d8d9eb23e01caf5f8865a381ea0abfc705270bc88cfb27a9e0fdf4d6b7",
+          "sourceModel": "SM-A366N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T06:43:36.112941Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A366NKSS8CZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA375G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            92,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              506,
+              24,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a37-5g/main-gesture.json",
+          "sourceSHA256": "75caa783b5b48ecd61c12d0e344305d14bca06a13737be96d2ba4ffda40795ff",
+          "sourceModel": "SM-A376N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T06:11:54.886013Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A376NKSS2AZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            92,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a37-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "bd691829c23a469f9726ca1142dbcf0acb622a9d9deffff61e5badbe5f93b498",
+          "sourceModel": "SM-A376N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:02:11.974413Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A376NKSS2AZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            92,
+            0
+          ],
+          "cutouts": [
+            [
+              2248,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a37-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "2dab3acf0f9c8795149da3b19e90c5129ec23fe9c4865e61a3e139b32f0243d6",
+          "sourceModel": "SM-A376N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:02:12.792698Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A376NKSS2AZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA545G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              511,
+              0,
+              58,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a54-5g/main-gesture.json",
+          "sourceSHA256": "c8eaa16e320a4ffa5a972dc7eebe9a6f409b49312b7ad70ba679e90b139c20b8",
+          "sourceModel": "SM-A546B",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-27T13:36:26.109360Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.A546BXXSJEZE5",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA575G": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            82,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              511,
+              24,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a57-5g/main-gesture.json",
+          "sourceSHA256": "fbf0db7f13ce2896a4951618c6c4e0578a6030239a2bc6a34e175e61204370fc",
+          "sourceModel": "SM-A576S",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T06:09:56.108294Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A576SKSU1AZG7",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            82,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              511,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a57-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "c8ef2807e510d4a9b98c2ab331dccd96e9b19089bd0d6da4f4da450e7c0163dc",
+          "sourceModel": "SM-A576S",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T05:19:45.503439Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A576SKSU1AZG7",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            82,
+            0
+          ],
+          "cutouts": [
+            [
+              2258,
+              511,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a57-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "7ca03d15964fa9c16695da387262469117c71cf54eb0ac534cdb854b90e91572",
+          "sourceModel": "SM-A576S",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T05:19:46.291193Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A576SKSU1AZG7",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS23": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            81,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              512,
+              0,
+              56,
+              81
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23/recapture-2026-09-28-rotation/main-gesture.json",
+          "sourceSHA256": "ff1669f44439eb80722533827733198f370a5da906269d13e938a92e595b4efc",
+          "sourceModel": "SM-S911B",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:50:24.956268Z",
+          "android": "15",
+          "buildId": "AP3A.240905.015.A2.S911BXXU8DYD9",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            81,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              512,
+              81,
+              56
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23/recapture-2026-09-28-rotation/landscape-1-gesture.json",
+          "sourceSHA256": "b3e37e70656ee5d8cf312c4b2f55fa038741f30aa7418962b8707cb880efd0d8",
+          "sourceModel": "SM-S911B",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:50:25.764851Z",
+          "android": "15",
+          "buildId": "AP3A.240905.015.A2.S911BXXU8DYD9",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            81,
+            0
+          ],
+          "cutouts": [
+            [
+              2259,
+              512,
+              81,
+              56
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23/recapture-2026-09-28-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "92372ad41b31896b4cdc3bf2c4e8b6b808307dca49f03667c9a3c3704d6d5e9e",
+          "sourceModel": "SM-S911B",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:50:26.529270Z",
+          "android": "15",
+          "buildId": "AP3A.240905.015.A2.S911BXXU8DYD9",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS23Plus": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            74,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              514,
+              0,
+              52,
+              74
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-plus/main-gesture.json",
+          "sourceSHA256": "56764942c91511e1105889d76cff54f978918fd328cde9ae91c1d5d3e4019835",
+          "sourceModel": "SM-S916U",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-27T02:29:09.336602Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.S916USQS6EYK3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            74,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              514,
+              74,
+              52
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-plus/landscape-1-gesture.json",
+          "sourceSHA256": "6f50eeadda72bd17bdacec9addab8b7d0bfc62aef728b5e051bef06004088a1e",
+          "sourceModel": "SM-S916U",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-27T02:32:34.545354Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.S916USQS6EYK3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            74,
+            0
+          ],
+          "cutouts": [
+            [
+              2266,
+              514,
+              74,
+              52
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-plus/recapture-2026-10-02-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "f8770530f551e1f626e73c52a60a24f96cf4fd818ca2615097776a8453bf664a",
+          "sourceModel": "SM-S916U",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-10-02T00:32:56.233048Z",
+          "android": "16",
+          "buildId": "BP2A.250605.031.A3.S916USQS6EYK3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS23Ultra": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1440,
+        3088
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            126,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              684,
+              0,
+              72,
+              126
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-ultra/recapture-2026-09-28-rotation/main-gesture.json",
+          "sourceSHA256": "6c1753f16f149d7360d3c63ac5895611cfdcb91e61c537f998190c571caff78d",
+          "sourceModel": "SM-S918U",
+          "sourceResolution": [
+            1080,
+            2316
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:26:45.716733Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S918USQS8FZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            126,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              684,
+              126,
+              72
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-ultra/recapture-2026-09-28-rotation/landscape-1-gesture.json",
+          "sourceSHA256": "de7c2e88b479bd3eec08bc279bcc316ed6718ecd02563b508f083a6c663f990b",
+          "sourceModel": "SM-S918U",
+          "sourceResolution": [
+            2316,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:26:46.545774Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S918USQS8FZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            126,
+            0
+          ],
+          "cutouts": [
+            [
+              2962,
+              684,
+              126,
+              72
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s23-ultra/recapture-2026-09-28-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "259563e9580ee0552383e8162051c5c32fb3964fce4d297dcfa2f3f45e7706cb",
+          "sourceModel": "SM-S918U",
+          "sourceResolution": [
+            2316,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T08:26:47.298380Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S918USQS8FZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS24": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            103,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              511,
+              0,
+              58,
+              103
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24/recapture-2026-09-28-rotation/main-gesture.json",
+          "sourceSHA256": "3cef9b4e58e192df8c750730b5b6c67bcbe2c7426e130c1e269f7282fafc8f90",
+          "sourceModel": "SM-S921N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:57:47.079147Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S921NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            103,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              511,
+              103,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24/recapture-2026-09-28-rotation/landscape-1-gesture.json",
+          "sourceSHA256": "b833cec152350d5e7c40496b3fb06fe7ef97f28ebf419e75a2c2c31c17ffc690",
+          "sourceModel": "SM-S921N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:57:47.897160Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S921NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            103,
+            0
+          ],
+          "cutouts": [
+            [
+              2237,
+              511,
+              103,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24/recapture-2026-09-28-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "9f58964eb4f4fd42763c58bf9ba695352438b3e4a0d3b3ada1abf5dda46dd69c",
+          "sourceModel": "SM-S921N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:57:48.647701Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S921NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS24Plus": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1440,
+        3120
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            126,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              686,
+              0,
+              69,
+              126
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-plus/main-gesture.json",
+          "sourceSHA256": "c14d1cfd0b740d77e3299c238b70ee7653c182d61e1d68bb2faf3ff6f78b9a04",
+          "sourceModel": "SM-S926N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-24T14:26:26.491892Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S926NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            126,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              685,
+              126,
+              69
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-plus/recapture-2026-09-28-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "fc18800d0c7539adcbc07a2be71303958326806d1db4c06ecd0d761410ac504c",
+          "sourceModel": "SM-S926N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:00:55.427425Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S926NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            126,
+            0
+          ],
+          "cutouts": [
+            [
+              2994,
+              686,
+              126,
+              69
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-plus/recapture-2026-09-28-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "2883a6508245beaabd49cb1645b0b23499c8e00c1935764eadbdf3dcdba188a3",
+          "sourceModel": "SM-S926N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:00:56.178292Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S926NKSSGDZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS24Ultra": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1440,
+        3120
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            128,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              686,
+              0,
+              69,
+              128
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-ultra/recapture-2026-09-28-rotation/main-gesture.json",
+          "sourceSHA256": "cf8bb2d1ec55c0cae8e257bf6bc4e097d9d232fd42a94ff976e341c37238d098",
+          "sourceModel": "SM-S928N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:21:37.237296Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S928NKSS6DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            128,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              685,
+              128,
+              69
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-ultra/recapture-2026-09-28-rotation/landscape-1-gesture.json",
+          "sourceSHA256": "9ec5259e476fac8a4e4799257f17779510d93ca12bf540a68d9b08f40bc450f2",
+          "sourceModel": "SM-S928N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:21:38.092612Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S928NKSS6DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            128,
+            0
+          ],
+          "cutouts": [
+            [
+              2992,
+              686,
+              128,
+              69
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-ultra/recapture-2026-09-28-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "b5096e5cd1931e191ae68228cec57d57e980604c84da533bdf81e0c644ceeffe",
+          "sourceModel": "SM-S928N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:21:38.850070Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S928NKSS6DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS24FE": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            92,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              506,
+              24,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-fe/recapture-2026-09-28-rotation/main-gesture.json",
+          "sourceSHA256": "8c0dc422d23b80c99b82e8e28aaba90e772060134119e4f03bebdca44a0729ef",
+          "sourceModel": "SM-S721N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:44:49.398712Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S721NKSSDDZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            92,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-fe/recapture-2026-09-28-rotation/landscape-1-gesture.json",
+          "sourceSHA256": "8529132308b8ec429df5f8ab75f3111038b25e06b730f08cb9c62a8c31201124",
+          "sourceModel": "SM-S721N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:44:50.209455Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S721NKSSDDZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            92,
+            0
+          ],
+          "cutouts": [
+            [
+              2248,
+              506,
+              68,
+              68
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s24-fe/recapture-2026-09-28-rotation/landscape-3-gesture.json",
+          "sourceSHA256": "01d80ae11d761200a14fa949949e84967b289e28251445c2b63d55dace376d28",
+          "sourceModel": "SM-S721N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T07:44:50.952114Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S721NKSSDDZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS25FE": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1080,
+        2340
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            82,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              511,
+              24,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-fe/main-gesture.json",
+          "sourceSHA256": "34242cad377daa83cdfcaf0f77dad17e9c07c5618e0d21fc087060c854a4bc05",
+          "sourceModel": "SM-S731N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-24T10:15:49.828840Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S731NKSS8BZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            82,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              24,
+              511,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-fe/recapture-2026-09-28-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "de2b4afb0545faf486dcb22ddd01948dae19092c30a9ae2de5907990b41839aa",
+          "sourceModel": "SM-S731N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T06:30:18.538Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S731NKSS8BZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            82,
+            0
+          ],
+          "cutouts": [
+            [
+              2258,
+              511,
+              58,
+              58
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-fe/recapture-2026-09-28-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "130d747452861abf7592c55c0314516e161d98735bed37c8037300ec0f90942d",
+          "sourceModel": "SM-S731N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T06:30:19.286506Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S731NKSS8BZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyS25Edge": {
+      "artwork": "official-samsung-mirrored",
+      "maskSourceSize": [
+        1440,
+        3120
+      ],
+      "maskScale": [
+        1.0,
+        1.0
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            124,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              678,
+              0,
+              85,
+              124
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-edge/main-gesture.json",
+          "sourceSHA256": "9bd3f3d4fe75429801baf059dd852087d974c2d99ca47d5d2f07051a0c1320ed",
+          "sourceModel": "SM-S937N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-24T09:46:37.129900Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S937NKSS9CZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            124,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              677,
+              124,
+              85
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-edge/recapture-2026-09-28-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "cac6961ff0ae21a089be56a69a7fda025037e2b3f2469b14daf1f28b9f28408c",
+          "sourceModel": "SM-S937N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T06:16:59.550443Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S937NKSS9CZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            124,
+            0
+          ],
+          "cutouts": [
+            [
+              2996,
+              678,
+              124,
+              85
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-s/galaxy-s25-edge/recapture-2026-09-28-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "3e7205703a4b4a039fa8da1c1980f2e622900b4457a90b69937b8847edc9dfaf",
+          "sourceModel": "SM-S937N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.3333333333333333,
+            1.3333333333333333
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-28T06:17:00.299510Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.S937NKSS9CZG3",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "GooglePixel10Pro": {
+      "artwork": "official-google",
+      "maskSourceSize": [
+        1280,
+        2856
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            156,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              586,
+              0,
+              109,
+              156
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/pixel/pixel-10-pro/emulator-2026-09-27/main-gesture.json",
+          "sourceSHA256": "d0ba61ba21bb48b7de553a9b37bd6e9b78055e2acf8cfd697ff9f49ca3cc5dc3",
+          "sourceModel": "sdk_gphone64_arm64",
+          "sourceResolution": [
+            1280,
+            2856
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "emulator",
+          "capturedAt": "2026-09-27T14:00:09.700643Z",
+          "android": "17",
+          "buildId": "CE2A.260420.019",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "GooglePixel10ProXL": {
+      "artwork": "official-google",
+      "maskSourceSize": [
+        1344,
+        2992
+      ],
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            159,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              615,
+              0,
+              115,
+              159
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/pixel/pixel-10-pro-xl/emulator-2026-09-27/main-gesture.json",
+          "sourceSHA256": "438610db5625eda1de6ff552949e7af48bb89cec5ee139688c0dcea0fe3da654",
+          "sourceModel": "sdk_gphone64_arm64",
+          "sourceResolution": [
+            1344,
+            2992
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "emulator",
+          "capturedAt": "2026-09-27T14:22:14.757226Z",
+          "android": "17",
+          "buildId": "CE2A.260420.019",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA135G": {
+      "artwork": "approximate-vector",
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            45,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              272,
+              0,
+              176,
+              45
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a13-5g/rtl-2026-09-30/main-gesture.json",
+          "sourceSHA256": "4aa07ad1e947af0ee6d676e2d9ae364d464fc47482c619d21ccf172caa4c7b34",
+          "sourceModel": "SM-A136B",
+          "sourceResolution": [
+            720,
+            1600
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:31:48.522989Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A136BXXSBDYD2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            45,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              272,
+              45,
+              176
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a13-5g/rtl-2026-09-30/main-landscape-1-gesture.json",
+          "sourceSHA256": "61976bd49fda8c149b9c2863952c2106c45c7116efcabcec122714032660fdfa",
+          "sourceModel": "SM-A136B",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:32:27.326390Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A136BXXSBDYD2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            45,
+            0
+          ],
+          "cutouts": [
+            [
+              1555,
+              272,
+              45,
+              176
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a13-5g/rtl-2026-09-30/main-landscape-3-gesture.json",
+          "sourceSHA256": "fbf3bbb367fab068f29988f35f9be4cff7a588d6ce7f49945a59bd560fd2d5ad",
+          "sourceModel": "SM-A136B",
+          "sourceResolution": [
+            1600,
+            720
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T02:33:42.614597Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A136BXXSBDYD2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA14": {
+      "artwork": "approximate-vector",
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            64,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              468,
+              0,
+              144,
+              64
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a14-5g/main-gesture.json",
+          "sourceSHA256": "cb27e15dabea875b6a644a1f11de61645bfb0bcb3562157dd7bf20cef9b7a662",
+          "sourceModel": "SM-A145F",
+          "sourceResolution": [
+            1080,
+            2408
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:30:38.612260Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A145FXXS9CYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            64,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              468,
+              64,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a14-5g/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "1c99cd3477cf70e74841951f0fbae04ebd10975a46998cb54cc1120008c6c417",
+          "sourceModel": "SM-A145F",
+          "sourceResolution": [
+            2408,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:34:09.576896Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A145FXXS9CYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            64,
+            0
+          ],
+          "cutouts": [
+            [
+              2344,
+              468,
+              64,
+              144
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a14-5g/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "a9c3d6484766d2325363de301256762933728a3d0961e767d85851e34f2b1a41",
+          "sourceModel": "SM-A145F",
+          "sourceResolution": [
+            2408,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:34:18.722133Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A145FXXS9CYB1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA15": {
+      "artwork": "approximate-vector",
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            80,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              472,
+              0,
+              136,
+              80
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a15-5g/main-gesture.json",
+          "sourceSHA256": "ebc071206bb01fa9162b5aa8bcb7acc0c0b028a596341e9e3b315aebb0e947ac",
+          "sourceModel": "SM-A155F",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:17:19.535423Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A155FXXS6BYE1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            80,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              472,
+              80,
+              136
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a15-5g/recapture-2026-09-30-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "1514080c194924ffb86b95d26d9911260dbd55863738df2c69b65c0ecd861210",
+          "sourceModel": "SM-A155F",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:28:30.608192Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A155FXXS5BYC2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            80,
+            0
+          ],
+          "cutouts": [
+            [
+              2260,
+              472,
+              80,
+              136
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a15-5g/recapture-2026-09-30-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "8816aed65d9b3e189eed69ce68a368ebfe822a2a93f70dadbfdbc4e56f212353",
+          "sourceModel": "SM-A155F",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-30T04:28:38.157816Z",
+          "android": "14",
+          "buildId": "UP1A.231005.007.A155FXXS5BYC2",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA16": {
+      "artwork": "approximate-vector",
+      "orientations": {
+        "1": {
+          "insets": [
+            0,
+            100,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              470,
+              0,
+              140,
+              100
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a16-5g/main-gesture.json",
+          "sourceSHA256": "ea902a5cabdf8bfdc833028b2afef65dbda6d2f6d0742f43ec6ff089914592ff",
+          "sourceModel": "SM-A165N",
+          "sourceResolution": [
+            1080,
+            2340
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-25T07:15:08.468767Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A165NKSS8DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "3": {
+          "insets": [
+            100,
+            0,
+            0,
+            0
+          ],
+          "cutouts": [
+            [
+              0,
+              470,
+              100,
+              140
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a16-5g/recapture-2026-09-29-rotation/main-landscape-1-gesture.json",
+          "sourceSHA256": "5e147f9d08d525e135fe667b224b859ebcb88df83f4314f00e8d41115a0d6628",
+          "sourceModel": "SM-A165N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:36:56.597976Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A165NKSS8DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        },
+        "4": {
+          "insets": [
+            0,
+            0,
+            100,
+            0
+          ],
+          "cutouts": [
+            [
+              2240,
+              470,
+              100,
+              140
+            ]
+          ],
+          "source": "https://raw.githubusercontent.com/easyhooon/windowinsets.info/3884efc51ee56798d139ae64d730719b1083573c/measurements/galaxy-a/galaxy-a16-5g/recapture-2026-09-29-rotation/main-landscape-3-gesture.json",
+          "sourceSHA256": "b8f039de7a5c20d34b53458969f9df1d1bd5e09711b420231ab443b46dbf65a9",
+          "sourceModel": "SM-A165N",
+          "sourceResolution": [
+            2340,
+            1080
+          ],
+          "scaleToNative": [
+            1.0,
+            1.0
+          ],
+          "evidence": "measured",
+          "capturedAt": "2026-09-29T07:36:57.392208Z",
+          "android": "16",
+          "buildId": "BP4A.251205.006.A165NKSS8DZG1",
+          "mode": "displayCutout safeInsets projected to immersive full-screen (system bars hidden); not a captured immersive Unity app"
+        }
+      }
+    },
+    "SamsungGalaxyA255G": {
+      "artwork": "approximate-vector-with-rom-cutout",
+      "safeArea": "community-rom-configuration",
+      "model": "SM-A256E",
+      "source": "https://raw.githubusercontent.com/exynos1280/android_device_samsung_a25x/760662f11d9f34ce67e5ebc38f2ed4898161ddd3/lineage_a25x.mk",
+      "details": "RomGeometryEvidence.json#SamsungGalaxyA255G"
+    },
+    "Redmi13C": {
+      "artwork": "approximate-vector-with-rom-cutout",
+      "safeArea": "community-rom-configuration",
+      "model": "23106RN0DA",
+      "source": "https://raw.githubusercontent.com/Mayuri-Chan/android_device_xiaomi_gale/e33c9debbb2a12b2f722b6ab3ece34c4a42dc0fb/lineage_gale.mk",
+      "details": "RomGeometryEvidence.json#Redmi13C"
+    },
+    "POCOF7": {
+      "artwork": "approximate-vector-with-rom-cutout",
+      "safeArea": "community-rom-configuration",
+      "model": "25053PC47G",
+      "source": "https://raw.githubusercontent.com/crdroidandroid/android_device_xiaomi_onyx/80e10cbdd977be75b8734e27856d77961aa991f6/lineage_onyx.mk",
+      "details": "RomGeometryEvidence.json#POCOF7"
+    }
+  },
+  "rejectedSources": [
+    {
+      "profile": "SamsungGalaxyA135G",
+      "reason": "Official skin layout disagrees with model resolution; not reused for another variant",
+      "skinResolution": [
+        1080,
+        2408
+      ]
+    },
+    {
+      "profile": "SamsungGalaxyA175G",
+      "sourceModel": "SM-A175N",
+      "reason": "Measurement is for an unlisted LTE/5G variant; no equivalent assumed"
+    },
+    {
+      "profile": "SamsungGalaxyA07",
+      "sourceModel": "SM-A076M",
+      "reason": "Measurement is for an unlisted LTE/5G variant; no equivalent assumed"
+    }
+  ]
+}

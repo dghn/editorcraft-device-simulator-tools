@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Google Pixel 10 Pro",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1280,
+      "height": 2856,
+      "dpi": 497,
+      "navigationBarHeight": 72,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1280,
+            "height": 2700
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 586,
+              "y": 2700,
+              "width": 109,
+              "height": 156
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 156,
+            "width": 1280,
+            "height": 2700
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 585,
+              "y": 0,
+              "width": 109,
+              "height": 156
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 156,
+            "y": 0,
+            "width": 2700,
+            "height": 1280
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 586,
+              "width": 156,
+              "height": 109
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2700,
+            "height": 1280
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2700,
+              "y": 585,
+              "width": 156,
+              "height": 109
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/GooglePixel10Pro.png",
+        "borderSize": {
+          "x": 59,
+          "y": 60,
+          "z": 69,
+          "w": 49
+        },
+        "cornerRadius": 99
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Google Pixel 10 Pro",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

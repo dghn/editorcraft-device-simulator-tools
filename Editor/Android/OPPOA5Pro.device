@@ -1,0 +1,105 @@
+{
+  "friendlyName": "OPPO A5 Pro",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1604,
+      "dpi": 264,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1543
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 345.5,
+              "y": 1557,
+              "width": 29,
+              "height": 29
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 61,
+            "width": 720,
+            "height": 1543
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 345.5,
+              "y": 18,
+              "width": 29,
+              "height": 29
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 61,
+            "y": 0,
+            "width": 1543,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 18,
+              "y": 345.5,
+              "width": 29,
+              "height": 29
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1543,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1557,
+              "y": 345.5,
+              "width": 29,
+              "height": 29
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/OPPOA5Pro.png",
+        "borderSize": {
+          "x": 25,
+          "y": 25,
+          "z": 25,
+          "w": 25
+        },
+        "cornerRadius": 68
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "OPPO A5 Pro",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

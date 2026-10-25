@@ -9,8 +9,9 @@
 
 <p align="center">
   <img alt="Version: 0.1.0" src="https://img.shields.io/badge/version-0.1.0-70e0c4?style=flat-square" />
-  <img alt="Verified Editor: Unity 6000.6.5f1" src="https://img.shields.io/badge/Unity-6000.6.5f1-94adc9?style=flat-square" />
-  <img alt="122 custom profiles" src="https://img.shields.io/badge/profiles-122-70e0c4?style=flat-square" />
+  <img alt="Supported: Unity 2022.3.62f2 (2022 LTS)" src="https://img.shields.io/badge/Unity_2022_LTS-2022.3.62f2-70e0c4?style=flat-square" />
+  <img alt="Supported: Unity 6 (6000.6.5f1)" src="https://img.shields.io/badge/Unity-6000.6.5f1-94adc9?style=flat-square" />
+  <img alt="181 custom profiles" src="https://img.shields.io/badge/profiles-181-70e0c4?style=flat-square" />
   <img alt="Editor only" src="https://img.shields.io/badge/scope-editor_only-94adc9?style=flat-square" />
 </p>
 
@@ -24,6 +25,8 @@
 
 ---
 
+**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+
 The first tool in the **EditorCraft** collection, Device Simulator Tools extends Unity's Device Simulator with a compact device picker,
 local favorites, paired foldable screens, PNG capture and a safe-area inspector.
 Built and maintained by [Daghan Demirci](https://github.com/dghn).
@@ -35,17 +38,17 @@ The banner is an original schematic illustration, not a screenshot of the tool.
 
 ## Device coverage
 
-**122 maintained screen profiles · 117 model names · 5 foldable pairs**
+**181 maintained screen profiles · 175 model names · 6 foldable pairs**
 
 | Catalog | Screen profiles |
 | --- | ---: |
 | Apple | 89 |
-| Android | 33 |
-| Total custom profiles | **122** |
+| Android | 92 |
+| Total custom profiles | **181** |
 
 Inner and outer screens count as separate profiles, not separate physical devices.
-The five paired models are iPhone Duo, Pixel 10 Pro Fold, Galaxy Z Fold8,
-Galaxy Z Fold8 Ultra and Galaxy Z Flip8. Model-name counts merge these pairs;
+The six paired models are iPhone Duo, Pixel 10 Pro Fold, Galaxy Z Fold8,
+Galaxy Z Fold8 Ultra, Galaxy Z Flip8 and OPPO Find N5. Model-name counts merge these pairs;
 this is a catalog count, not a claim of physical-device testing.
 
 With Unity's bundled catalog and presets, the last verified picker contained **186
@@ -53,6 +56,49 @@ selectable entries** on Unity 6000.6.5f1. That includes presets and may change w
 registry catalog; it does not mean 186 distinct hardware models.
 
 [Browse the maintained device list](Documentation~/DEVICES.md).
+
+## See the tools in action
+
+Short, looping demos captured from the actual **Unity 2022.3.62f2** plugin panel.
+Timing is edited for readability; screenshot results are real exported PNGs.
+
+### Search by model
+
+![Search the device catalog by model name](Documentation~/assets/demos/search.gif)
+
+### Filter by platform and device type
+
+![Combine Android and Foldable filters](Documentation~/assets/demos/filters.gif)
+
+### Save and filter favorites
+
+![Star inner and outer displays and show matching favorites](Documentation~/assets/demos/favorites.gif)
+
+### Export clean and framed screenshots
+
+![Open Test Tools and export clean or framed PNGs](Documentation~/assets/demos/screenshots.gif)
+
+### Batch capture favorites into an HTML gallery
+
+![Capture favorite screens and create an HTML gallery](Documentation~/assets/demos/batch-gallery.gif)
+
+Star the screens you want, then choose **Test Tools → Capture selected favorites…**.
+The batch honors the current search and filters and creates `index.html` plus a PNG
+for each matching favorite. Device and orientation are restored after capture.
+The final GIF frame arranges the actual exported PNGs for comparison; it is not a
+browser screenshot. [Open the example HTML gallery](Documentation~/assets/demos/favorite-gallery/index.html)
+from a local checkout (GitHub displays the HTML source).
+
+### Switch inner and outer displays
+
+![Switch from the inner display to the outer display and back](Documentation~/assets/demos/screen-switch.gif)
+
+Use **Outer ↔ / Inner ↔** in the plugin panel to switch the paired Pixel 10 Pro Fold
+profiles. This shows actual Simulator viewport changes, not a hinge animation.
+
+Open **Control Panel → EditorCraft Device Tools** to use the picker, then
+**Test Tools** for screenshots and **Capture selected favorites…** for an HTML gallery.
+These demos show Simulator profiles, not measurements of physical devices.
 
 ## Foldable showcase
 
@@ -102,7 +148,7 @@ while leaving Unity's registry catalog unchanged.
 
 Read pixel insets and view the safe-area boundary. Select an active screen-space UI
 RectTransform to compare its bounds against that boundary. Switch between paired
-inner and outer foldable profiles from the Simulator toolbar.
+inner and outer foldable profiles from the EditorCraft Device Tools panel.
 
 ### 03 — Capture and compare
 
@@ -113,7 +159,7 @@ original device and orientation, and completed captures remain available.
 
 | Capability | Included today |
 | --- | --- |
-| Device catalog | 89 Apple and 33 Android custom screen profiles |
+| Device catalog | 89 Apple and 92 Android custom screen profiles |
 | Picker | Search, platform/type filters, favorites, keyboard navigation |
 | Foldables | Paired inner/outer profile switching |
 | Captures | Clean/framed PNG, orientation handling, sequential batch gallery |
@@ -122,9 +168,10 @@ original device and orientation, and completed captures remain available.
 
 ## Get started
 
-**Local package:** open a separate Unity **6000.6.5f1** project. In Package Manager,
+**Local package:** open a separate Unity **2022.3.62f2 or 6000.6.5f1** project. In Package Manager,
 choose **Install package from disk** and select this repository's `package.json`.
-Then open **Window → General → Device Simulator** and use the picker and **Test Tools**.
+Then open **Window → General → Device Simulator**, show the Control Panel and
+expand **EditorCraft Device Tools** for the picker and **Test Tools**.
 Keep Simulator active and rendering before capturing. This repository is a UPM
 package; do not open it as a Unity project.
 
@@ -132,11 +179,12 @@ package; do not open it as a Unity project.
 click **+ → Install package from Git URL**, and paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.1.0
+https://github.com/dghn/editorcraft-device-simulator-tools.git#main
 ```
 
 Git must be installed locally. Public HTTPS installation needs no GitHub account or
-SSH key. The URL is pinned to v0.1.0; use `#main` only to follow development.
+SSH key. The URL follows `main`, which includes the dual-version support and features shown here.
+The existing `v0.1.0` tag predates these changes; no new release tag is created by this update.
 
 
 UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependencies.
@@ -151,7 +199,7 @@ Run this from the **target Unity project root** (the folder containing `Assets`,
 available on Windows. Close Unity while editing its manifest, then reopen it.
 
 ```sh
-python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "v0.1.0", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#v0.1.0"], check=True)'
+python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "main", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#main"], check=True)'
 ```
 
 This clones the installer into a temporary directory and registers the Git dependency
@@ -167,12 +215,12 @@ For a dedicated SSH alias, set `EDITORCRAFT_GIT_URL` to
 command. In Bash/zsh you can prefix the command with
 `EDITORCRAFT_GIT_URL=ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git`.
 In PowerShell set `$env:EDITORCRAFT_GIT_URL` first. The value is the repository URL
-without a `#ref`; this installer uses `v0.1.0`.
+without a `#ref`; this command uses `main`.
 
 If the repository is already cloned, use the installer directly:
 
 ```sh
-python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject"
+python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject" --url "https://github.com/dghn/editorcraft-device-simulator-tools.git#main"
 ```
 
 Coding agents: run the command only in the intended project, inspect the manifest
@@ -186,8 +234,10 @@ verified on 2026-10-25 at commit `18449199b852`.
 
 ## Compatibility
 
-The package declares Unity 6000.6 and has been verified in **6000.6.5f1**. It relies
-on internal Simulator APIs; other Editor versions need separate validation.
+The package declares Unity **2022.3** and is tested in **2022.3.62f2** and
+**6000.6.5f1**. Its UI uses the official DeviceSimulatorPlugin API; necessary internal
+selection/capture access is isolated behind a compatibility adapter. See the
+[plugin compatibility report](Documentation~/PLUGIN_COMPATIBILITY.md). Other patches need validation.
 
 - Safe areas describe recorded OS/system-UI configurations, not universal hardware values.
 - UI inspection checks rectangular bounds, not visible pixels or clipping.

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A12",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 270,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1554
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 292,
+              "y": 1556,
+              "width": 138,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 46,
+            "width": 720,
+            "height": 1554
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 290,
+              "y": 0,
+              "width": 138,
+              "height": 44
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 46,
+            "y": 0,
+            "width": 1554,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 292,
+              "width": 44,
+              "height": 138
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1554,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1556,
+              "y": 290,
+              "width": 44,
+              "height": 138
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA12.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 56
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A12",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

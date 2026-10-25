@@ -1,0 +1,22 @@
+{
+  "checkedOn": "2026-10-25",
+  "scope": "Local package Editor integration; no publication or Git release verification",
+  "versions": [
+    "2022.3.62f2",
+    "6000.6.5f1"
+  ],
+  "officialPlugin": true,
+  "reflectionFiles": [
+    "Editor/SimulatorCompatibility.cs"
+  ],
+  "profileChecksPerVersion": 181,
+  "orientationChecksPerVersion": 676,
+  "pngCapturesPerVersion": 8,
+  "galleryDevicesPerVersion": 2,
+  "limitations": [
+    "Remaining private APIs are version-sensitive",
+    "Preview backdrop still depends on a native UI element name",
+    "Other Unity patches have not been validated",
+    "Screenshots and insets are simulation tests, not physical device certification"
+  ]
+}

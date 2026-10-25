@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A32",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2400,
+      "dpi": 411,
+      "navigationBarHeight": 39,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2320
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 468,
+              "y": 2320,
+              "width": 144,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 80,
+            "width": 1080,
+            "height": 2320
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 468,
+              "y": 0,
+              "width": 144,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 80,
+            "y": 0,
+            "width": 2320,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 468,
+              "width": 80,
+              "height": 144
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2320,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2320,
+              "y": 468,
+              "width": 80,
+              "height": 144
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA32.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 54
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A32",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A13",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2408,
+      "dpi": 400,
+      "navigationBarHeight": 144,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2316
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 486.0,
+              "y": 2338,
+              "width": 108,
+              "height": 70
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 92,
+            "width": 1080,
+            "height": 2316
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 486.0,
+              "y": 0,
+              "width": 108,
+              "height": 70
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 92,
+            "y": 0,
+            "width": 2316,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 486.0,
+              "width": 70,
+              "height": 108
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2316,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2338,
+              "y": 486.0,
+              "width": 70,
+              "height": 108
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA13.png",
+        "borderSize": {
+          "x": 38,
+          "y": 38,
+          "z": 38,
+          "w": 38
+        },
+        "cornerRadius": 103
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A13",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

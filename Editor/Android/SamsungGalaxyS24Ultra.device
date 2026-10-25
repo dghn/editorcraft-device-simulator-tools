@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S24 Ultra",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3120,
+      "dpi": 505,
+      "navigationBarHeight": 56,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 2992
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 686,
+              "y": 2992,
+              "width": 69,
+              "height": 128
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 128,
+            "width": 1440,
+            "height": 2992
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 685,
+              "y": 0,
+              "width": 69,
+              "height": 128
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 128,
+            "y": 0,
+            "width": 2992,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 686,
+              "width": 128,
+              "height": 69
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2992,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2992,
+              "y": 685,
+              "width": 128,
+              "height": 69
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS24Ultra.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S24 Ultra",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

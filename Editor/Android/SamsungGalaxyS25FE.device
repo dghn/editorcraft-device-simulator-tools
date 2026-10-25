@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S25 FE",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 42,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2258
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 511,
+              "y": 2258,
+              "width": 58,
+              "height": 58
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 82,
+            "width": 1080,
+            "height": 2258
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 511,
+              "y": 24,
+              "width": 58,
+              "height": 58
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 82,
+            "y": 0,
+            "width": 2258,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 24,
+              "y": 511,
+              "width": 58,
+              "height": 58
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2258,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2258,
+              "y": 511,
+              "width": 58,
+              "height": 58
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS25FE.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 84
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S25 FE",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

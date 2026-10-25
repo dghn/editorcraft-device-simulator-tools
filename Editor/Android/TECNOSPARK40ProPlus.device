@@ -1,0 +1,105 @@
+{
+  "friendlyName": "TECNO SPARK 40 Pro+",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1224,
+      "height": 2720,
+      "dpi": 440,
+      "navigationBarHeight": 163,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1224,
+            "height": 2616
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 587.5,
+              "y": 2640,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 104,
+            "width": 1224,
+            "height": 2616
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 587.5,
+              "y": 31,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 104,
+            "y": 0,
+            "width": 2616,
+            "height": 1224
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 31,
+              "y": 587.5,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2616,
+            "height": 1224
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2640,
+              "y": 587.5,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/TECNOSPARK40ProPlus.png",
+        "borderSize": {
+          "x": 43,
+          "y": 43,
+          "z": 43,
+          "w": 43
+        },
+        "cornerRadius": 116
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "TECNO SPARK 40 Pro+",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

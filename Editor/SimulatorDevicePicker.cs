@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using System.Text.RegularExpressions;
 using Newtonsoft.Json.Linq;
 using UnityEditor;
@@ -12,48 +11,12 @@ using UnityEngine.UIElements;
 
 namespace DeviceSimulatorTools.Editor
 {
-    // Editor-only integration with Unity's built-in Simulator. Keep its device array intact:
-    // filtered row indices must never be used as Simulator device indices.
-    [InitializeOnLoad]
     internal static class SimulatorDevicePicker
     {
-        internal const BindingFlags Flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
-        static double nextCheck;
-        static SimulatorDevicePicker() => EditorApplication.update += Update;
-        internal static object Get(object obj, string property) => obj.GetType().GetProperty(property, Flags)?.GetValue(obj);
-
-        static void Update()
-        {
-            if (EditorApplication.timeSinceStartup < nextCheck) return;
-            nextCheck = EditorApplication.timeSinceStartup + .5;
-            foreach (var window in Resources.FindObjectsOfTypeAll<EditorWindow>())
-            {
-                if (window.GetType().FullName != "UnityEditor.DeviceSimulation.SimulatorWindow") continue;
-                var original = window.rootVisualElement.Q("device-list-menu");
-                if (original == null) continue;
-                var button = window.rootVisualElement.Q<ToolbarButton>("device-simulator-tools-device-picker");
-                if (button == null)
-                {
-                    var main = Get(window, "main");
-                    var ui = main == null ? null : Get(main, "userInterface");
-                    // Leave the native selector available if Unity changes its internal API.
-                    if (ui?.GetType().GetMethod("OnDeviceSelected", Flags) == null || Get(main, "devices") == null) continue;
-                    button = new ToolbarButton { name = "device-simulator-tools-device-picker", tooltip = "Search devices and filter by platform or device type" };
-                    var pickerButton = button;
-                    button.clicked += () => Open(window, pickerButton);
-                    original.parent.Insert(original.parent.IndexOf(original), button);
-                    original.style.display = DisplayStyle.None;
-                }
-                SimulatorTestTools.Attach(window, original.parent);
-                button.text = (original.Q<TextElement>("selected-device-name")?.text ?? "Devices") + "  ▾";
-            }
-        }
-
         internal static void Open(EditorWindow owner, VisualElement anchor)
         {
-            var main = Get(owner, "main");
             var popup = ScriptableObject.CreateInstance<SimulatorDevicePickerPopup>();
-            popup.Initialize(owner, main);
+            popup.Initialize(owner);
             var rect = anchor.worldBound;
             rect.position = GUIUtility.GUIToScreenPoint(rect.position);
             popup.ShowAsDropDown(rect, new Vector2(320, 420));
@@ -75,7 +38,6 @@ namespace DeviceSimulatorTools.Editor
         readonly HashSet<string> favorites = new(StringComparer.Ordinal);
         bool favoritesOnly;
         EditorWindow owner;
-        object main;
         UnityEngine.Object selected;
         int platform, kind;
         string query = "";
@@ -83,14 +45,12 @@ namespace DeviceSimulatorTools.Editor
         Label count, empty;
         ToolbarSearchField search;
 
-        internal void Initialize(EditorWindow simulator, object simulatorMain)
+        internal void Initialize(EditorWindow simulator)
         {
             owner = simulator;
-            main = simulatorMain;
-            var nativeAssets = ((Array)SimulatorDevicePicker.Get(main, "devices")).Cast<UnityEngine.Object>().ToArray();
+            var nativeAssets = SimulatorCompatibility.Devices(owner);
             var assets = PreferredDevices(nativeAssets);
-            int index = (int)SimulatorDevicePicker.Get(main, "deviceIndex");
-            selected = index >= 0 && index < nativeAssets.Length ? nativeAssets[index] : null;
+            selected = SimulatorCompatibility.Current(owner);
             foreach (var asset in assets)
             {
                 devices.Add(ReadDevice(asset));
@@ -160,7 +120,7 @@ namespace DeviceSimulatorTools.Editor
         }
         internal static string ClassifyKind(string name)
         {
-            if (Regex.IsMatch(name, @"(?i)fold|flip|\bduo\b")) return "Foldable";
+            if (Regex.IsMatch(name, @"(?i)fold|flip|\bduo\b|\b(inner|outer) screen\b")) return "Foldable";
             if (Regex.IsMatch(name, @"(?i)ipad|tablet|\btab\b|\bpad\b")) return "Tablet";
             return "Phone";
         }
@@ -239,6 +199,7 @@ namespace DeviceSimulatorTools.Editor
             empty = new Label("No matching devices. Change filters or clear the search.") { name = "empty-devices" };
             empty.style.whiteSpace = WhiteSpace.Normal;
             root.Add(empty);
+            // TextField consumes Enter before bubbling; handle picker shortcuts on the way down.
             root.RegisterCallback<KeyDownEvent>(evt =>
             {
                 if (evt.keyCode == KeyCode.Escape) { Close(); evt.StopPropagation(); }
@@ -248,7 +209,7 @@ namespace DeviceSimulatorTools.Editor
                     if (visible.Count > 0) { list.selectedIndex = 0; list.Focus(); }
                     evt.StopPropagation();
                 }
-            });
+            }, TrickleDown.TrickleDown);
             Refresh();
             search.schedule.Execute(() =>
             {
@@ -307,12 +268,9 @@ namespace DeviceSimulatorTools.Editor
             if (list.selectedIndex < 0 || list.selectedIndex >= visible.Count || owner == null) return;
             // Resolve by asset again in case an import changed the native array while open.
             var asset = visible[list.selectedIndex].Asset;
-            var current = ((Array)SimulatorDevicePicker.Get(main, "devices")).Cast<UnityEngine.Object>().ToArray();
-            int index = Array.IndexOf(current, asset);
-            if (index < 0) { Close(); return; }
-            var ui = SimulatorDevicePicker.Get(main, "userInterface");
-            ui.GetType().GetMethod("OnDeviceSelected", SimulatorDevicePicker.Flags).Invoke(ui, new object[] { index });
-            owner.Repaint();
+            if (SimulatorTestTools.Busy) return;
+            try { SimulatorCompatibility.Select(owner, asset); }
+            catch (Exception e) { Debug.LogWarning("Simulator selection: " + e.GetBaseException().Message); }
             Close();
         }
     }

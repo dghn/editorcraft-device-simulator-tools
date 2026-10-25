@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A14",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2408,
+      "dpi": 400,
+      "navigationBarHeight": 42,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2344
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 468,
+              "y": 2344,
+              "width": 144,
+              "height": 64
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 64,
+            "width": 1080,
+            "height": 2344
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 468,
+              "y": 0,
+              "width": 144,
+              "height": 64
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 64,
+            "y": 0,
+            "width": 2344,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 468,
+              "width": 64,
+              "height": 144
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2344,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2344,
+              "y": 468,
+              "width": 64,
+              "height": 144
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA14.png",
+        "borderSize": {
+          "x": 38,
+          "y": 38,
+          "z": 38,
+          "w": 38
+        },
+        "cornerRadius": 103
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A14",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "OPPO Find N5 Outer Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1140,
+      "height": 2616,
+      "dpi": 431,
+      "navigationBarHeight": 157,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1140,
+            "height": 2519
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 547.0,
+              "y": 2542,
+              "width": 46,
+              "height": 46
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 97,
+            "width": 1140,
+            "height": 2519
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 547.0,
+              "y": 28,
+              "width": 46,
+              "height": 46
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 97,
+            "y": 0,
+            "width": 2519,
+            "height": 1140
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 28,
+              "y": 547.0,
+              "width": 46,
+              "height": 46
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2519,
+            "height": 1140
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2542,
+              "y": 547.0,
+              "width": 46,
+              "height": 46
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/OPPOFindN5OuterScreen.png",
+        "borderSize": {
+          "x": 40,
+          "y": 40,
+          "z": 40,
+          "w": 40
+        },
+        "cornerRadius": 108
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "OPPO Find N5 Outer Screen",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

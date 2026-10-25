@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Redmi 15C",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 254,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1539
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 324.0,
+              "y": 1553,
+              "width": 72,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 61,
+            "width": 720,
+            "height": 1539
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 324.0,
+              "y": 0,
+              "width": 72,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 61,
+            "y": 0,
+            "width": 1539,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 324.0,
+              "width": 47,
+              "height": 72
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1539,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1553,
+              "y": 324.0,
+              "width": 47,
+              "height": 72
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/Redmi15C.png",
+        "borderSize": {
+          "x": 25,
+          "y": 25,
+          "z": 25,
+          "w": 25
+        },
+        "cornerRadius": 68
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Redmi 15C",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Redmi 13C",
+  "version": 1,
+  "screens": [
+    {
+      "width": 720,
+      "height": 1600,
+      "dpi": 260,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 720,
+            "height": 1532
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 1532,
+              "width": 80,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 68,
+            "width": 720,
+            "height": 1532
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 320,
+              "y": 0,
+              "width": 80,
+              "height": 68
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 68,
+            "y": 0,
+            "width": 1532,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 320,
+              "width": 68,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1532,
+            "height": 720
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1532,
+              "y": 320,
+              "width": 68,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/Redmi13C.png",
+        "borderSize": {
+          "x": 25,
+          "y": 25,
+          "z": 25,
+          "w": 25
+        },
+        "cornerRadius": 68
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Redmi 13C",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

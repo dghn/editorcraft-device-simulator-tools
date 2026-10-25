@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Nothing Phone (3a)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2392,
+      "dpi": 388,
+      "navigationBarHeight": 144,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2300
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 518.5,
+              "y": 2322,
+              "width": 43,
+              "height": 43
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 92,
+            "width": 1080,
+            "height": 2300
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 518.5,
+              "y": 27,
+              "width": 43,
+              "height": 43
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 92,
+            "y": 0,
+            "width": 2300,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 27,
+              "y": 518.5,
+              "width": 43,
+              "height": 43
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2300,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2322,
+              "y": 518.5,
+              "width": 43,
+              "height": 43
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/NothingPhone3a.png",
+        "borderSize": {
+          "x": 38,
+          "y": 38,
+          "z": 38,
+          "w": 38
+        },
+        "cornerRadius": 103
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Nothing Phone (3a)",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

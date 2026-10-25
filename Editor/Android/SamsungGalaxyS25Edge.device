@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S25 Edge",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3120,
+      "dpi": 513,
+      "navigationBarHeight": 56,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 2996
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 678,
+              "y": 2996,
+              "width": 85,
+              "height": 124
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 124,
+            "width": 1440,
+            "height": 2996
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 677,
+              "y": 0,
+              "width": 85,
+              "height": 124
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 124,
+            "y": 0,
+            "width": 2996,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 678,
+              "width": 124,
+              "height": 85
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2996,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2996,
+              "y": 677,
+              "width": 124,
+              "height": 85
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS25Edge.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 89
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S25 Edge",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

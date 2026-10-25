@@ -2,7 +2,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Reflection;
 using Newtonsoft.Json.Linq;
 using UnityEditor;
 using UnityEditor.UIElements;
@@ -13,11 +12,8 @@ namespace DeviceSimulatorTools.Editor
 {
     internal static class SimulatorTestTools
     {
-        internal const BindingFlags Flags = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
-        internal static object Get(object o, string n) => o.GetType().GetProperty(n, Flags)?.GetValue(o) ?? o.GetType().GetField(n, Flags)?.GetValue(o);
-        internal static object Main(EditorWindow w) => Get(w, "main");
-        internal static UnityEngine.Object[] Devices(EditorWindow w) => ((Array)Get(Main(w), "devices")).Cast<UnityEngine.Object>().ToArray();
-        internal static UnityEngine.Object Current(EditorWindow w) => Devices(w)[(int)Get(Main(w), "deviceIndex")];
+        internal static UnityEngine.Object[] Devices(EditorWindow w) => SimulatorCompatibility.Devices(w);
+        internal static UnityEngine.Object Current(EditorWindow w) => SimulatorCompatibility.Current(w);
         internal static JObject Spec(UnityEngine.Object asset)
         {
             string path = AssetDatabase.GetAssetPath(asset);
@@ -25,16 +21,8 @@ namespace DeviceSimulatorTools.Editor
             return (JObject)(json["deviceInfo"] ?? json);
         }
         internal static string DeviceName(UnityEngine.Object a) => (string)Spec(a)["friendlyName"] ?? a.name;
-        internal static object Screen(EditorWindow w) => Get(Main(w), "ScreenSimulation");
-        internal static RenderTexture Preview(EditorWindow w) => Get(Get(Get(Main(w), "userInterface"), "m_DeviceView"), "PreviewTexture") as RenderTexture;
-        internal static void Select(EditorWindow w, UnityEngine.Object asset)
-        {
-            int index = Array.IndexOf(Devices(w), asset);
-            if (index < 0) throw new InvalidOperationException("Device is no longer available.");
-            var ui = Get(Main(w), "userInterface");
-            ui.GetType().GetMethod("OnDeviceSelected", Flags).Invoke(ui, new object[] { index });
-            w.Repaint();
-        }
+        internal static RenderTexture Preview(EditorWindow w) => SimulatorCompatibility.Preview(w);
+        internal static void Select(EditorWindow w, UnityEngine.Object asset) => SimulatorCompatibility.Select(w, asset);
         internal static UnityEngine.Object Partner(EditorWindow w)
         {
             string name = DeviceName(Current(w));
@@ -58,29 +46,31 @@ namespace DeviceSimulatorTools.Editor
             var button = new ToolbarButton { name = "simulator-test-tools", text = "Test Tools ▾" };
             button.clicked += () =>
             {
-                var menu = new GenericMenu();
+                var menu = new GenericDropdownMenu();
                 var partner = Partner(w);
-                if (partner != null && !Busy) menu.AddItem(new GUIContent("Switch to " + DeviceName(partner)), false, () => Select(w, partner));
+                if (partner != null && !Busy) menu.AddItem("Switch to " + DeviceName(partner), false, () => Select(w, partner));
                 if (partner != null) menu.AddSeparator("");
                 if (!Busy)
                 {
-                    menu.AddItem(new GUIContent("Screenshot/Clean PNG"), false, () => SaveOne(w, false));
-                    menu.AddItem(new GUIContent("Screenshot/Framed PNG"), false, () => SaveOne(w, true));
-                    menu.AddItem(new GUIContent("Capture selected favorites…"), false, () => StartFavorites(w));
+                    menu.AddItem("Screenshot — Clean PNG", false, () => SaveOne(w, false));
+                    menu.AddItem("Screenshot — Framed PNG", false, () => SaveOne(w, true));
+                    menu.AddItem("Capture selected favorites…", false, () => StartFavorites(w));
                 }
-                else menu.AddItem(new GUIContent("Cancel capture"), false, () => Finish("Capture cancelled; completed images retained."));
-                menu.AddItem(new GUIContent("Safe area inspector"), false, () => SimulatorSafeAreaInspector.Open(w));
+                else menu.AddItem("Cancel capture", false, () => Finish("Capture cancelled; completed images retained."));
+                menu.AddItem("Safe area inspector", false, () => SimulatorSafeAreaInspector.Open(w));
                 menu.AddSeparator("");
-                menu.AddItem(new GUIContent("Settings…"), false, SimulatorCaptureSettings.Open);
-                menu.ShowAsContext();
+                menu.AddItem("Settings…", false, SimulatorCaptureSettings.Open);
+                // Keep the dropdown in the plugin's UI Toolkit panel. Native GenericMenu
+                // did not open reliably in floating Simulator windows on 2022.3.
+                menu.DropDown(button.worldBound, button, true);
             };
             parent.Add(button);
         }
         internal static Texture2D Capture(EditorWindow w, bool framed)
         {
             var rt = Preview(w);
-            var screen = Screen(w);
-            int width = (int)Get(screen, "width"), height = (int)Get(screen, "height");
+            var screen = SimulatorCompatibility.State(w);
+            int width = screen.Width, height = screen.Height;
             if (rt == null || rt.width != width || rt.height != height) throw new InvalidOperationException("Simulator frame is not ready at device resolution. Focus Simulator and retry.");
             var old = RenderTexture.active;
             var clean = new Texture2D(width, height, TextureFormat.RGBA32, false);
@@ -102,15 +92,17 @@ namespace DeviceSimulatorTools.Editor
             if (!framed) return clean;
             try
             {
-                var view = Get(Get(Main(w), "userInterface"), "m_DeviceView");
-                var overlay = Get(view, "m_OverlayTexture") as Texture2D;
+                var assetPath = AssetDatabase.GetAssetPath(Current(w));
+                var overlayPath = (string)Spec(Current(w))["screens"][0]["presentation"]?["overlayPath"];
+                var overlay = string.IsNullOrEmpty(overlayPath) ? null : AssetDatabase.LoadAssetAtPath<Texture2D>(overlayPath)
+                    ?? AssetDatabase.LoadAssetAtPath<Texture2D>(Path.Combine(Path.GetDirectoryName(assetPath) ?? "", overlayPath).Replace('\\', '/'));
                 if (overlay == null) throw new InvalidOperationException("This device has no frame artwork. Use Clean PNG.");
                 var spec = Spec(Current(w))["screens"][0];
                 var border = spec["presentation"]["borderSize"];
                 int bw = (int)spec["width"], bh = (int)spec["height"];
                 int l = Mathf.RoundToInt((float)border["x"]), t = Mathf.RoundToInt((float)border["y"]), r = Mathf.RoundToInt((float)border["z"]), b = Mathf.RoundToInt((float)border["w"]);
                 int cw = bw + l + r, ch = bh + t + b;
-                var orientation = (ScreenOrientation)Get(screen, "orientation");
+                var orientation = screen.Orientation;
                 bool sideways = orientation == ScreenOrientation.LandscapeLeft || orientation == ScreenOrientation.LandscapeRight;
                 var result = new Texture2D(sideways ? ch : cw, sideways ? cw : ch, TextureFormat.RGBA32, false);
                 // Read the imported overlay through the GPU; bundled textures need not be readable.
@@ -176,7 +168,7 @@ namespace DeviceSimulatorTools.Editor
             ScreenOrientation.LandscapeRight => new Vector2Int(y, w - 1 - x),
             _ => new Vector2Int(x, y)
         };
-        static string FileName(EditorWindow w) => string.Concat(DeviceName(Current(w)).Select(c => char.IsLetterOrDigit(c) ? c : '_')) + "_" + Get(Screen(w), "orientation");
+        static string FileName(EditorWindow w) => string.Concat(DeviceName(Current(w)).Select(c => char.IsLetterOrDigit(c) ? c : '_')) + "_" + SimulatorCompatibility.State(w).Orientation;
         static void SaveOne(EditorWindow w, bool framed)
         {
             string destination = SimulatorCaptureSettings.ResolveFolder(false);
@@ -194,7 +186,7 @@ namespace DeviceSimulatorTools.Editor
         internal static bool Busy => batchWindow != null;
         static EditorWindow batchWindow;
         static UnityEngine.Object original;
-        static object originalOrientation;
+        static ScreenOrientation originalOrientation;
         static Queue<UnityEngine.Object> queue;
         static string folder;
         static double readyAt, deadline;
@@ -215,11 +207,12 @@ namespace DeviceSimulatorTools.Editor
         {
             if (Busy || assets.Length == 0) return;
             Directory.CreateDirectory(destination); folder = destination; batchWindow = w;
-            original = Current(w); originalOrientation = Get(Screen(w), "orientation");
+            original = Current(w); originalOrientation = SimulatorCompatibility.State(w).Orientation;
             queue = new Queue<UnityEngine.Object>(assets); total = assets.Length; images.Clear(); waiting = false;
             EditorApplication.update += Tick; AssemblyReloadEvents.beforeAssemblyReload += Cancel;
             EditorApplication.playModeStateChanged += OnPlayMode;
         }
+        internal static void CancelFor(EditorWindow owner) { if (owner != null && batchWindow == owner) Cancel(); }
         static void Cancel() => Finish("Capture interrupted.");
         static void OnPlayMode(PlayModeStateChange state) { if (state == PlayModeStateChange.ExitingPlayMode || state == PlayModeStateChange.ExitingEditMode) Cancel(); }
         static void Tick()
@@ -236,8 +229,8 @@ namespace DeviceSimulatorTools.Editor
                     readyAt = EditorApplication.timeSinceStartup + 1.5; deadline = readyAt + 10; waiting = true; return;
                 }
                 if (EditorApplication.timeSinceStartup < readyAt) return;
-                var rt = Preview(batchWindow); var s = Screen(batchWindow);
-                if (rt == null || rt.width != (int)Get(s, "width") || rt.height != (int)Get(s, "height"))
+                var rt = Preview(batchWindow); var s = SimulatorCompatibility.State(batchWindow);
+                if (rt == null || rt.width != s.Width || rt.height != s.Height)
                 { if (EditorApplication.timeSinceStartup > deadline) throw new Exception("Timed out waiting for a full-resolution Simulator frame."); return; }
                 string file = images.Count.ToString("D3") + "_" + FileName(batchWindow) + ".png";
                 Write(batchWindow, Path.Combine(folder, file), false); images.Add(file); waiting = false;
@@ -252,9 +245,15 @@ namespace DeviceSimulatorTools.Editor
             {
                 if (batchWindow != null && original != null)
                 {
-                    Select(batchWindow, original); var s = Screen(batchWindow);
-                    s.GetType().GetProperty("orientation", Flags).SetValue(s, originalOrientation);
-                    s.GetType().GetMethod("ApplyChanges", Flags).Invoke(s, null);
+                    try
+                    {
+                        Select(batchWindow, original);
+                        SimulatorCompatibility.RestoreOrientation(batchWindow, originalOrientation);
+                    }
+                    catch (Exception e)
+                    {
+                        error = (error == null ? "" : error + " ") + "Could not restore Simulator: " + e.GetBaseException().Message;
+                    }
                 }
                 if (!string.IsNullOrEmpty(folder))
                 {
@@ -325,9 +324,10 @@ namespace DeviceSimulatorTools.Editor
         void OnGUI()
         {
             if (simulator == null) { EditorGUILayout.HelpBox("Open from Simulator > Test Tools.", MessageType.Info); return; }
-            var s = SimulatorTestTools.Screen(simulator);
-            int width = (int)SimulatorTestTools.Get(s, "width"), height = (int)SimulatorTestTools.Get(s, "height");
-            Rect safe = (Rect)SimulatorTestTools.Get(s, "safeArea");
+            if (!SimulatorCompatibility.Available(simulator, out var reason)) { EditorGUILayout.HelpBox(reason, MessageType.Info); return; }
+            var s = SimulatorCompatibility.State(simulator);
+            int width = s.Width, height = s.Height;
+            Rect safe = s.SafeArea;
             EditorGUILayout.LabelField(SimulatorTestTools.DeviceName(SimulatorTestTools.Current(simulator)), EditorStyles.boldLabel);
             EditorGUILayout.LabelField($"{width} × {height} px");
             EditorGUILayout.LabelField($"L {safe.xMin:0}   T {height-safe.yMax:0}   R {width-safe.xMax:0}   B {safe.yMin:0} px");

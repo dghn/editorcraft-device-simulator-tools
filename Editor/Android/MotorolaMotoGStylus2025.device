@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Motorola Moto G Stylus 2025",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1220,
+      "height": 2712,
+      "dpi": 444,
+      "navigationBarHeight": 163,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1220,
+            "height": 2609
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 585.5,
+              "y": 2633,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 103,
+            "width": 1220,
+            "height": 2609
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 585.5,
+              "y": 30,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 103,
+            "y": 0,
+            "width": 2609,
+            "height": 1220
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 30,
+              "y": 585.5,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2609,
+            "height": 1220
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2633,
+              "y": 585.5,
+              "width": 49,
+              "height": 49
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/MotorolaMotoGStylus2025.png",
+        "borderSize": {
+          "x": 43,
+          "y": 43,
+          "z": 43,
+          "w": 43
+        },
+        "cornerRadius": 116
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Motorola Moto G Stylus 2025",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

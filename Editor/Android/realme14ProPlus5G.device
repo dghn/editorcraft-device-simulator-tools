@@ -1,0 +1,105 @@
+{
+  "friendlyName": "realme 14 Pro+ 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1272,
+      "height": 2800,
+      "dpi": 450,
+      "navigationBarHeight": 168,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1272,
+            "height": 2692
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 610.5,
+              "y": 2717,
+              "width": 51,
+              "height": 51
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 108,
+            "width": 1272,
+            "height": 2692
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 610.5,
+              "y": 32,
+              "width": 51,
+              "height": 51
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 108,
+            "y": 0,
+            "width": 2692,
+            "height": 1272
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 32,
+              "y": 610.5,
+              "width": 51,
+              "height": 51
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2692,
+            "height": 1272
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2717,
+              "y": 610.5,
+              "width": 51,
+              "height": 51
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/realme14ProPlus5G.png",
+        "borderSize": {
+          "x": 45,
+          "y": 45,
+          "z": 45,
+          "w": 45
+        },
+        "cornerRadius": 121
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "realme 14 Pro+ 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

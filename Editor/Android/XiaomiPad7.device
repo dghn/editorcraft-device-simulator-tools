@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Xiaomi Pad 7",
+  "version": 1,
+  "screens": [
+    {
+      "width": 2136,
+      "height": 3200,
+      "dpi": 344,
+      "navigationBarHeight": 192,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2136,
+            "height": 3200
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2136,
+            "height": 3200
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3200,
+            "height": 2136
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3200,
+            "height": 2136
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/XiaomiPad7.png",
+        "borderSize": {
+          "x": 107,
+          "y": 107,
+          "z": 107,
+          "w": 107
+        },
+        "cornerRadius": 53
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Xiaomi Pad 7",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

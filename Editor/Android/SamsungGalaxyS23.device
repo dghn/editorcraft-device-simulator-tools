@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S23",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 422,
+      "navigationBarHeight": 45,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2259
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 512,
+              "y": 2259,
+              "width": 56,
+              "height": 81
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 81,
+            "width": 1080,
+            "height": 2259
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 512,
+              "y": 0,
+              "width": 56,
+              "height": 81
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 81,
+            "y": 0,
+            "width": 2259,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 512,
+              "width": 81,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2259,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2259,
+              "y": 512,
+              "width": 81,
+              "height": 56
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS23.png",
+        "borderSize": {
+          "x": 44,
+          "y": 44,
+          "z": 44,
+          "w": 44
+        },
+        "cornerRadius": 93
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S23",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}
