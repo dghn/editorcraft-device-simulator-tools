@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 — 2026-10-25
 
 - Add six workflow GIFs and a sample HTML capture gallery; show tested support for
   Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1) across presentation materials.
