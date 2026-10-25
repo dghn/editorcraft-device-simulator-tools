@@ -1,7 +1,7 @@
 # Release checklist
 
-Package-only repository preparation, 2026-10-25. Private repository upload is authorized; public distribution and release
-tagging remain pending. Manufacturer-derived artwork remains intact.
+Package-only repository preparation, 2026-10-25. The maintainer explicitly authorized public distribution with existing artwork
+and publication of v0.1.0 on 2026-10-25. Manufacturer-derived artwork remains intact.
 
 ## Verified
 
@@ -14,11 +14,12 @@ tagging remain pending. Manufacturer-derived artwork remains intact.
 ## Before publication
 
 - [ ] Resolve artwork redistribution for overlays and framed screenshots; see the
-  root THIRD_PARTY_NOTICES.md. Attribution is not a redistribution grant.
-- [x] Repository selected: `dghn/editorcraft-device-simulator-tools` (private).
+  root THIRD_PARTY_NOTICES.md. Permission remains unverified; the maintainer
+  authorized publication with the existing materials. This is not license clearance.
+- [x] Repository selected: `dghn/editorcraft-device-simulator-tools` (public release authorized).
 - [ ] Choose and verify a release tag before adding a release installation URL.
 - [x] Initial commit and private upload authorized by the maintainer.
-- [ ] Obtain authorization before changing visibility to public or publishing a release.
+- [x] Obtain authorization before changing visibility to public or publishing a release.
 - [x] Git installation and Editor compilation in a clean Unity 6000.6.5f1 project;
   see [verification](INSTALL_VERIFICATION.md), tested commit `18449199b852`.
 - [ ] Repeat interactive picker, foldable, capture and safe-area checks in the

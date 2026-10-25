@@ -12,7 +12,7 @@ Editor/Apple/Overlays contains textures generated using local
 CoreSimulator framebuffer masks and DeviceKit artwork, plus simplified case contours.
 Apple retains rights to its materials. The Xcode agreement does not establish a
 blanket open-source redistribution grant for these generated textures.
-Review the applicable agreement or replace/remove derived artwork before publication:
+Applicable source agreement:
 https://www.apple.com/legal/sla/docs/xcode.pdf
 
 ## Android overlays
@@ -26,8 +26,9 @@ https://developer.samsung.com/galaxy-emulator-skin/
 Original source ownership and applicable terms remain in effect. Public redistribution
 of these particular derived image files has not been verified. Attribution alone is
 not a license. Approximate vector frames are identified in the catalog. Keep downloaded
-source archives outside the repository. Resolve artwork distribution separately before
-publishing this local copy as an open-source repository.
+source archives outside the repository. The maintainer authorized publication with these materials on 2026-10-25.
+That publication decision does not establish a redistribution license or extend
+the MIT grant to third-party artwork.
 
 ## Device measurements
 

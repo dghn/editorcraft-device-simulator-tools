@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img alt="Stage: pre-release" src="https://img.shields.io/badge/stage-pre--release-e3b85c?style=flat-square" />
+  <img alt="Version: 0.1.0" src="https://img.shields.io/badge/version-0.1.0-70e0c4?style=flat-square" />
   <img alt="Verified Editor: Unity 6000.6.5f1" src="https://img.shields.io/badge/Unity-6000.6.5f1-94adc9?style=flat-square" />
   <img alt="122 custom profiles" src="https://img.shields.io/badge/profiles-122-70e0c4?style=flat-square" />
   <img alt="Editor only" src="https://img.shields.io/badge/scope-editor_only-94adc9?style=flat-square" />
@@ -28,10 +28,8 @@ The first tool in the **EditorCraft** collection, Device Simulator Tools extends
 local favorites, paired foldable screens, PNG capture and a safe-area inspector.
 Built and maintained by [Daghan Demirci](https://github.com/dghn).
 
-> **Pre-release.** This repository is private while manufacturer-derived
-> artwork distribution is reviewed. No release tag has been created. Clean Git installation and Editor compilation
-> passed on Unity 6000.6.5f1 (see the installation verification below).
-> See the [release checklist](Documentation~/RELEASE_CHECKLIST.md).
+> **v0.1.0** · Verified with Unity 6000.6.5f1.
+> [Release notes](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.1.0) · [Installation verification](Documentation~/INSTALL_VERIFICATION.md).
 
 The banner is an original schematic illustration, not a screenshot of the tool.
 
@@ -130,26 +128,16 @@ Then open **Window → General → Device Simulator** and use the picker and **T
 Keep Simulator active and rendering before capturing. This repository is a UPM
 package; do not open it as a Unity project.
 
-**Private Git installation:** repository access and Git authentication are required.
-Open **Window → Package Management → Package Manager**, click **+**, then choose
-**Install package from Git URL** and paste:
+**Git installation:** open **Window → Package Management → Package Manager**,
+click **+ → Install package from Git URL**, and paste:
 
 ```text
-ssh://git@github.com/dghn/editorcraft-device-simulator-tools.git#main
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.1.0
 ```
 
-Configure SSH for your own GitHub account. A machine using the dedicated `github-dghn`
-SSH host alias can substitute that alias for `github.com` in the URL. Git must be
-installed locally. `main` is a development branch, not a versioned release. Clean Git installation
-and Editor compilation passed on Unity 6000.6.5f1.
+Git must be installed locally. Public HTTPS installation needs no GitHub account or
+SSH key. The URL is pinned to v0.1.0; use `#main` only to follow development.
 
-After public release, HTTPS installation will use:
-
-```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#<release-tag>
-```
-
-No release tag exists yet. Replace the placeholder only with an actual tested tag.
 
 UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependencies.
 The installed tool does not require the Unity CLI or Pipeline. The repository root is the
@@ -159,12 +147,11 @@ contains the GitHub presentation and provenance; Unity skips importing that fold
 ### One command for coding agents
 
 Run this from the **target Unity project root** (the folder containing `Assets`,
-`Packages` and `ProjectSettings`). Requires Python 3.9+, Git and SSH access to this
-private repository. Use Bash/zsh on macOS/Linux or PowerShell with `python3`
+`Packages` and `ProjectSettings`). Requires Python 3.9+ and Git. No GitHub account or SSH key is needed. Use Bash/zsh on macOS/Linux or PowerShell with `python3`
 available on Windows. Close Unity while editing its manifest, then reopen it.
 
 ```sh
-python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "ssh://git@github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "main", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#main"], check=True)'
+python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "v0.1.0", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#v0.1.0"], check=True)'
 ```
 
 This clones the installer into a temporary directory and registers the Git dependency
@@ -180,7 +167,7 @@ For a dedicated SSH alias, set `EDITORCRAFT_GIT_URL` to
 command. In Bash/zsh you can prefix the command with
 `EDITORCRAFT_GIT_URL=ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git`.
 In PowerShell set `$env:EDITORCRAFT_GIT_URL` first. The value is the repository URL
-without a `#ref`; this development installer uses `main`.
+without a `#ref`; this installer uses `v0.1.0`.
 
 If the repository is already cloned, use the installer directly:
 

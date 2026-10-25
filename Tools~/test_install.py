@@ -56,7 +56,7 @@ class InstallTests(unittest.TestCase):
         self.assertEqual(self.manifest.read_bytes(), self.original)
 
     def test_custom_ssh_alias(self):
-        url = DEFAULT_URL.replace('github.com', 'github-dghn')
+        url = 'ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git#v0.1.0'
         install(self.root, url)
         self.assertEqual(json.loads(self.manifest.read_text())['dependencies'][PACKAGE], url)
 
