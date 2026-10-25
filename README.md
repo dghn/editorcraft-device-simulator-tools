@@ -65,6 +65,11 @@ are rendered separately.
 
 ### iPhone Duo
 
+![Duo inner and outer screen switching](Documentation~/assets/screenshots/duo-screen-switch.gif)
+
+Click **Inner ↔ / Outer ↔** to switch Duo displays. Recorded in Unity with the
+EditorCraft demo layout; this loop shows two real screen states, not a hinge animation.
+
 | Inner screen | Outer screen |
 | :---: | :---: |
 | <img src="Documentation~/assets/screenshots/duo-inner.png" alt="iPhone Duo inner screen" height="360" /> | <img src="Documentation~/assets/screenshots/duo-outer.png" alt="iPhone Duo outer screen" height="360" /> |
