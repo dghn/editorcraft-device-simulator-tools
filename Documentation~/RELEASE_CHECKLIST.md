@@ -16,8 +16,8 @@ and publication of v0.1.0 on 2026-10-25. Manufacturer-derived artwork remains in
 - [ ] Resolve artwork redistribution for overlays and framed screenshots; see the
   root THIRD_PARTY_NOTICES.md. Permission remains unverified; the maintainer
   authorized publication with the existing materials. This is not license clearance.
-- [x] Repository selected: `dghn/editorcraft-device-simulator-tools` (public release authorized).
-- [ ] Choose and verify a release tag before adding a release installation URL.
+- [x] Repository selected: `dghn/editorcraft-device-simulator-tools` (public).
+- [x] v0.1.0 published; public HTTPS Git installation and compilation verified.
 - [x] Initial commit and private upload authorized by the maintainer.
 - [x] Obtain authorization before changing visibility to public or publishing a release.
 - [x] Git installation and Editor compilation in a clean Unity 6000.6.5f1 project;

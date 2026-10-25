@@ -48,3 +48,18 @@ It ran with `-batchmode -nographics`: picker interaction, foldable switching, re
 captures and safe-area visuals were not repeated in this clean project. Their earlier
 development-host checks remain separate. No player build or other Unity version was
 tested, and no release tag was created.
+
+
+## Public v0.1.0 release verification
+
+On 2026-10-25 the public HTTPS URL was resolved in the same isolated test project:
+
+```text
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.1.0
+```
+
+UPM locked commit `ba0c77e2154f1944c5f3f27ec6ff9f3214b28dfb`. The final Unity 6000.6.5f1
+batch verification exited 0 with `passed=true`, the Editor assembly loaded, 122
+profiles and 71 overlays, and no C# compiler errors or warnings. The project remained
+free of embedded copies and Pipeline. This follow-up reused the isolated project's
+Library and registry cache from the earlier fresh-project verification.
