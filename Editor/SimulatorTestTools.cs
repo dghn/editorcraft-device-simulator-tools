@@ -114,7 +114,7 @@ namespace DeviceSimulatorTools.Editor
                 bool sideways = orientation == ScreenOrientation.LandscapeLeft || orientation == ScreenOrientation.LandscapeRight;
                 var result = new Texture2D(sideways ? ch : cw, sideways ? cw : ch, TextureFormat.RGBA32, false);
                 // Read the imported overlay through the GPU; bundled textures need not be readable.
-                var tmp = RenderTexture.GetTemporary(cw, ch, 0, RenderTextureFormat.ARGB32);
+                var tmp = RenderTexture.GetTemporary(cw, ch, 0, RenderTextureFormat.ARGB32, overlay.isDataSRGB ? RenderTextureReadWrite.sRGB : RenderTextureReadWrite.Linear);
                 var frame = new Texture2D(cw, ch, TextureFormat.RGBA32, false);
                 try
                 {

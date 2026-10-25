@@ -37,6 +37,9 @@ def validate():
             check(Path(str(path) + ".meta").is_file(), f"Missing meta: {relative}")
             continue
         check(Path(str(path)[:-5]).exists(), f"Orphan meta: {relative}")
+        if path.name.endswith('.png.meta'):
+            check(re.search(r'^\s+sRGBTexture: 0$', path.read_text(), re.MULTILINE) is not None,
+                  f"Overlay must disable sRGB decoding for Simulator GUI: {relative}")
         matches = re.findall(r"^guid: ([0-9a-f]{32})$", path.read_text(), re.MULTILINE)
         check(len(matches) == 1, f"Invalid GUID: {relative}")
         for guid in matches:

@@ -5,6 +5,7 @@ using UnityEngine.UIElements;
 namespace DeviceSimulatorTools.Editor
 {
     // Device overlays must cover the rectangular framebuffer outside rounded cases.
+    // Overlay imports disable sRGB decoding for the gamma-space IMGUI renderer.
     // Keep their #383838 backing and the surrounding preview in the same color space,
     // independent of Editor theme and the user's Play Mode tint. No global preferences
     // or game rendering settings are changed. This timer is Editor-only state.

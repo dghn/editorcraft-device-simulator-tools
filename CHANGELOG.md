@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Correct overlay texture color handling in the Simulator GUI to remove dark
+  rectangles outside rounded devices in Linear projects. Preserve raw overlay
+  colors during framed PNG readback and validate the import setting.
+
 - Framed PNG exports now remove the package overlay’s exterior preview backing,
   preserving enclosed gray pixels and keeping Simulator preview rendering intact.
 
