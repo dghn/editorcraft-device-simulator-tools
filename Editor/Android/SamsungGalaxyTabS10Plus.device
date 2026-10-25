@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Samsung Galaxy Tab S10+",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1752,
+      "height": 2800,
+      "dpi": 266,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1752,
+            "height": 2800
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1752,
+            "height": 2800
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2800,
+            "height": 1752
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2800,
+            "height": 1752
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyTabS10Plus.png",
+        "borderSize": {
+          "x": 94,
+          "y": 94,
+          "z": 107,
+          "w": 94
+        },
+        "cornerRadius": 32
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Tab S10+",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

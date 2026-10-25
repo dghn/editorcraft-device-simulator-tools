@@ -1,0 +1,2329 @@
+[
+  {
+    "profile": "iPhone14",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone4",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 14.simdevicetype",
+    "maskSource": "9A0C207C-B633-46E3-ACF9-D32963533173.pdf",
+    "cutout": null,
+    "cornerRadius": 141.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone14"
+  },
+  {
+    "profile": "iPhone14Plus",
+    "width": 1284,
+    "height": 2778,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone5",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 14 Plus.simdevicetype",
+    "maskSource": "B1DBC15F-5F9C-45C7-8C3D-4A3D5602CCFC.pdf",
+    "cutout": null,
+    "cornerRadius": 159.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone14Plus"
+  },
+  {
+    "profile": "iPhone14Pro",
+    "width": 1179,
+    "height": 2556,
+    "borders": [
+      63.0,
+      63.0,
+      63.0,
+      63.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone7",
+    "chromeSizing": {
+      "leftWidth": 21,
+      "rightWidth": 21,
+      "topHeight": 21,
+      "bottomHeight": 21
+    },
+    "nativeDefinition": "iPhone 14 Pro.simdevicetype",
+    "maskSource": "A6AC96E7-C5D3-47A6-8967-A8B2D02F1C66.pdf",
+    "cutout": {
+      "x": 402,
+      "top": 34,
+      "width": 375,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone14Pro"
+  },
+  {
+    "profile": "iPhone14ProMax",
+    "width": 1290,
+    "height": 2796,
+    "borders": [
+      60.0,
+      60.0,
+      60.0,
+      60.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone8",
+    "chromeSizing": {
+      "leftWidth": 20,
+      "rightWidth": 20,
+      "topHeight": 20,
+      "bottomHeight": 20
+    },
+    "nativeDefinition": "iPhone 14 Pro Max.simdevicetype",
+    "maskSource": "35673A77-95F0-41BF-A6EE-BA5C7D4C8C98.pdf",
+    "cutout": {
+      "x": 457,
+      "top": 34,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone14ProMax"
+  },
+  {
+    "profile": "iPhone15",
+    "width": 1179,
+    "height": 2556,
+    "borders": [
+      63.0,
+      63.0,
+      63.0,
+      63.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone7",
+    "chromeSizing": {
+      "leftWidth": 21,
+      "rightWidth": 21,
+      "topHeight": 21,
+      "bottomHeight": 21
+    },
+    "nativeDefinition": "iPhone 15.simdevicetype",
+    "maskSource": "A6AC96E7-C5D3-47A6-8967-A8B2D02F1C66.pdf",
+    "cutout": {
+      "x": 402,
+      "top": 34,
+      "width": 375,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone14Pro"
+  },
+  {
+    "profile": "iPhone15Plus",
+    "width": 1290,
+    "height": 2796,
+    "borders": [
+      60.0,
+      60.0,
+      60.0,
+      60.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone8",
+    "chromeSizing": {
+      "leftWidth": 20,
+      "rightWidth": 20,
+      "topHeight": 20,
+      "bottomHeight": 20
+    },
+    "nativeDefinition": "iPhone 15 Plus.simdevicetype",
+    "maskSource": "35673A77-95F0-41BF-A6EE-BA5C7D4C8C98.pdf",
+    "cutout": {
+      "x": 457,
+      "top": 34,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone14ProMax"
+  },
+  {
+    "profile": "iPhone15Pro",
+    "width": 1179,
+    "height": 2556,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone9",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 15 Pro.simdevicetype",
+    "maskSource": "A6AC96E7-C5D3-47A6-8967-A8B2D02F1C66.pdf",
+    "cutout": {
+      "x": 402,
+      "top": 34,
+      "width": 375,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone15Pro"
+  },
+  {
+    "profile": "iPhone15ProMax",
+    "width": 1290,
+    "height": 2796,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone10",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 15 Pro Max.simdevicetype",
+    "maskSource": "35673A77-95F0-41BF-A6EE-BA5C7D4C8C98.pdf",
+    "cutout": {
+      "x": 457,
+      "top": 34,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone15ProMax"
+  },
+  {
+    "profile": "iPhone16",
+    "width": 1179,
+    "height": 2556,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone9",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 16.simdevicetype",
+    "maskSource": "A6AC96E7-C5D3-47A6-8967-A8B2D02F1C66.pdf",
+    "cutout": {
+      "x": 402,
+      "top": 34,
+      "width": 375,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone15Pro"
+  },
+  {
+    "profile": "iPhone16Plus",
+    "width": 1290,
+    "height": 2796,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone10",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 16 Plus.simdevicetype",
+    "maskSource": "35673A77-95F0-41BF-A6EE-BA5C7D4C8C98.pdf",
+    "cutout": {
+      "x": 457,
+      "top": 34,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 165.0,
+    "homeButton": false,
+    "overlayStem": "iPhone15ProMax"
+  },
+  {
+    "profile": "iPhone16Pro",
+    "width": 1206,
+    "height": 2622,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone11",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 16 Pro.simdevicetype",
+    "maskSource": "4E5532ED-1470-47D1-BDF4-7AA90C26957A.pdf",
+    "cutout": {
+      "x": 415,
+      "top": 42,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone16Pro"
+  },
+  {
+    "profile": "iPhone16ProMax",
+    "width": 1320,
+    "height": 2868,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone12",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 16 Pro Max.simdevicetype",
+    "maskSource": "EB31C0E2-52E0-430E-B4DA-4242D2881AFF.pdf",
+    "cutout": {
+      "x": 472,
+      "top": 42,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone16ProMax"
+  },
+  {
+    "profile": "iPhone16e",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone13",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 16e.simdevicetype",
+    "maskSource": "9A0C207C-B633-46E3-ACF9-D32963533173.pdf",
+    "cutout": null,
+    "cornerRadius": 141.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone16e"
+  },
+  {
+    "profile": "iPhone17",
+    "width": 1206,
+    "height": 2622,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone11",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 17.simdevicetype",
+    "maskSource": "4E5532ED-1470-47D1-BDF4-7AA90C26957A.pdf",
+    "cutout": {
+      "x": 415,
+      "top": 42,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone16Pro"
+  },
+  {
+    "profile": "iPhone17Pro",
+    "width": 1206,
+    "height": 2622,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone11",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 17 Pro.simdevicetype",
+    "maskSource": "4E5532ED-1470-47D1-BDF4-7AA90C26957A.pdf",
+    "cutout": {
+      "x": 415,
+      "top": 42,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone16Pro"
+  },
+  {
+    "profile": "iPhone17ProMax",
+    "width": 1320,
+    "height": 2868,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone12",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 17 Pro Max.simdevicetype",
+    "maskSource": "EB31C0E2-52E0-430E-B4DA-4242D2881AFF.pdf",
+    "cutout": {
+      "x": 472,
+      "top": 42,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone16ProMax"
+  },
+  {
+    "profile": "iPhone17e",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone13",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 17e.simdevicetype",
+    "maskSource": "9A0C207C-B633-46E3-ACF9-D32963533173.pdf",
+    "cutout": null,
+    "cornerRadius": 141.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone16e"
+  },
+  {
+    "profile": "iPhone18Pro",
+    "width": 1206,
+    "height": 2622,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone11",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 18 Pro.simdevicetype",
+    "maskSource": "4E5532ED-1470-47D1-BDF4-7AA90C26957A.pdf",
+    "cutout": {
+      "x": 461,
+      "top": 42,
+      "width": 284,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone18Pro"
+  },
+  {
+    "profile": "iPhone18ProMax",
+    "width": 1320,
+    "height": 2868,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone12",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone 18 Pro Max.simdevicetype",
+    "maskSource": "EB31C0E2-52E0-430E-B4DA-4242D2881AFF.pdf",
+    "cutout": {
+      "x": 518,
+      "top": 42,
+      "width": 284,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhone18ProMax"
+  },
+  {
+    "profile": "iPhoneAir",
+    "width": 1260,
+    "height": 2736,
+    "borders": [
+      54.0,
+      54.0,
+      54.0,
+      54.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone12",
+    "chromeSizing": {
+      "leftWidth": 18,
+      "rightWidth": 18,
+      "topHeight": 18,
+      "bottomHeight": 18
+    },
+    "nativeDefinition": "iPhone Air.simdevicetype",
+    "maskSource": "1506CF9E-8F5F-48D9-91CA-E852368519A5.pdf",
+    "cutout": {
+      "x": 442,
+      "top": 60,
+      "width": 376,
+      "height": 110,
+      "kind": "island"
+    },
+    "cornerRadius": 186.0,
+    "homeButton": false,
+    "overlayStem": "iPhoneAir"
+  },
+  {
+    "profile": "iPhoneDuoInner",
+    "width": 2007,
+    "height": 2853,
+    "borders": [
+      51.0,
+      51.0,
+      51.0,
+      51.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone14",
+    "chromeSizing": {
+      "leftWidth": 17,
+      "rightWidth": 17,
+      "topHeight": 17,
+      "bottomHeight": 17
+    },
+    "nativeDefinition": "iPhone Duo.simdevicetype",
+    "maskSource": "BF0DC480-5EE2-4EC1-B02B-C75E94759832.pdf",
+    "cutout": null,
+    "cornerRadius": 177.0,
+    "homeButton": false,
+    "overlayStem": "iPhoneDuoInner"
+  },
+  {
+    "profile": "iPhoneDuoOuter",
+    "width": 1398,
+    "height": 2034,
+    "borders": [
+      78.0,
+      42.0,
+      66.0,
+      42.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone15",
+    "chromeSizing": {
+      "leftWidth": 26,
+      "rightWidth": 22,
+      "topHeight": 14,
+      "bottomHeight": 14
+    },
+    "nativeDefinition": "iPhone Duo.simdevicetype",
+    "maskSource": "1C896A2B-F0D7-405C-8D0F-66E4B80AD044.pdf",
+    "cutout": {
+      "x": 1199,
+      "top": 88,
+      "width": 111,
+      "height": 111,
+      "kind": "corner-camera"
+    },
+    "cornerRadius": 177.0,
+    "homeButton": false,
+    "overlayStem": "iPhoneDuoOuter"
+  },
+  {
+    "profile": "iPad10thgeneration",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad (10th generation).simdevicetype",
+    "maskSource": "754CDA4B-0CAF-4DFF-ABD4-2BDF5F0FA239.pdf",
+    "cutout": null,
+    "cornerRadius": 50.0,
+    "homeButton": false,
+    "overlayStem": "iPad10thgeneration"
+  },
+  {
+    "profile": "iPad5thgeneration",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad (5th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPad6thgeneration",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad (6th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPad7thgeneration",
+    "width": 1620,
+    "height": 2160,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad (7th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad7thgeneration"
+  },
+  {
+    "profile": "iPad8thgeneration",
+    "width": 1620,
+    "height": 2160,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad (8th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad7thgeneration"
+  },
+  {
+    "profile": "iPad9thgeneration",
+    "width": 1620,
+    "height": 2160,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad (9th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad7thgeneration"
+  },
+  {
+    "profile": "iPadA16",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad (A16).simdevicetype",
+    "maskSource": "754CDA4B-0CAF-4DFF-ABD4-2BDF5F0FA239.pdf",
+    "cutout": null,
+    "cornerRadius": 50.0,
+    "homeButton": false,
+    "overlayStem": "iPad10thgeneration"
+  },
+  {
+    "profile": "iPadAir",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadAir11inchM2",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 11-inch (M2).simdevicetype",
+    "maskSource": "1D05B7BF-7313-48A6-B2DF-964AAE76A0DC.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir11inchM2"
+  },
+  {
+    "profile": "iPadAir11inchM3",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 11-inch (M3).simdevicetype",
+    "maskSource": "1D05B7BF-7313-48A6-B2DF-964AAE76A0DC.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir11inchM2"
+  },
+  {
+    "profile": "iPadAir11inchM4",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 11-inch (M4).simdevicetype",
+    "maskSource": "1D05B7BF-7313-48A6-B2DF-964AAE76A0DC.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir11inchM2"
+  },
+  {
+    "profile": "iPadAir13inchM2",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 13-inch (M2).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir13inchM2"
+  },
+  {
+    "profile": "iPadAir13inchM3",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 13-inch (M3).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir13inchM2"
+  },
+  {
+    "profile": "iPadAir13inchM4",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      118.0,
+      118.0,
+      118.0,
+      118.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet4",
+    "chromeSizing": {
+      "leftWidth": 59,
+      "rightWidth": 59,
+      "topHeight": 59,
+      "bottomHeight": 59
+    },
+    "nativeDefinition": "iPad Air 13-inch (M4).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir13inchM2"
+  },
+  {
+    "profile": "iPadAir2",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Air 2.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadAir3rdgeneration",
+    "width": 1668,
+    "height": 2224,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Air (3rd generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPadAir3rdgeneration"
+  },
+  {
+    "profile": "iPadAir4thgeneration",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Air (4th generation).simdevicetype",
+    "maskSource": "1D05B7BF-7313-48A6-B2DF-964AAE76A0DC.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir4thgeneration"
+  },
+  {
+    "profile": "iPadAir5thgeneration",
+    "width": 1640,
+    "height": 2360,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Air (5th generation).simdevicetype",
+    "maskSource": "1D05B7BF-7313-48A6-B2DF-964AAE76A0DC.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadAir4thgeneration"
+  },
+  {
+    "profile": "iPadPro105inch",
+    "width": 1668,
+    "height": 2224,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Pro (10.5-inch).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPadPro105inch"
+  },
+  {
+    "profile": "iPadPro11inch1stgeneration",
+    "width": 1668,
+    "height": 2388,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (11-inch) (1st generation).simdevicetype",
+    "maskSource": "908A9FB5-D2CC-471E-92A3-07FCE60995E7.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro11inch2ndgeneration",
+    "width": 1668,
+    "height": 2388,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (11-inch) (2nd generation).simdevicetype",
+    "maskSource": "908A9FB5-D2CC-471E-92A3-07FCE60995E7.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro11inch3rdgeneration",
+    "width": 1668,
+    "height": 2388,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (11-inch) (3rd generation).simdevicetype",
+    "maskSource": "908A9FB5-D2CC-471E-92A3-07FCE60995E7.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro11inch4thgeneration",
+    "width": 1668,
+    "height": 2388,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (11-inch) (4th generation).simdevicetype",
+    "maskSource": "908A9FB5-D2CC-471E-92A3-07FCE60995E7.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro11inchM4",
+    "width": 1668,
+    "height": 2420,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet5",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro 11-inch (M4).simdevicetype",
+    "maskSource": "DF237373-464C-4A7C-88D4-AE0B96509CE2.pdf",
+    "cutout": null,
+    "cornerRadius": 60.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inchM4"
+  },
+  {
+    "profile": "iPadPro11inchM5",
+    "width": 1668,
+    "height": 2420,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet5",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro 11-inch (M5).simdevicetype",
+    "maskSource": "DF237373-464C-4A7C-88D4-AE0B96509CE2.pdf",
+    "cutout": null,
+    "cornerRadius": 60.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro11inchM4"
+  },
+  {
+    "profile": "iPadPro129inch1stgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (1st generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPadPro129inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro129inch2ndgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (2nd generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPadPro129inch1stgeneration"
+  },
+  {
+    "profile": "iPadPro129inch3rdgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (3rd generation).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro129inch3rdgeneration"
+  },
+  {
+    "profile": "iPadPro129inch4thgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (4th generation).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro129inch3rdgeneration"
+  },
+  {
+    "profile": "iPadPro129inch5thgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (5th generation).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro129inch3rdgeneration"
+  },
+  {
+    "profile": "iPadPro129inch6thgeneration",
+    "width": 2048,
+    "height": 2732,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet2",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro (12.9-inch) (6th generation).simdevicetype",
+    "maskSource": "BC6B4A41-D24A-4850-B94A-B1C8D3AD62A5.pdf",
+    "cutout": null,
+    "cornerRadius": 36.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro129inch3rdgeneration"
+  },
+  {
+    "profile": "iPadPro13inchM4",
+    "width": 2064,
+    "height": 2752,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet5",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro 13-inch (M4).simdevicetype",
+    "maskSource": "75FF89F9-07DA-41E1-B66E-9AC4AF726865.pdf",
+    "cutout": null,
+    "cornerRadius": 60.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro13inchM4"
+  },
+  {
+    "profile": "iPadPro13inchM5",
+    "width": 2064,
+    "height": 2752,
+    "borders": [
+      92.0,
+      92.0,
+      92.0,
+      92.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet5",
+    "chromeSizing": {
+      "leftWidth": 46,
+      "rightWidth": 46,
+      "topHeight": 46,
+      "bottomHeight": 46
+    },
+    "nativeDefinition": "iPad Pro 13-inch (M5).simdevicetype",
+    "maskSource": "75FF89F9-07DA-41E1-B66E-9AC4AF726865.pdf",
+    "cutout": null,
+    "cornerRadius": 60.0,
+    "homeButton": false,
+    "overlayStem": "iPadPro13inchM4"
+  },
+  {
+    "profile": "iPadPro97inch",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad Pro (9.7-inch).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadmini2",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadmini3",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadmini4",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad mini 4.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadmini5thgeneration",
+    "width": 1536,
+    "height": 2048,
+    "borders": [
+      94.0,
+      166.0,
+      94.0,
+      166.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet",
+    "chromeSizing": {
+      "leftWidth": 47,
+      "rightWidth": 47,
+      "topHeight": 83,
+      "bottomHeight": 83
+    },
+    "nativeDefinition": "iPad mini (5th generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPad5thgeneration"
+  },
+  {
+    "profile": "iPadmini6thgeneration",
+    "width": 1488,
+    "height": 2266,
+    "borders": [
+      120.0,
+      120.0,
+      120.0,
+      120.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet3",
+    "chromeSizing": {
+      "leftWidth": 60,
+      "rightWidth": 60,
+      "topHeight": 60,
+      "bottomHeight": 60
+    },
+    "nativeDefinition": "iPad mini (6th generation).simdevicetype",
+    "maskSource": "6C3E86A6-7852-4766-A147-E3A56F876E82.pdf",
+    "cutout": null,
+    "cornerRadius": 43.0,
+    "homeButton": false,
+    "overlayStem": "iPadmini6thgeneration"
+  },
+  {
+    "profile": "iPadminiA17Pro",
+    "width": 1488,
+    "height": 2266,
+    "borders": [
+      120.0,
+      120.0,
+      120.0,
+      120.0
+    ],
+    "scale": 2.0,
+    "chrome": "tablet3",
+    "chromeSizing": {
+      "leftWidth": 60,
+      "rightWidth": 60,
+      "topHeight": 60,
+      "bottomHeight": 60
+    },
+    "nativeDefinition": "iPad mini (A17 Pro).simdevicetype",
+    "maskSource": "6C3E86A6-7852-4766-A147-E3A56F876E82.pdf",
+    "cutout": null,
+    "cornerRadius": 43.0,
+    "homeButton": false,
+    "overlayStem": "iPadmini6thgeneration"
+  },
+  {
+    "profile": "iPhone11",
+    "width": 828,
+    "height": 1792,
+    "borders": [
+      58.0,
+      58.0,
+      58.0,
+      58.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone6",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone 11.simdevicetype",
+    "maskSource": "CF4D2A10-AD99-4D36-9EBF-60624FCB23A1.pdf",
+    "cutout": null,
+    "cornerRadius": 83.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11"
+  },
+  {
+    "profile": "iPhone11Pro",
+    "width": 1125,
+    "height": 2436,
+    "borders": [
+      87.0,
+      87.0,
+      87.0,
+      87.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone2",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone 11 Pro.simdevicetype",
+    "maskSource": "CF2CF315-9771-445B-92C3-7F621428FAE8.pdf",
+    "cutout": null,
+    "cornerRadius": 117.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11Pro"
+  },
+  {
+    "profile": "iPhone11ProMax",
+    "width": 1242,
+    "height": 2688,
+    "borders": [
+      87.0,
+      87.0,
+      87.0,
+      87.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone2",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone 11 Pro Max.simdevicetype",
+    "maskSource": "92FAD0AB-92B1-4B31-8139-CA5C342FA022.pdf",
+    "cutout": null,
+    "cornerRadius": 117.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11ProMax"
+  },
+  {
+    "profile": "iPhone12",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone4",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 12.simdevicetype",
+    "maskSource": "C97EA923-E28B-451F-9811-98D8F88F27C2.pdf",
+    "cutout": null,
+    "cornerRadius": 141.0,
+    "homeButton": false,
+    "overlayStem": "iPhone12"
+  },
+  {
+    "profile": "iPhone12Pro",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone4",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 12 Pro.simdevicetype",
+    "maskSource": "C97EA923-E28B-451F-9811-98D8F88F27C2.pdf",
+    "cutout": null,
+    "cornerRadius": 141.0,
+    "homeButton": false,
+    "overlayStem": "iPhone12"
+  },
+  {
+    "profile": "iPhone12ProMax",
+    "width": 1284,
+    "height": 2778,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone5",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 12 Pro Max.simdevicetype",
+    "maskSource": "FD5FF41B-8FF7-4AFC-8F61-A8EC5F8E72FA.pdf",
+    "cutout": null,
+    "cornerRadius": 159.0,
+    "homeButton": false,
+    "overlayStem": "iPhone12ProMax"
+  },
+  {
+    "profile": "iPhone12mini",
+    "width": 1080,
+    "height": 2340,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone3",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 12 mini.simdevicetype",
+    "maskSource": "B189ED7C-CF48-4E4D-B70B-1BD1F1C1C007.pdf",
+    "cutout": null,
+    "cornerRadius": 132.0,
+    "homeButton": false,
+    "overlayStem": "iPhone12mini"
+  },
+  {
+    "profile": "iPhone13",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone4",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 13.simdevicetype",
+    "maskSource": "9A0C207C-B633-46E3-ACF9-D32963533173.pdf",
+    "cutout": null,
+    "cornerRadius": 141.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone14"
+  },
+  {
+    "profile": "iPhone13Pro",
+    "width": 1170,
+    "height": 2532,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone4",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 13 Pro.simdevicetype",
+    "maskSource": "9A0C207C-B633-46E3-ACF9-D32963533173.pdf",
+    "cutout": null,
+    "cornerRadius": 141.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone14"
+  },
+  {
+    "profile": "iPhone13ProMax",
+    "width": 1284,
+    "height": 2778,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone5",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 13 Pro Max.simdevicetype",
+    "maskSource": "B1DBC15F-5F9C-45C7-8C3D-4A3D5602CCFC.pdf",
+    "cutout": null,
+    "cornerRadius": 159.99999618530273,
+    "homeButton": false,
+    "overlayStem": "iPhone14Plus"
+  },
+  {
+    "profile": "iPhone13mini",
+    "width": 1080,
+    "height": 2340,
+    "borders": [
+      66.0,
+      66.0,
+      66.0,
+      66.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone3",
+    "chromeSizing": {
+      "leftWidth": 22,
+      "rightWidth": 22,
+      "topHeight": 22,
+      "bottomHeight": 22
+    },
+    "nativeDefinition": "iPhone 13 mini.simdevicetype",
+    "maskSource": "51C7C897-7BB5-4A78-A961-D382E90D9C5F.pdf",
+    "cutout": null,
+    "cornerRadius": 132.0,
+    "homeButton": false,
+    "overlayStem": "iPhone13mini"
+  },
+  {
+    "profile": "iPhone5s",
+    "width": 640,
+    "height": 1136,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone5s"
+  },
+  {
+    "profile": "iPhone6",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhone6Plus",
+    "width": 1080,
+    "height": 1920,
+    "borders": [
+      84.0,
+      333.0,
+      84.0,
+      333.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": null,
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6Plus"
+  },
+  {
+    "profile": "iPhone6s",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 6s.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhone6sPlus",
+    "width": 1080,
+    "height": 1920,
+    "borders": [
+      84.0,
+      333.0,
+      84.0,
+      333.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 6s Plus.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6Plus"
+  },
+  {
+    "profile": "iPhone7",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 7.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhone7Plus",
+    "width": 1080,
+    "height": 1920,
+    "borders": [
+      84.0,
+      333.0,
+      84.0,
+      333.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 7 Plus.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6Plus"
+  },
+  {
+    "profile": "iPhone8",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 8.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhone8Plus",
+    "width": 1080,
+    "height": 1920,
+    "borders": [
+      84.0,
+      333.0,
+      84.0,
+      333.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone 8 Plus.simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6Plus"
+  },
+  {
+    "profile": "iPhoneSE1stgeneration",
+    "width": 640,
+    "height": 1136,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone SE (1st generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone5s"
+  },
+  {
+    "profile": "iPhoneSE2ndgeneration",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone SE (2nd generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhoneSE3rdgeneration",
+    "width": 750,
+    "height": 1334,
+    "borders": [
+      56.0,
+      222.0,
+      56.0,
+      222.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone",
+    "chromeSizing": {
+      "leftWidth": 28,
+      "rightWidth": 28,
+      "topHeight": 111,
+      "bottomHeight": 111
+    },
+    "nativeDefinition": "iPhone SE (3rd generation).simdevicetype",
+    "maskSource": null,
+    "cutout": null,
+    "cornerRadius": 0,
+    "homeButton": true,
+    "overlayStem": "iPhone6"
+  },
+  {
+    "profile": "iPhoneX",
+    "width": 1125,
+    "height": 2436,
+    "borders": [
+      87.0,
+      87.0,
+      87.0,
+      87.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone2",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone X.simdevicetype",
+    "maskSource": "CF2CF315-9771-445B-92C3-7F621428FAE8.pdf",
+    "cutout": null,
+    "cornerRadius": 117.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11Pro"
+  },
+  {
+    "profile": "iPhoneXR",
+    "width": 828,
+    "height": 1792,
+    "borders": [
+      58.0,
+      58.0,
+      58.0,
+      58.0
+    ],
+    "scale": 2.0,
+    "chrome": "phone6",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone Xʀ.simdevicetype",
+    "maskSource": "CF4D2A10-AD99-4D36-9EBF-60624FCB23A1.pdf",
+    "cutout": null,
+    "cornerRadius": 83.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11"
+  },
+  {
+    "profile": "iPhoneXs",
+    "width": 1125,
+    "height": 2436,
+    "borders": [
+      87.0,
+      87.0,
+      87.0,
+      87.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone2",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone Xs.simdevicetype",
+    "maskSource": "CF2CF315-9771-445B-92C3-7F621428FAE8.pdf",
+    "cutout": null,
+    "cornerRadius": 117.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11Pro"
+  },
+  {
+    "profile": "iPhoneXsMax",
+    "width": 1242,
+    "height": 2688,
+    "borders": [
+      87.0,
+      87.0,
+      87.0,
+      87.0
+    ],
+    "scale": 3.0,
+    "chrome": "phone2",
+    "chromeSizing": {
+      "leftWidth": 29,
+      "rightWidth": 29,
+      "topHeight": 29,
+      "bottomHeight": 29
+    },
+    "nativeDefinition": "iPhone Xs Max.simdevicetype",
+    "maskSource": "92FAD0AB-92B1-4B31-8139-CA5C342FA022.pdf",
+    "cutout": null,
+    "cornerRadius": 117.0,
+    "homeButton": false,
+    "overlayStem": "iPhone11ProMax"
+  }
+]

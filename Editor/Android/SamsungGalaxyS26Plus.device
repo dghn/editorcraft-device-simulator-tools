@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S26+",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3120,
+      "dpi": 516,
+      "navigationBarHeight": 155,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 2999
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 680,
+              "y": 3001,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 121,
+            "width": 1440,
+            "height": 2999
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 680,
+              "y": 39,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 121,
+            "y": 0,
+            "width": 2999,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 39,
+              "y": 680,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2999,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 3001,
+              "y": 680,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS26Plus.png",
+        "borderSize": {
+          "x": 55,
+          "y": 55,
+          "z": 66,
+          "w": 55
+        },
+        "cornerRadius": 140
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S26+",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

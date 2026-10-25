@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone 16 Plus",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1290,
+      "height": 2796,
+      "dpi": 460.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1290.0,
+            "height": 2517.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 177.0,
+            "y": 60.0,
+            "width": 2442.0,
+            "height": 1230.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 177.0,
+            "y": 60.0,
+            "width": 2442.0,
+            "height": 1230.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone15ProMax.png",
+        "borderSize": {
+          "x": 54.0,
+          "y": 54.0,
+          "z": 54.0,
+          "w": 54.0
+        },
+        "cornerRadius": 165.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone17,4",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

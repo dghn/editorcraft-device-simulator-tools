@@ -1,0 +1,2054 @@
+[
+  {
+    "id": "SamsungGalaxyS25",
+    "name": "Samsung Galaxy S25",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 416,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "topInset": 89,
+    "navigationBarHeight": 144,
+    "cameraDiameter": 59,
+    "cameraTop": 28,
+    "cornerRadius": 110,
+    "border": 38,
+    "nativeSkin": "Galaxy_S25",
+    "cutout": [
+      510,
+      28,
+      59,
+      59
+    ],
+    "nativeBack": "device_Port.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      256,
+      246,
+      1186,
+      2447
+    ],
+    "nativeBody": [
+      260,
+      250,
+      1166,
+      2439,
+      180
+    ],
+    "nativeDisplayOffset": [
+      306,
+      294
+    ],
+    "borders": [
+      50,
+      48,
+      56,
+      59
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1424,
+        "y": 692
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1424,
+        "y": 865
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1424,
+        "y": 1188
+      }
+    ],
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "sourceHashes": {
+      "layout": "019aac15a97504141631a30186619c00bfd14b90e9d9eb20f9349690cfab6d6c",
+      "device_Port.png": "8e8ab388f2f29a25d1c975b5a731367c547fb60bca35d861a207e31143249eab",
+      "fore_port.png": "1fcb108e1d2ee40c6810d1173a3482fd11434af4941e7e2bb0f4dda13dd4bd54",
+      "rocker_up.png": "b7ab074be91d1679cc190823b300c798e8699e943d1bf449c36b501b2eff0d5d",
+      "rocker_down.png": "4a78d3307bfa32d8164f84f2587a3c867f722ab1a5cb1c8d72943f6c6eead6c4",
+      "rocker_power.png": "ca1917c33ea0dac796276d8fc0ee7198b0795b302c4d8956c0ad36ad23ab08c6"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/8808cd45-9deb-45ec-a712-e825a9c72ac6"
+  },
+  {
+    "id": "SamsungGalaxyS25Plus",
+    "name": "Samsung Galaxy S25+",
+    "width": 1440,
+    "height": 3120,
+    "dpi": 513,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "topInset": 106,
+    "navigationBarHeight": 192,
+    "cameraDiameter": 69,
+    "cameraTop": 35,
+    "cornerRadius": 145,
+    "border": 51,
+    "nativeSkin": "Galaxy_S25_Plus",
+    "cutout": [
+      686,
+      35,
+      69,
+      69
+    ],
+    "nativeBack": "device_Port.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      206,
+      196,
+      1590,
+      3266
+    ],
+    "nativeBody": [
+      210,
+      200,
+      1570,
+      3258,
+      180
+    ],
+    "nativeDisplayOffset": [
+      274,
+      263
+    ],
+    "borders": [
+      68,
+      67,
+      82,
+      79
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1775,
+        "y": 783
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1775,
+        "y": 998
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1775,
+        "y": 1393
+      }
+    ],
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "sourceHashes": {
+      "layout": "eca532c1fcb1bf18b62c6d286228be2a61632dddf2483be6641dde0e1369ac1b",
+      "device_Port.png": "fd16a22340e9144a8c340f75ed1f9b822cdead75e9f41eb2ff39da453d0615a0",
+      "fore_port.png": "ceb68f04df046951a44e07da05d4e621e307e71e30ace222d87fddba42c4c632",
+      "rocker_up.png": "d133dacbb62ac22e1ac118e2d3c8c1a68b08ac2217afaad1a63f3cb1bd6f16e8",
+      "rocker_down.png": "ac7d321ab6ac2eefba292e5402428f7fdce6189a1e852647b1b9fd08f3b02bc7",
+      "rocker_power.png": "9d908618edebf02cd06eb504c487c1278f192863b3be8b439c10c7a2ba939f5a"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/00e3fb12-c8bc-4bf5-8258-14cd105f605b"
+  },
+  {
+    "id": "SamsungGalaxyS25Ultra",
+    "name": "Samsung Galaxy S25 Ultra",
+    "width": 1440,
+    "height": 3120,
+    "dpi": 498,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://images.samsung.com/is/content/samsung/assets/global/ir/docs/2025_3Q_Interim_Report.pdf",
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "topInset": 106,
+    "navigationBarHeight": 192,
+    "cameraDiameter": 70,
+    "cameraTop": 35,
+    "cornerRadius": 65,
+    "border": 51,
+    "nativeSkin": "Galaxy_S25_Ultra",
+    "cutout": [
+      685,
+      35,
+      70,
+      69
+    ],
+    "nativeBack": "device_Port-TitaniumBlack.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1552,
+      3226
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1532,
+      3218,
+      128
+    ],
+    "nativeDisplayOffset": [
+      206,
+      197
+    ],
+    "borders": [
+      50,
+      51,
+      62,
+      55
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1693,
+        "y": 764
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1693,
+        "y": 976
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1693,
+        "y": 1371
+      }
+    ],
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "sourceHashes": {
+      "layout": "e5db05ad09a95d247170c72375823556df0bf3c4bc02cf774105455880d88083",
+      "device_Port-TitaniumBlack.png": "c10043fee8c28e832e6778c70bd041322982b7dad30cce10d26eba1287a659ee",
+      "fore_port.png": "817948a894e9015d4d75f19eed7bec9534332b9bae41b6ab41dd0ebabf8cf326",
+      "rocker_up.png": "b1393396baab2aa5ede1f0162275b926c018c2ee8c95ca936fc3eb59d5557f5b",
+      "rocker_down.png": "fc6eaa1966ffdd5b2819d10bb67ef4aef2769d4021fc663d98046c01eb02796e",
+      "rocker_power.png": "c772196270d5475d51567c7b5d96058fc0c3be6e20956def71816fa41e98773c"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/db02c1df-2fb3-4cc0-aa11-74337078f719"
+  },
+  {
+    "id": "SamsungGalaxyA55",
+    "name": "Samsung Galaxy A55 5G",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 390,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://images.samsung.com.cn/is/content/samsung/assets/global/ir/docs/2024_4Q_Interim_Report.pdf",
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "topInset": 91,
+    "navigationBarHeight": 144,
+    "cameraDiameter": 61,
+    "cameraTop": 30,
+    "cornerRadius": 95,
+    "border": 38,
+    "nativeSkin": "Galaxy_A55_5G",
+    "cutout": [
+      509,
+      30,
+      61,
+      59
+    ],
+    "nativeBack": "device_Port-AwesomeNavy.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1208,
+      2488
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1188,
+      2480,
+      180
+    ],
+    "nativeDisplayOffset": [
+      214,
+      214
+    ],
+    "borders": [
+      58,
+      68,
+      70,
+      80
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1351,
+        "y": 585
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1351,
+        "y": 739
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1351,
+        "y": 1031
+      }
+    ],
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-a.html",
+    "sourceHashes": {
+      "layout": "0b6d7e471c52195f67e3e7196fe3e5e4da97ace673eb7d7ee84591778284883a",
+      "device_Port-AwesomeNavy.png": "ee3715c1bc45510049509f24577f6559cbe5beb738e59fea9f0decb4c31fe911",
+      "fore_port.png": "a977cc582e8e4b8d34591cc1f74cf73852c94b86efc3178732a99862960ab60f",
+      "rocker_up.png": "a23e360ae3456fb0bf0acca9c8c4ecb80e7aaba79deb8bf77358262b503184d5",
+      "rocker_down.png": "436ee533b485ed943f7afdb53d2e827b2157584042c9569a6d70f4660f52c8c4",
+      "rocker_power.png": "6c775a4d253487e57a2b620c339174df4597b65635c25db6c57fd2dad97f4bb2"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/53804df0-a26a-4e18-900f-409d1c71b822"
+  },
+  {
+    "id": "SamsungGalaxyA56",
+    "name": "Samsung Galaxy A56 5G",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 385,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://www.samsung.com/uk/smartphones/galaxy-a/galaxy-a56-5g-awesome-graphite-256gb-sm-a566bzkceub/",
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "topInset": 87,
+    "navigationBarHeight": 144,
+    "cameraDiameter": 54,
+    "cameraTop": 31,
+    "cornerRadius": 100,
+    "border": 38,
+    "nativeSkin": "Galaxy_A56_5G",
+    "cutout": [
+      513,
+      31,
+      54,
+      54
+    ],
+    "nativeBack": "device_Port-AwesomeGraphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1193,
+      2463
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1173,
+      2455,
+      180
+    ],
+    "nativeDisplayOffset": [
+      205,
+      199
+    ],
+    "borders": [
+      49,
+      53,
+      64,
+      70
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1333,
+        "y": 564
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1333,
+        "y": 724
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1333,
+        "y": 1026
+      }
+    ],
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-a.html",
+    "sourceHashes": {
+      "layout": "be59ef0982b8a99697d6c3cc771e898e828b70c896b1e01af654f9ea32bb20dd",
+      "device_Port-AwesomeGraphite.png": "c72f2ed7ec09ff4e3a2563cb96b46ddb2a5e3d350cb136b46487d59486702901",
+      "fore_port.png": "4613863df43100bd7fa94d7a10d9eed8356ba5a642f99ffd086727fab1c76217",
+      "rocker_up.png": "3a769550086f1cbc960d26ea239ac4f8ccb176623e6f852b6df65d0fb3e91640",
+      "rocker_down.png": "7f492de105a7eea9c2e9deaf8ebdda17139dd87d1cade37f7b671536503d4f35",
+      "rocker_power.png": "9ee0e5857c26598199f48d4f5698e651a60b4a233d97a2fb3be1fe0fb4d37ae3"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/06da2daa-d54f-42b8-beae-7e874b016e5e"
+  },
+  {
+    "id": "GooglePixel9",
+    "name": "Google Pixel 9",
+    "width": 1080,
+    "height": 2424,
+    "dpi": 421,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 128,
+    "navigationBarHeight": 144,
+    "cameraDiameter": 80,
+    "cameraTop": 46,
+    "cornerRadius": 87,
+    "border": 38,
+    "nativeSkin": "pixel_9",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_9/",
+    "borders": [
+      55,
+      58,
+      63,
+      49
+    ],
+    "sourceHashes": {
+      "layout": "fd024b14e9d7c38042be3d2bd4dad0e93fb3d6cfe0e1884a1d15d23063103e4a",
+      "back.webp": "d8ed1bcf314de2c293ee7ba7744349fa9233d24d47798189f9660369cae16f2d",
+      "mask.webp": "6f4fb00c5147da694c4d0b3c45c0b580db94b81b77528985b6f30e4c944f1ac4"
+    }
+  },
+  {
+    "id": "GooglePixel9Pro",
+    "name": "Google Pixel 9 Pro",
+    "width": 1280,
+    "height": 2856,
+    "dpi": 497,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 151,
+    "navigationBarHeight": 171,
+    "cameraDiameter": 94,
+    "cameraTop": 55,
+    "cornerRadius": 109,
+    "border": 45,
+    "nativeSkin": "pixel_9_pro",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_9_pro/",
+    "borders": [
+      60,
+      61,
+      68,
+      57
+    ],
+    "sourceHashes": {
+      "layout": "c1c8ec185ef5c64082f94eb3b5937a3e788d3ee74e98fd072cdc28c9e71f79c7",
+      "back.webp": "f4f11252c4b97eadcfc82178fd56f8f73aa088036055ed040879a30e8854b715",
+      "mask.webp": "c1c2f5575e9c51a68b0e470e769e6058c65b2a7b64c696b0312871b221288c8b"
+    }
+  },
+  {
+    "id": "GooglePixel9ProXL",
+    "name": "Google Pixel 9 Pro XL",
+    "width": 1344,
+    "height": 2992,
+    "dpi": 482,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://support.google.com/pixelphone/answer/7158570?hl=en",
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 147,
+    "navigationBarHeight": 179,
+    "cameraDiameter": 94,
+    "cameraTop": 51,
+    "cornerRadius": 108,
+    "border": 47,
+    "nativeSkin": "pixel_9_pro_xl",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_9_pro_xl/",
+    "borders": [
+      57,
+      56,
+      65,
+      53
+    ],
+    "sourceHashes": {
+      "layout": "d69eff621c95658d0af8c8b9fd129f934f513ad38f762966953bb572223b9d8c",
+      "back.webp": "c8b43443d7e4512937feb0d613bcdf8b4f35f828f1c88c08c1e762bf2674cf7c",
+      "mask.webp": "252672b62f74d9a46df58d22c2afb3ad26a57bfdac1a1a21f3bf7984c998188f"
+    }
+  },
+  {
+    "id": "GooglePixel10",
+    "name": "Google Pixel 10",
+    "width": 1080,
+    "height": 2424,
+    "dpi": 421,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://store.google.com/product/pixel_10_specs?hl=en-US",
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 130,
+    "navigationBarHeight": 144,
+    "cameraDiameter": 78,
+    "cameraTop": 50,
+    "cornerRadius": 87,
+    "border": 38,
+    "nativeSkin": "pixel_10",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_10/",
+    "borders": [
+      59,
+      55,
+      59,
+      52
+    ],
+    "sourceHashes": {
+      "layout": "fa856e1054696fef3a30a914461becac4aa7751f17a19e5d7861ff68eacf2cda",
+      "back.webp": "40b5a80d374bbd1160db38612dbdd2c9c053124d705530e4025640831354144c",
+      "mask.webp": "c707fc9497744c9d3b3a3d255821eb8321606f24e120ce9b554934567ad7df41"
+    }
+  },
+  {
+    "id": "Xiaomi15",
+    "name": "Xiaomi 15",
+    "width": 1200,
+    "height": 2670,
+    "dpi": 460,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://www.mi.com/ae-en/product/xiaomi-15/specs/",
+    "geometryStatus": "Approximate, not measured on physical device",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 107,
+    "navigationBarHeight": 160,
+    "cameraDiameter": 47,
+    "cameraTop": 31,
+    "cornerRadius": 135,
+    "border": 42
+  },
+  {
+    "id": "RedmiNote14Pro5G",
+    "name": "Xiaomi Redmi Note 14 Pro 5G",
+    "width": 1220,
+    "height": 2712,
+    "dpi": 446,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://www.mi.com/ae-en/product/redmi-note-14-pro-5g/specs/",
+    "geometryStatus": "Approximate, not measured on physical device",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 108,
+    "navigationBarHeight": 163,
+    "cameraDiameter": 47,
+    "cameraTop": 32,
+    "cornerRadius": 125,
+    "border": 43
+  },
+  {
+    "id": "OnePlus13",
+    "name": "OnePlus 13",
+    "width": 1440,
+    "height": 3168,
+    "dpi": 510,
+    "dpiBasis": "Calculated from published diagonal and native resolution; not Android logical density",
+    "resolutionSource": "https://www.oneplus.com/global/13/specs",
+    "geometryStatus": "Approximate, not measured on physical device",
+    "safeAreaMode": "Immersive full-screen, system bars hidden; estimated camera exclusion",
+    "topInset": 128,
+    "navigationBarHeight": 192,
+    "cameraDiameter": 56,
+    "cameraTop": 37,
+    "cornerRadius": 155,
+    "border": 51
+  },
+  {
+    "id": "GooglePixelTablet",
+    "name": "Google Pixel Tablet",
+    "width": 1600,
+    "height": 2560,
+    "dpi": 276,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://store.google.com/product/pixel_tablet_specs",
+    "geometryStatus": "Native Android Studio landscape skin rotated to portrait; immersive safe rectangle",
+    "safeAreaMode": "Immersive full-screen, no display cutout, system bars hidden",
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "cornerRadius": 0,
+    "border": 119,
+    "borders": [
+      120,
+      119,
+      117,
+      119
+    ],
+    "nativeSkin": "pixel_tablet",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_tablet/",
+    "sourceHashes": {
+      "layout": "b7bbbf3b6669fa162517553fd01becca4def3b6070c550b25581d59a74ca291e",
+      "back.webp": "d692ee75a15ce7222738f4ce0729f5d4035a167ba574fac3c618e40981f6e057",
+      "mask.webp": "c27107c4d52f5eb0b55dd3bc0e376fa5d22d5ab698a796ee32e316180a6124dd"
+    },
+    "tablet": true
+  },
+  {
+    "id": "SamsungGalaxyTabS9",
+    "name": "Samsung Galaxy Tab S9",
+    "nativeSkin": "Galaxy_Tab_S9",
+    "width": 1600,
+    "height": 2560,
+    "dpi": 274,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "tablet": true,
+    "border": 80,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1821,
+      2768
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1801,
+      2760,
+      90
+    ],
+    "nativeDisplayOffset": [
+      261,
+      250
+    ],
+    "borders": [
+      105,
+      104,
+      116,
+      104
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1959,
+        "y": 856
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1959,
+        "y": 965
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1959,
+        "y": 633
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "sourceHashes": {
+      "layout": "bea1b29358d5690014841625cd80b296076360d27bf320d534ce15967b048c60",
+      "device_Port-Graphite.png": "394d149c9174ef4b7bee898c408360938db29d3b1cabdb638041905f63454ca6",
+      "fore_port.png": "d6fa6b2e693b4f0cb41cbbfbb24c5046731e753053ec9b044830929153c3bef9",
+      "rocker_up.png": "f2fcac22e06823384d59437914c75da844fe41246172f233a43a7b2984aa539e",
+      "rocker_down.png": "2a16c2509f07b7bd333872cdd34fd4226f7e5332c3a89da810e3f0f3cc2af8fa",
+      "rocker_power.png": "013cc11d80c16eb776a23695ade66839a321f27077125987b1dc6bfb26622818"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/e2e9dd1c-92ea-47e2-9af1-04a56b197138"
+  },
+  {
+    "id": "SamsungGalaxyTabS9Ultra",
+    "name": "Samsung Galaxy Tab S9 Ultra",
+    "nativeSkin": "Galaxy_Tab_S9_Ultra",
+    "width": 1848,
+    "height": 2960,
+    "dpi": 239,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "tablet": true,
+    "border": 80,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1990,
+      3090
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1970,
+      3082,
+      90
+    ],
+    "nativeDisplayOffset": [
+      221,
+      210
+    ],
+    "borders": [
+      65,
+      64,
+      77,
+      66
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2127,
+        "y": 764
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2127,
+        "y": 868
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2127,
+        "y": 571
+      }
+    ],
+    "cutout": [
+      1816,
+      1383,
+      32,
+      194
+    ],
+    "insets": [
+      0,
+      0,
+      34,
+      0
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "sourceHashes": {
+      "layout": "468d7bb43e62b055290da02a522d5c3d0f5ecc3389c470bbb40d39875b910d8a",
+      "device_Port-Graphite.png": "db37bd4a0ab9c39407c43c2f82df0b388fd40aed3c0b2d8b182f20bc0c0403c4",
+      "fore_port.png": "e8da2e0c213ff8dea3e64cbdac1221ef6ed7ced3ee4ffaecf979cbb09a99fc8d",
+      "rocker_up.png": "950afb13bf747f8ed8d4a3418f0aaf94744e03111180c8c42031635053b4fee5",
+      "rocker_down.png": "4ffbfeed31addf4aa0e8a927e2db9ca5c47a27b06dc1b9ddd50d10ff0d617204",
+      "rocker_power.png": "39124f4ba3753e2b3cfdf5c7b4f922240ecaaa85143d57c0de62febcbe78904e"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/172db635-1fd8-406b-bde2-d3af2f8da701"
+  },
+  {
+    "id": "SamsungGalaxyTabS10Plus",
+    "name": "Samsung Galaxy Tab S10+",
+    "nativeSkin": "Galaxy_Tab_S10_Plus",
+    "width": 1752,
+    "height": 2800,
+    "dpi": 266,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "tablet": true,
+    "border": 80,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "nativeBack": "device_Port-MoonstoneGray.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1953,
+      2988
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1933,
+      2980,
+      90
+    ],
+    "nativeDisplayOffset": [
+      250,
+      240
+    ],
+    "borders": [
+      94,
+      94,
+      107,
+      94
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2092,
+        "y": 828
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2092,
+        "y": 947
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2092,
+        "y": 614
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "sourceHashes": {
+      "layout": "6765df3d6c41e630c30732b520b2de09201eb7629f25b03f4de0dcee4e254cfb",
+      "device_Port-MoonstoneGray.png": "9d42fc14b5cf3e17537d59438436fae7687dede4d47eb5168a3fe8ce168c71f3",
+      "fore_port.png": "e80b722f31de8c6a2407fc08dccb0bd93233e0d27832a85a1724ca25c49b3e5c",
+      "rocker_up.png": "f089f8dd099bd54d2fccb8bdad7f848da6730c4c22a5137b1e81419dfc73a9f8",
+      "rocker_down.png": "578908dfdb477313b2e3b3074e1d838d632ff0fc489b1c6196bcb7f4070d8591",
+      "rocker_power.png": "e828a690de869b346eef8b02b1d6d90043f95f20b500ff7abc8422736f5787dc"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/6e72f04b-205b-4913-8570-e9222519d433"
+  },
+  {
+    "id": "SamsungGalaxyTabS10Ultra",
+    "name": "Samsung Galaxy Tab S10 Ultra",
+    "nativeSkin": "Galaxy_Tab_S10_Ultra",
+    "width": 1848,
+    "height": 2960,
+    "dpi": 239,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "tablet": true,
+    "border": 80,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "nativeBack": "device_Port-MoonstoneGray.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1985,
+      3085
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1965,
+      3077,
+      90
+    ],
+    "nativeDisplayOffset": [
+      218,
+      208
+    ],
+    "borders": [
+      62,
+      62,
+      75,
+      63
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2122,
+        "y": 764
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2122,
+        "y": 866
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2122,
+        "y": 571
+      }
+    ],
+    "cutout": [
+      1816,
+      1383,
+      32,
+      194
+    ],
+    "insets": [
+      0,
+      0,
+      34,
+      0
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "sourceHashes": {
+      "layout": "bdb44087baddd4634d624d6bd7f34cb6efe06f2b3ef906de866f685c3ce6b82b",
+      "device_Port-MoonstoneGray.png": "790aecd413b04da2349c2452444d207ca1e387950fa924e8e32bae83b37c23d5",
+      "fore_port.png": "5bc8f569a7e3f01e65cf92c72efa49c73c0e30f00fa61d03723d023b9007b5d9",
+      "rocker_up.png": "c8a25fa7efb39a7f43f7a12f7471c72dadc54cb3f0113e33e8bb81bfc63a84f0",
+      "rocker_down.png": "d1a411e310b83b4d453b7ece97fbe7fc809dd96904041b09e637578c02811581",
+      "rocker_power.png": "39bb985da5207a6532117ea29420c5995416dacce3881e4931b4f17e2eaf7536"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/7388dbaa-71fc-4dec-8a75-36a2040bc20d"
+  },
+  {
+    "id": "SamsungGalaxyTabA9Plus",
+    "name": "Samsung Galaxy Tab A9+",
+    "nativeSkin": "Galaxy_Tab_A9_Plus",
+    "width": 1200,
+    "height": 1920,
+    "dpi": 206,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "tablet": true,
+    "border": 80,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 96,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1384,
+      2092
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1364,
+      2084,
+      90
+    ],
+    "nativeDisplayOffset": [
+      242,
+      232
+    ],
+    "borders": [
+      86,
+      86,
+      98,
+      86
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1519,
+        "y": 677
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1519,
+        "y": 768
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1519,
+        "y": 511
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "sourceHashes": {
+      "layout": "dddfa7d88f03d6d9b3b2355cdc060a56d64c55a0206d3f6ef020a7f86910676c",
+      "device_Port-Graphite.png": "f54e6a68ffd750790bc574a83cbf1be963e8ba1cefcc5c9bfea53bc1db9483df",
+      "fore_port.png": "b23fcdc8662a196ace8390508398399276922a76e908a5dbf53f06e5b44e61c2",
+      "rocker_up.png": "0b9cc8e85d3a8fe690af978dfa85c1222456085f308b99b95d548ddf8a056a6b",
+      "rocker_down.png": "0b9cc8e85d3a8fe690af978dfa85c1222456085f308b99b95d548ddf8a056a6b",
+      "rocker_power.png": "b877d07801ce67935eb7aef2ad20dad68169fb4a6b4ddad887985fe790e3b1ce"
+    },
+    "skinDownload": "https://developer.samsung.com/emulatorskin/file/87450766-68a6-4721-a537-8f653f89b3aa"
+  },
+  {
+    "id": "SamsungGalaxyS26",
+    "name": "Samsung Galaxy S26",
+    "nativeSkin": "Galaxy_S26",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 411,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "border": 40,
+    "cornerRadius": 100,
+    "cameraDiameter": 59,
+    "cameraTop": 33,
+    "topInset": 94,
+    "navigationBarHeight": 123,
+    "nativeBack": "device_Port_Black.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      306,
+      296,
+      1185,
+      2438
+    ],
+    "nativeBody": [
+      310,
+      300,
+      1165,
+      2430,
+      180
+    ],
+    "nativeDisplayOffset": [
+      352,
+      341
+    ],
+    "borders": [
+      46,
+      45,
+      59,
+      53
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1473,
+        "y": 722
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1473,
+        "y": 884
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1473,
+        "y": 1199
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/03a6499b-2d16-414e-b32d-f128ecb3ff26",
+    "cutout": [
+      509,
+      33,
+      59,
+      59
+    ],
+    "sourceHashes": {
+      "layout": "d4b957d054fdbded455666636b501c7d04d79af57258df09a7eeccc15ad88b68",
+      "device_Port_Black.png": "9efafe3f181f539cddaeebc8c3cc4f0002024b2a37841c2831fbc5b7a90fdb7b",
+      "fore_port.png": "70b8f3993b6a140d58c8376e027a267c6259a7426c6d893fefff16c1a328f641",
+      "rocker_up.png": "78eb873a3fe68456621139c892b1fc00fdf32996dcc0af4e8f900b11e6702fbc",
+      "rocker_down.png": "7862e25a0a5c9a5ba06e79ee404e39eb3ff7f350e43ff8a5462abf354ea51533",
+      "rocker_power.png": "a7a42c533e54b790197c00bc08d6c2d0b0b0537ebaaf5b87c93210d945a7bd4e"
+    }
+  },
+  {
+    "id": "SamsungGalaxyS26Plus",
+    "name": "Samsung Galaxy S26+",
+    "nativeSkin": "Galaxy_S26_Plus",
+    "width": 1440,
+    "height": 3120,
+    "dpi": 516,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "border": 40,
+    "cornerRadius": 140,
+    "cameraDiameter": 80,
+    "cameraTop": 39,
+    "topInset": 121,
+    "navigationBarHeight": 155,
+    "nativeBack": "device_Port_Black.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      206,
+      196,
+      1561,
+      3230
+    ],
+    "nativeBody": [
+      210,
+      200,
+      1541,
+      3222,
+      190
+    ],
+    "nativeDisplayOffset": [
+      261,
+      251
+    ],
+    "borders": [
+      55,
+      55,
+      66,
+      55
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1751,
+        "y": 729
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1751,
+        "y": 927
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1751,
+        "y": 1340
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/43dfc3dd-808d-4678-b98b-048c6f196c89",
+    "cutout": [
+      680,
+      39,
+      80,
+      80
+    ],
+    "sourceHashes": {
+      "layout": "61cc11d03d14b9472e63c6e0add197840ca1e3fb76bb50f2eed64b0c5dd99d38",
+      "device_Port_Black.png": "00508e8029cbdaed1ffdf3c570534bf5c9ec866c1adf941fd638a4399ecf588e",
+      "fore_port.png": "1bc57470a167f42c791ebd3c19e758b18a051bc1097974088065a3bd5379de59",
+      "rocker_up.png": "b0a926d3ccc62534c6fc217b3753494762fd577c6c7f05bb0c38a890a37def45",
+      "rocker_down.png": "7ba7350a19678f2fd4c0282f769dea3163676a3b548d7c08954af68d8cd144d3",
+      "rocker_power.png": "9bbcbd8af09e10d491bfb83f7a43127b79a29f2e36adae53a6366b95b6e21597"
+    }
+  },
+  {
+    "id": "SamsungGalaxyS26Ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "nativeSkin": "Galaxy_S26_Ultra",
+    "width": 1440,
+    "height": 3120,
+    "dpi": 500,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "border": 40,
+    "cornerRadius": 130,
+    "cameraDiameter": 80,
+    "cameraTop": 32,
+    "topInset": 114,
+    "navigationBarHeight": 150,
+    "nativeBack": "device_Port_Black.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1561,
+      3231
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1541,
+      3223,
+      180
+    ],
+    "nativeDisplayOffset": [
+      210,
+      202
+    ],
+    "borders": [
+      54,
+      56,
+      67,
+      55
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1699,
+        "y": 759
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1699,
+        "y": 957
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1699,
+        "y": 1340
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/ab415bad-6ab0-4941-bbb6-3fc698c5e51d",
+    "cutout": [
+      681,
+      32,
+      80,
+      80
+    ],
+    "sourceHashes": {
+      "layout": "7d586bd45939a0832b0fe35086fcd17e2107d2070c9cb8af7471b94021f7ce2a",
+      "device_Port_Black.png": "091ec8be0695fb4bd5b78e2259d40d69c9048e7812723f256689c32dd0d5915d",
+      "fore_port.png": "6c35ecacbdb3fc886c7dfa4b5f4f9581b6983cf0c1181755f7e8d28e7da2d1e8",
+      "rocker_up.png": "21b4983d490d887762307252e8a7a79fe89b0f6726cc367bdbd10f6803e42393",
+      "rocker_down.png": "64bdf4163740f6b45a12cfa368a9679a5f00929a96709e56160e6fdb027fa0b9",
+      "rocker_power.png": "6dce450aa6f3c127cc88a7e917951ea22b5bad04e9bf1374a2a6d2caf58e5a35"
+    }
+  },
+  {
+    "id": "SamsungGalaxyS26FE",
+    "name": "Samsung Galaxy S26 FE",
+    "nativeSkin": "Galaxy_S26_FE",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 385,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "border": 40,
+    "cornerRadius": 130,
+    "cameraDiameter": 56,
+    "cameraTop": 22,
+    "topInset": 80,
+    "navigationBarHeight": 116,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      206,
+      196,
+      1185,
+      2449
+    ],
+    "nativeBody": [
+      210,
+      200,
+      1165,
+      2441,
+      170
+    ],
+    "nativeDisplayOffset": [
+      252,
+      243
+    ],
+    "borders": [
+      46,
+      47,
+      59,
+      62
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1373,
+        "y": 626
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1373,
+        "y": 780
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1373,
+        "y": 1073
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-s.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/7c9caaed-35c8-4cc3-b562-2e6eeab8e21b",
+    "cutout": [
+      513,
+      22,
+      56,
+      56
+    ],
+    "sourceHashes": {
+      "layout": "826fbed54831d2a415fc575761d74aa3d540c4662c04053d32fae491fb559694",
+      "device_Port-Graphite.png": "6c8c2efb058423711277d0a486850b9f65d20f4439a2f3621d56ec9258b01ba2",
+      "fore_port.png": "12d3321408fe99117a84308e9d15d2279bacb5fa100c7fc121e1edddee07f16a",
+      "rocker_up.png": "7bf07667c9aba7f1f014771fcf3d42f18317a0e2d57cce001a5ab90d70053dc5",
+      "rocker_down.png": "01a0a857140058171f5562464d31cf8d1458425781c8ebc31d316adb53b3631c",
+      "rocker_power.png": "f8cad32071930e73518de7a7fc8206ece29698d6d1c1afbb3fb2bdd8d92a209f"
+    }
+  },
+  {
+    "id": "SamsungGalaxyTabA11",
+    "name": "Samsung Galaxy Tab A11",
+    "nativeSkin": "Galaxy_Tab_A11",
+    "width": 800,
+    "height": 1340,
+    "dpi": 179,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "border": 40,
+    "cornerRadius": 12,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 54,
+    "nativeBack": "device_Port-Gray.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      76,
+      86,
+      901,
+      1496
+    ],
+    "nativeBody": [
+      80,
+      90,
+      881,
+      1488,
+      55
+    ],
+    "nativeDisplayOffset": [
+      120,
+      164
+    ],
+    "borders": [
+      44,
+      78,
+      57,
+      78
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 959,
+        "y": 401
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 959,
+        "y": 475
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 959,
+        "y": 613
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/fecfedcb-87b8-419c-b34c-e407f90d5ca4",
+    "tablet": true,
+    "sourceHashes": {
+      "layout": "493ba3e9f801d8a9481e8cd6b7190a283e2fe595c40500761615d314aa3f21e0",
+      "device_Port-Gray.png": "90726fda74399218b97ba4266bdd2827500aa81392761148659feeea58c5f233",
+      "fore_port.png": "d2783ce0e47265a2f042a834b1b61d7707ef4c5cf9ac83cf8f0ede8c43ec33e0",
+      "rocker_up.png": "06d5e32b9f890c4ff46696f0c6108cfe739beeb78b69284b2886e93c3e2338ab",
+      "rocker_down.png": "03be6c59bffa528cebb942e519b7a69cbf68e364fb2e4a3fb076253e05604dc9",
+      "rocker_power.png": "ac6c244fe2203e8995cbc9bda94e52e1d9c1d24c3aaa24f5cd9f2ebf4d07d4f7"
+    }
+  },
+  {
+    "id": "SamsungGalaxyTabS11",
+    "name": "Samsung Galaxy Tab S11",
+    "nativeSkin": "Galaxy_Tab_S11",
+    "width": 1600,
+    "height": 2560,
+    "dpi": 274,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "border": 40,
+    "cornerRadius": 32,
+    "cameraDiameter": 0,
+    "cameraTop": 0,
+    "topInset": 0,
+    "navigationBarHeight": 82,
+    "nativeBack": "device_Port-Gray.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1808,
+      2757
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1788,
+      2749,
+      90
+    ],
+    "nativeDisplayOffset": [
+      254,
+      244
+    ],
+    "borders": [
+      98,
+      98,
+      110,
+      99
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1945,
+        "y": 655
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1945,
+        "y": 764
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1945,
+        "y": 979
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/ad6cd2fd-c003-451e-be81-f70c97167545",
+    "tablet": true,
+    "sourceHashes": {
+      "layout": "dc82820ff8b55e6a04e22155a05a87875dce719d663fec280bd05a5bf2db28dd",
+      "device_Port-Gray.png": "9476eba381ca864b3e536107ca3e8950642db95f276df0b56e5a278ae6ef9e4b",
+      "fore_port.png": "6e77ace84a1c64f8f8deb65d6e1097f77b6fd96f73a71d074d66dfdca5c8ed5b",
+      "rocker_up.png": "6a0f4b7f14db31c3cbcc743939d2d6875d3c75b55e74b41a976beb00c279b500",
+      "rocker_down.png": "8711db96fa2e4a4ecf0708fe1748e4602270c2ccc6e07b67e2ce2c7aefb70652",
+      "rocker_power.png": "19d025b03cd52ef9d247aa5d6747fff501990d7a87b84c477cea1d2619805582"
+    }
+  },
+  {
+    "id": "SamsungGalaxyTabS11Ultra",
+    "name": "Samsung Galaxy Tab S11 Ultra",
+    "nativeSkin": "Galaxy_Tab_S11_Ultra",
+    "width": 1848,
+    "height": 2960,
+    "dpi": 239,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "border": 40,
+    "cornerRadius": 32,
+    "cameraDiameter": 32,
+    "cameraTop": 1419,
+    "topInset": 0,
+    "navigationBarHeight": 72,
+    "nativeBack": "device_Port-Gray.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1982,
+      3085
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1962,
+      3077,
+      90
+    ],
+    "nativeDisplayOffset": [
+      217,
+      207
+    ],
+    "borders": [
+      61,
+      61,
+      73,
+      64
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2122,
+        "y": 589
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2122,
+        "y": 685
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2122,
+        "y": 873
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-tab.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/f117f307-f4f7-4b11-8f3c-cf495e72df3d",
+    "cutout": [
+      1816,
+      1419,
+      32,
+      122
+    ],
+    "tablet": true,
+    "insets": [
+      0,
+      0,
+      34,
+      0
+    ],
+    "sourceHashes": {
+      "layout": "204c52a6421feb97e297267131b656570c677aa4499d84c8dfb58485547240fc",
+      "device_Port-Gray.png": "da2ebd1be8f42aa04096ccf3d135e86ba610b3198c85b0f38864294c23c39a56",
+      "fore_port.png": "d5d79c7878f32d120ed7da78c4c5e83507252fe5f0d82681d21d32d595fcaefe",
+      "rocker_up.png": "f8da5e757efecca8062ffd5be43093afc4eec1de99656b7190510d1b786cc197",
+      "rocker_down.png": "a63fcd455ac9c1be051e79f94ad1ad924cc31c76b071005968ed7b74ff78ac4a",
+      "rocker_power.png": "4ac62e05c5a56433315962f29de464b3bdb899477b04d8513477fa2a4bb62574"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFold8InnerScreen",
+    "name": "Samsung Galaxy Z Fold8 — Inner Screen",
+    "nativeSkin": "Galaxy_Z_Fold8/Galaxy_Z_Fold8_Main_Screen",
+    "width": 2448,
+    "height": 1848,
+    "dpi": 403,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 16,
+    "cameraDiameter": 61,
+    "cameraTop": 30,
+    "topInset": 93,
+    "navigationBarHeight": 121,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      2585,
+      1969
+    ],
+    "nativeBody": [
+      160,
+      150,
+      2565,
+      1961,
+      32
+    ],
+    "nativeDisplayOffset": [
+      217,
+      206
+    ],
+    "borders": [
+      61,
+      60,
+      76,
+      61
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2718,
+        "y": 343
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2718,
+        "y": 496
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2715,
+        "y": 810
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/a57cff5e-e161-4691-bdd9-a76290f80421",
+    "cutout": [
+      1830,
+      30,
+      61,
+      61
+    ],
+    "squareOverlay": true,
+    "resolutionNote": "Official download page lists 1828x2448; downloaded layout and foreground mask are 2448x1848. This profile follows the actual skin resources; physical panel resolution remains unverified.",
+    "sourceHashes": {
+      "layout": "b94aaf0cf007a9e99858ce64f28b4f083f1c9add85c21775c923f7d999c12145",
+      "device_Port-Graphite.png": "a9a7bfa2afaf91eaea91ecd669e626298b76e919ecd3a1dac5eed5c9cb7a3e94",
+      "fore_port.png": "e2c9c73dc52827889c360d55976e180d01ec423b6c1ba432fd92dd56b3db40f4",
+      "rocker_up.png": "5ba497c6718e2e0252ae38eaf11e2523e926d65528d86480d7e89891dd42eb43",
+      "rocker_down.png": "4ba70fe6de66e6a4a9f95539b1b2c4be3f389898d741dc6b5517121871ab962d",
+      "rocker_power.png": "342ee7326cd37693f5b92849b0a8534974b63319410779f9e3f10a438b8ef4ad"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFold8OuterScreen",
+    "name": "Samsung Galaxy Z Fold8 — Outer Screen",
+    "nativeSkin": "Galaxy_Z_Fold8/Galaxy_Z_Fold8_Cover_Screen",
+    "width": 1248,
+    "height": 1972,
+    "dpi": 400,
+    "dpiBasis": "Estimated cover panel density; not independently measured",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 16,
+    "cameraDiameter": 61,
+    "cameraTop": 30,
+    "topInset": 93,
+    "navigationBarHeight": 120,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1401,
+      2096
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1381,
+      2088,
+      32
+    ],
+    "nativeDisplayOffset": [
+      235,
+      209
+    ],
+    "borders": [
+      79,
+      63,
+      74,
+      61
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1537,
+        "y": 356
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1537,
+        "y": 519
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1530,
+        "y": 853
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/a57cff5e-e161-4691-bdd9-a76290f80421",
+    "cutout": [
+      594,
+      30,
+      61,
+      61
+    ],
+    "sourceHashes": {
+      "layout": "001f865377d42c9197dc5952c90ef56d0fdf82c0087345d7dfb13a2ddea4fe96",
+      "device_Port-Graphite.png": "9541865504f08691063d7feffd167cb298db07e8f753df59793356239f85db4b",
+      "fore_port.png": "40157625343e1e9b5b61645eaf77964a944a1be0277042da21befb834d031922",
+      "rocker_up.png": "cf7b2c8060d33e7c51e7ef5180f9ec17c1cb2eaae7a25cc8fda143b8668fea0a",
+      "rocker_down.png": "09cf073a10551b345304169a9ed9ab2598862070fe1aefdb658b1f6b7c5b463b",
+      "rocker_power.png": "370e8de951ab6b67568b0d530bd6ba09bbafd659b7c91207072a6092542e047b"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFold8UltraInnerScreen",
+    "name": "Samsung Galaxy Z Fold8 Ultra — Inner Screen",
+    "nativeSkin": "Galaxy_Z_Fold8_Ultra/Galaxy_Z_Fold8_Ultra_Main_Screen",
+    "width": 2256,
+    "height": 2504,
+    "dpi": 422,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 16,
+    "cameraDiameter": 63,
+    "cameraTop": 31,
+    "topInset": 96,
+    "navigationBarHeight": 127,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      2406,
+      2640
+    ],
+    "nativeBody": [
+      160,
+      150,
+      2386,
+      2632,
+      32
+    ],
+    "nativeDisplayOffset": [
+      225,
+      213
+    ],
+    "borders": [
+      69,
+      67,
+      81,
+      69
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 2544,
+        "y": 838
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 2544,
+        "y": 998
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 2541,
+        "y": 1290
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/ed173773-508c-4c99-93fb-90e53d574a9d",
+    "cutout": [
+      1677,
+      31,
+      63,
+      63
+    ],
+    "squareOverlay": true,
+    "sourceHashes": {
+      "layout": "9a96ebcb656d3b4b5c50e6ccec01a97c346b3b21a7a4f68c6b631261a06c8c57",
+      "device_Port-Graphite.png": "139f94403b390dabb9672595ca26d8f06bfab29a1c2755507cba56e5a99d7040",
+      "fore_port.png": "33ee79946e987e93c310fa97ba71e9e31bf25f615c6bd19a59f3c3edb40d8ffa",
+      "rocker_up.png": "ed383eb0d774e4e9d03d37d8bf1d2004c8e1b99b86e6d59d7d9df94afcfc3c71",
+      "rocker_down.png": "8a2ca9cc50262b20b9dde1dbee938e737c203f693c0c4872584fdab737cc4622",
+      "rocker_power.png": "e16994c565793eb1bc1decb1ed67d709477d79364ddfeb6e82c63b3c0d7fa72b"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFold8UltraOuterScreen",
+    "name": "Samsung Galaxy Z Fold8 Ultra — Outer Screen",
+    "nativeSkin": "Galaxy_Z_Fold8_Ultra/Galaxy_Z_Fold8_Ultra_Cover_Screen",
+    "width": 1080,
+    "height": 2520,
+    "dpi": 400,
+    "dpiBasis": "Estimated cover panel density; not independently measured",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 16,
+    "cameraDiameter": 63,
+    "cameraTop": 30,
+    "topInset": 95,
+    "navigationBarHeight": 120,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1228,
+      2639
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1208,
+      2631,
+      32
+    ],
+    "nativeDisplayOffset": [
+      232,
+      206
+    ],
+    "borders": [
+      76,
+      60,
+      72,
+      59
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1370,
+        "y": 837
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1370,
+        "y": 999
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1360,
+        "y": 1292
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/ed173773-508c-4c99-93fb-90e53d574a9d",
+    "cutout": [
+      510,
+      30,
+      63,
+      63
+    ],
+    "sourceHashes": {
+      "layout": "875219d086d68a68c6b7351b9e22c03d8a313fa26549829b0e21b75d57feeb92",
+      "device_Port-Graphite.png": "8402bbf7fae6dbe78d43587ade7cd19627efe17792116b0bd4c62ae9329f8156",
+      "fore_port.png": "3e546f4ceef33bb861294e335a86f6d7a24365f64e70cdd7fb41f25483b21803",
+      "rocker_up.png": "71ce98b1ac137053f6d20c4d8e239fcf14b0d6deb50ace63d4f9c25c09ee368d",
+      "rocker_down.png": "68a3fd609dfce2797777db1d8a4fc8691d99cc543b50c7f24c210ce2810fb810",
+      "rocker_power.png": "31463ee4815df91b78c353eeb0e1bdfa7849d7cfd28dd9b6660572e0801a4b7e"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFlip8InnerScreen",
+    "name": "Samsung Galaxy Z Flip8 — Inner Screen",
+    "nativeSkin": "Galaxy_Z_Flip8/Galaxy_Z_Flip8_Main_Screen",
+    "width": 1080,
+    "height": 2520,
+    "dpi": 400,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 35,
+    "cameraDiameter": 62,
+    "cameraTop": 29,
+    "topInset": 93,
+    "navigationBarHeight": 120,
+    "nativeBack": "device_Port-Graphite.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1203,
+      2628
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1183,
+      2620,
+      110
+    ],
+    "nativeDisplayOffset": [
+      211,
+      200
+    ],
+    "borders": [
+      55,
+      54,
+      68,
+      54
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1340,
+        "y": 511
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1340,
+        "y": 660
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1336,
+        "y": 938
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/51ba3cb3-f1b1-4a57-9802-cc893a176a7e",
+    "cutout": [
+      509,
+      29,
+      62,
+      62
+    ],
+    "sourceHashes": {
+      "layout": "f498f55f9f3de11b439eb46770b55cef46c067b04cb746f5e03ad5e7ff66f0a3",
+      "device_Port-Graphite.png": "3239c12d2a45b408649a6b2e0b43ae0c21384d774b16cccbc750d1c7a2d40795",
+      "fore_port.png": "c18a260003782e5b49d5a5d55747b1a647df4d85bf992ddad6d1290ea54ba065",
+      "rocker_up.png": "c97b96e1c68e43bbbd9ff90c550781f6e7568325d5bf6fcc4c5b2763e0541ece",
+      "rocker_down.png": "8b95d76dba9e11d86c73f82ecf5462f3ed696e19b8953d03815f9ce968aa7b7d",
+      "rocker_power.png": "2afbda2dfd32aff96d3eb06fb873d9a1b4e624ecf93c31dae52967554af92b13"
+    }
+  },
+  {
+    "id": "SamsungGalaxyZFlip8OuterScreen",
+    "name": "Samsung Galaxy Z Flip8 — Outer Screen",
+    "nativeSkin": "Galaxy_Z_Flip8/Galaxy_Z_Flip8_Cover_Screen",
+    "width": 948,
+    "height": 1048,
+    "dpi": 400,
+    "dpiBasis": "Estimated cover panel density; not independently measured",
+    "resolutionSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "border": 40,
+    "cornerRadius": 35,
+    "cameraDiameter": 178,
+    "cameraTop": 842,
+    "topInset": 0,
+    "navigationBarHeight": 120,
+    "nativeBack": "device_Port.png",
+    "nativeMask": "fore_port.png",
+    "nativeCrop": [
+      156,
+      146,
+      1037,
+      1163
+    ],
+    "nativeBody": [
+      160,
+      150,
+      1017,
+      1155,
+      110
+    ],
+    "nativeDisplayOffset": [
+      195,
+      222
+    ],
+    "borders": [
+      39,
+      76,
+      50,
+      39
+    ],
+    "nativeButtons": [
+      {
+        "file": "rocker_up.png",
+        "x": 1173,
+        "y": 738
+      },
+      {
+        "file": "rocker_down.png",
+        "x": 1173,
+        "y": 866
+      },
+      {
+        "file": "rocker_power.png",
+        "x": 1170,
+        "y": 447
+      }
+    ],
+    "geometryStatus": "Official Samsung Emulator skin and display mask; exterior poster trimmed with fitted outline; safe inset bounds mask, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "skinSource": "https://developer.samsung.com/galaxy-emulator-skin/galaxy-z.html",
+    "skinDownload": "https://developer.samsung.com/EmulatorSkin/file/51ba3cb3-f1b1-4a57-9802-cc893a176a7e",
+    "cutout": [
+      551,
+      842,
+      178,
+      178
+    ],
+    "squareOverlay": true,
+    "insets": [
+      0,
+      0,
+      0,
+      208
+    ],
+    "cutouts": [
+      [
+        551,
+        842,
+        178,
+        178
+      ],
+      [
+        742,
+        842,
+        178,
+        178
+      ],
+      [
+        458,
+        899,
+        65,
+        65
+      ]
+    ],
+    "usageNote": "Cover-screen layout stress test only; does not imply Android permits this game on the cover display.",
+    "sourceHashes": {
+      "layout": "33828640063831322a87249a80a0346263d56572c1d36f75299ec4bd0b6395fc",
+      "device_Port.png": "7b99ce0a7ddf89088b7ef6e7539a3091f34ac2dd8f1dd08aa563c55a1460acfb",
+      "fore_port.png": "ed661f01cd14c2ea8727a39a6b470dec5a6190ce15b2ebdc58cdbf9cef54028e",
+      "rocker_up.png": "6783b5a245e9acd37072c29112324adcde4bca87c0f9c8625a3248131f98ee51",
+      "rocker_down.png": "1d2d83b51898bf7dc9356886f14837b99afe79daf1a16cd45e5e4f2bc3ac147d",
+      "rocker_power.png": "866667f14e71e1473bc36f5e9b58c3ea9cab1988f7d67e3f64290b5709c3f2db"
+    }
+  },
+  {
+    "id": "GooglePixel10ProFoldOuterScreen",
+    "name": "Google Pixel 10 Pro Fold — Outer Screen",
+    "width": 1080,
+    "height": 2364,
+    "dpi": 408,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://store.google.com/product/pixel_10_pro_fold_specs?hl=en-US",
+    "nativeSkin": "pixel_10_pro_fold/closed",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_10_pro_fold/closed/",
+    "borders": [
+      84,
+      66,
+      72,
+      124
+    ],
+    "border": 60,
+    "cornerRadius": 120,
+    "cutout": [
+      507,
+      45,
+      67,
+      67
+    ],
+    "cameraDiameter": 67,
+    "cameraTop": 45,
+    "topInset": 114,
+    "navigationBarHeight": 122,
+    "squareOverlay": false,
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "sourceHashes": {
+      "layout": "429b83a82bb2dd1cd8c1f467282eefaad38f63636a2a1836567a3bf5adf51232",
+      "back.webp": "f935d250955e45094202661abc381158f7f54ef7e70f6d6224f03f87d715ac5c",
+      "mask.webp": "d1a702ae5fd9d2dcc0bf70775c9c1221c78cd54cd5bc81a4c68ecae4d9f9b8e2"
+    },
+    "artworkNote": "Native layout height 2554 exceeds background image height 2495; background is top-aligned and remaining canvas retains neutral backdrop."
+  },
+  {
+    "id": "GooglePixel10ProFoldInnerScreen",
+    "name": "Google Pixel 10 Pro Fold — Inner Screen",
+    "width": 2076,
+    "height": 2152,
+    "dpi": 373,
+    "dpiBasis": "Published panel density",
+    "resolutionSource": "https://store.google.com/product/pixel_10_pro_fold_specs?hl=en-US",
+    "nativeSkin": "pixel_10_pro_fold/default",
+    "skinSource": "https://android.googlesource.com/platform/tools/adt/idea/+/refs/heads/mirror-goog-studio-main/artwork/resources/device-art-resources/pixel_10_pro_fold/default/",
+    "borders": [
+      62,
+      58,
+      66,
+      64
+    ],
+    "border": 60,
+    "cornerRadius": 120,
+    "cutout": [
+      1947,
+      48,
+      72,
+      72
+    ],
+    "cameraDiameter": 72,
+    "cameraTop": 48,
+    "topInset": 122,
+    "navigationBarHeight": 112,
+    "squareOverlay": true,
+    "geometryStatus": "Android Studio native mask; safe inset conservatively bounds its camera, not physical WindowInsets",
+    "safeAreaMode": "Immersive full-screen with system bars hidden",
+    "sourceHashes": {
+      "layout": "c364d549ed818357241563e4bf2db18a66e6127311e0a5ca65115128e6da2d66",
+      "back.webp": "e81e502e6f0ddccd88ab8bd517defaea46b346fdadb05c10fa918ec3b5b401e7",
+      "mask.webp": "e1f480353b9f8edd7f4285d74914ee1fedb3aa2a44027481a9d2f9de35225a19"
+    }
+  }
+]

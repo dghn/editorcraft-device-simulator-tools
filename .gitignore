@@ -1,0 +1,18 @@
+# Keep UPM documentation visible even with a global *~ ignore rule.
+!/Documentation~/
+!/Documentation~/**
+/.DS_Store
+**/.DS_Store
+__pycache__/
+*.pyc
+/Library/
+/Temp/
+/Logs/
+/UserSettings/
+/Assets/
+/ProjectSettings/
+/Packages/
+*.csproj
+*.sln
+/.idea/
+/.vs/

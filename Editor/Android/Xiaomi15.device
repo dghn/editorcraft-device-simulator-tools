@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Xiaomi 15",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1200,
+      "height": 2670,
+      "dpi": 460,
+      "navigationBarHeight": 160,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 2563
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 576.5,
+              "y": 2592,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 107,
+            "width": 1200,
+            "height": 2563
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 576.5,
+              "y": 31,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 107,
+            "y": 0,
+            "width": 2563,
+            "height": 1200
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 31,
+              "y": 576.5,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2563,
+            "height": 1200
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2592,
+              "y": 576.5,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/Xiaomi15.png",
+        "borderSize": {
+          "x": 42,
+          "y": 42,
+          "z": 42,
+          "w": 42
+        },
+        "cornerRadius": 135
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Xiaomi 15",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

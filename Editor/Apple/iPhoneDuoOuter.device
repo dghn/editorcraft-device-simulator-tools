@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone Duo \u2014 Outer Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1398,
+      "height": 2034,
+      "dpi": 460.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1146.0,
+            "height": 1932.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1782.0,
+            "height": 1296.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 252.0,
+            "y": 102.0,
+            "width": 1782.0,
+            "height": 1296.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhoneDuoOuter.png",
+        "borderSize": {
+          "x": 78.0,
+          "y": 42.0,
+          "z": 66.0,
+          "w": 42.0
+        },
+        "cornerRadius": 177.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone19,4",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

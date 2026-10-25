@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy Z Fold8 Ultra \u2014 Outer Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2520,
+      "dpi": 400,
+      "navigationBarHeight": 120,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2425
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 510,
+              "y": 2427,
+              "width": 63,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 95,
+            "width": 1080,
+            "height": 2425
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 507,
+              "y": 30,
+              "width": 63,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 95,
+            "y": 0,
+            "width": 2425,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 30,
+              "y": 510,
+              "width": 63,
+              "height": 63
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2425,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2427,
+              "y": 507,
+              "width": 63,
+              "height": 63
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyZFold8UltraOuterScreen.png",
+        "borderSize": {
+          "x": 76,
+          "y": 60,
+          "z": 72,
+          "w": 59
+        },
+        "cornerRadius": 16
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Z Fold8 Ultra \u2014 Outer Screen",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

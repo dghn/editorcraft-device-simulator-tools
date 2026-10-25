@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S26 FE",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 116,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2260
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 513,
+              "y": 2262,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 80,
+            "width": 1080,
+            "height": 2260
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 511,
+              "y": 22,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 80,
+            "y": 0,
+            "width": 2260,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 22,
+              "y": 513,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2260,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2262,
+              "y": 511,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS26FE.png",
+        "borderSize": {
+          "x": 46,
+          "y": 47,
+          "z": 59,
+          "w": 62
+        },
+        "cornerRadius": 130
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S26 FE",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

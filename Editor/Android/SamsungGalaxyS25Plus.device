@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S25+",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3120,
+      "dpi": 513,
+      "navigationBarHeight": 192,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3014
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 686,
+              "y": 3016,
+              "width": 69,
+              "height": 69
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 106,
+            "width": 1440,
+            "height": 3014
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 685,
+              "y": 35,
+              "width": 69,
+              "height": 69
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 106,
+            "y": 0,
+            "width": 3014,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 35,
+              "y": 686,
+              "width": 69,
+              "height": 69
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3014,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 3016,
+              "y": 685,
+              "width": 69,
+              "height": 69
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS25Plus.png",
+        "borderSize": {
+          "x": 68,
+          "y": 67,
+          "z": 82,
+          "w": 79
+        },
+        "cornerRadius": 145
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S25+",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,4239 @@
+[
+  {
+    "name": "iPad (10th generation)",
+    "source": "https://safearea.info/ipad-10th-generation",
+    "nativeDefinition": "iPad (10th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad10thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2360.0,
+          "height": 1556.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2360.0,
+          "height": 1580.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (5th generation)",
+    "source": "https://safearea.info/ipad-5th-generation",
+    "nativeDefinition": "iPad (5th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad5thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (6th generation)",
+    "source": "https://safearea.info/ipad-6th-generation",
+    "nativeDefinition": "iPad (6th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad6thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (7th generation)",
+    "source": "https://safearea.info/ipad-7th-generation",
+    "nativeDefinition": "iPad (7th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1620,
+    "height": 2160,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad7thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1620.0,
+          "height": 2120.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2160.0,
+          "height": 1580.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2160.0,
+          "height": 1580.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1620.0,
+          "height": 2120.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (8th generation)",
+    "source": "https://safearea.info/ipad-8th-generation",
+    "nativeDefinition": "iPad (8th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1620,
+    "height": 2160,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad8thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1620.0,
+          "height": 2096.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2160.0,
+          "height": 1556.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2160.0,
+          "height": 1556.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1620.0,
+          "height": 2096.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (9th generation)",
+    "source": "https://safearea.info/ipad-9th-generation",
+    "nativeDefinition": "iPad (9th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1620,
+    "height": 2160,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPad9thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1620.0,
+          "height": 2056.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2160.0,
+          "height": 1536.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2160.0,
+          "height": 1560.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1620.0,
+          "height": 2056.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad (A16)",
+    "source": "https://safearea.info/ipad-a16",
+    "nativeDefinition": "iPad (A16).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadA16.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2360.0,
+          "height": 1556.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2360.0,
+          "height": 1580.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air (3rd generation)",
+    "source": "https://safearea.info/ipad-air-3rd-generation",
+    "nativeDefinition": "iPad Air (3rd generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1668,
+    "height": 2224,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir3rdgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1668.0,
+          "height": 2160.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2224.0,
+          "height": 1604.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2224.0,
+          "height": 1604.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1668.0,
+          "height": 2160.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air (4th generation)",
+    "source": "https://safearea.info/ipad-air-4th-generation",
+    "nativeDefinition": "iPad Air (4th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir4thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2360.0,
+          "height": 1556.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2360.0,
+          "height": 1580.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1640.0,
+          "height": 2256.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air (5th generation)",
+    "source": "https://safearea.info/ipad-air-5th-generation",
+    "nativeDefinition": "iPad Air (5th generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir5thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 11-inch (M2)",
+    "source": "https://safearea.info/ipad-air-11-inch-m2",
+    "nativeDefinition": "iPad Air 11-inch (M2).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir11inchM2.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 11-inch (M3)",
+    "source": "https://safearea.info/ipad-air-11-inch-m3",
+    "nativeDefinition": "iPad Air 11-inch (M3).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir11inchM3.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 11-inch (M4)",
+    "source": "https://safearea.info/ipad-air-11-inch-m4",
+    "nativeDefinition": "iPad Air 11-inch (M4).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1640,
+    "height": 2360,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir11inchM4.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2360.0,
+          "height": 1526.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1640.0,
+          "height": 2246.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 13-inch (M2)",
+    "source": "https://safearea.info/ipad-air-13-inch-m2",
+    "nativeDefinition": "iPad Air 13-inch (M2).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir13inchM2.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 13-inch (M3)",
+    "source": "https://safearea.info/ipad-air-13-inch-m3",
+    "nativeDefinition": "iPad Air 13-inch (M3).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir13inchM3.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 13-inch (M4)",
+    "source": "https://safearea.info/ipad-air-13-inch-m4",
+    "nativeDefinition": "iPad Air 13-inch (M4).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir13inchM4.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air 2",
+    "source": "https://safearea.info/ipad-air-2",
+    "nativeDefinition": "iPad Air 2.simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir2.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (10.5-inch)",
+    "source": "https://safearea.info/ipad-pro-10-5-inch",
+    "nativeDefinition": "iPad Pro (10.5-inch).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1668,
+    "height": 2224,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro105inch.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1668.0,
+          "height": 2184.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2224.0,
+          "height": 1628.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2224.0,
+          "height": 1628.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1668.0,
+          "height": 2184.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (11-inch) (1st generation)",
+    "source": "https://safearea.info/ipad-pro-11-inch",
+    "nativeDefinition": "iPad Pro (11-inch) (1st generation).simdevicetype",
+    "measurement": "Measured on iOS 18.6 (22G86), SDK 27.1.",
+    "width": 1668,
+    "height": 2388,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inch1stgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2290.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1570.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1570.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2290.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (11-inch) (2nd generation)",
+    "source": "https://safearea.info/ipad-pro-11-inch-2nd-generation",
+    "nativeDefinition": "iPad Pro (11-inch) (2nd generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1668,
+    "height": 2388,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inch2ndgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (11-inch) (3rd generation)",
+    "source": "https://safearea.info/ipad-pro-11-inch-3rd-generation",
+    "nativeDefinition": "iPad Pro (11-inch) (3rd generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1668,
+    "height": 2388,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inch3rdgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (11-inch) (4th generation)",
+    "source": "https://safearea.info/ipad-pro-11-inch-4th-generation-8gb",
+    "nativeDefinition": "iPad Pro (11-inch) (4th generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1668,
+    "height": 2388,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inch4thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2388.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2274.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (1st generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-1st-generation",
+    "nativeDefinition": "iPad Pro (12.9-inch) (1st generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch1stgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 2692.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2732.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2732.0,
+          "height": 2008.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (2nd generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-2nd-generation",
+    "nativeDefinition": "iPad Pro (12.9-inch) (2nd generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch2ndgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 2692.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2732.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2732.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 2692.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (3rd generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-3rd-generation",
+    "nativeDefinition": "iPad Pro (12.9-inch) (3rd generation).simdevicetype",
+    "measurement": "Measured on iOS 18.6 (22G86), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch3rdgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2634.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2634.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (4th generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-4th-generation",
+    "nativeDefinition": "iPad Pro (12.9-inch) (4th generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch4thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (5th generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-5th-generation",
+    "nativeDefinition": "iPad Pro (12.9-inch) (5th generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch5thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (12.9-inch) (6th generation)",
+    "source": "https://safearea.info/ipad-pro-12-9-inch-6th-generation-8gb",
+    "nativeDefinition": "iPad Pro (12.9-inch) (6th generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2048,
+    "height": 2732,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro129inch6thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2732.0,
+          "height": 1934.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2048.0,
+          "height": 2618.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro (9.7-inch)",
+    "source": "https://safearea.info/ipad-pro-9-7-inch",
+    "nativeDefinition": "iPad Pro (9.7-inch).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro97inch.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro 11-inch (M4)",
+    "source": "https://safearea.info/ipad-pro-11-inch-m4-8gb",
+    "nativeDefinition": "iPad Pro 11-inch (M4).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1668,
+    "height": 2420,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inchM4.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2306.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2420.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2420.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2306.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro 11-inch (M5)",
+    "source": "https://safearea.info/ipad-pro-11-m5",
+    "nativeDefinition": "iPad Pro 11-inch (M5).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1668,
+    "height": 2420,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro11inchM5.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2306.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2420.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2420.0,
+          "height": 1554.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 1668.0,
+          "height": 2306.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro 13-inch (M4)",
+    "source": "https://safearea.info/ipad-pro-13-inch-m4-8gb",
+    "nativeDefinition": "iPad Pro 13-inch (M4).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2064,
+    "height": 2752,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro13inchM4.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2064.0,
+          "height": 2638.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2752.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2752.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2064.0,
+          "height": 2638.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Pro 13-inch (M5)",
+    "source": "https://safearea.info/ipad-pro-13-inch-m5-12gb",
+    "nativeDefinition": "iPad Pro 13-inch (M5).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 2064,
+    "height": 2752,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadPro13inchM5.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2064.0,
+          "height": 2638.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2752.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2752.0,
+          "height": 1950.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 50.0,
+          "width": 2064.0,
+          "height": 2638.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini (5th generation)",
+    "source": "https://safearea.info/ipad-mini-5th-generation",
+    "nativeDefinition": "iPad mini (5th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadmini5thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 1984.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1472.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1472.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 1984.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini (6th generation)",
+    "source": "https://safearea.info/ipad-mini-6th-generation",
+    "nativeDefinition": "iPad mini (6th generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1488,
+    "height": 2266,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadmini6thgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1488.0,
+          "height": 2162.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2266.0,
+          "height": 1404.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2266.0,
+          "height": 1428.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1488.0,
+          "height": 2162.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini (A17 Pro)",
+    "source": "https://safearea.info/ipad-mini-a17-pro",
+    "nativeDefinition": "iPad mini (A17 Pro).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1488,
+    "height": 2266,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadminiA17Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1488.0,
+          "height": 2162.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 20.0,
+          "width": 2266.0,
+          "height": 1404.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 2266.0,
+          "height": 1428.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 40.0,
+          "width": 1488.0,
+          "height": 2162.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini 4",
+    "source": "https://safearea.info/ipad-mini-4",
+    "nativeDefinition": "iPad mini 4.simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadmini4.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11 Pro Max",
+    "source": "https://safearea.info/iphone-11-pro-max",
+    "nativeDefinition": "iPhone 11 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1242,
+    "height": 2688,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone11ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1242.0,
+          "height": 2454.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 60.0,
+          "width": 2424.0,
+          "height": 1182.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 60.0,
+          "width": 2424.0,
+          "height": 1182.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "source": "https://safearea.info/iphone-11-pro",
+    "nativeDefinition": "iPhone 11 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1125,
+    "height": 2436,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone11Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1125.0,
+          "height": 2202.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 60.0,
+          "width": 2172.0,
+          "height": 1065.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 60.0,
+          "width": 2172.0,
+          "height": 1065.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 11",
+    "source": "https://safearea.info/iphone-11",
+    "nativeDefinition": "iPhone 11.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 828,
+    "height": 1792,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone11.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 68.0,
+          "width": 828.0,
+          "height": 1628.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 96.0,
+          "y": 40.0,
+          "width": 1600.0,
+          "height": 788.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 96.0,
+          "y": 40.0,
+          "width": 1600.0,
+          "height": 788.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 Pro Max",
+    "source": "https://safearea.info/iphone-12-pro-max",
+    "nativeDefinition": "iPhone 12 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 26.5 (23F77), SDK 26.5.",
+    "width": 1284,
+    "height": 2778,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone12ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1284.0,
+          "height": 2535.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "source": "https://safearea.info/iphone-12-pro",
+    "nativeDefinition": "iPhone 12 Pro.simdevicetype",
+    "measurement": "Measured on iOS 26.5 (23F77), SDK 26.5.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone12Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12 mini",
+    "source": "https://safearea.info/iphone-12-mini",
+    "nativeDefinition": "iPhone 12 mini.simdevicetype",
+    "measurement": "Measured on iOS 26.5 (23F77), SDK 26.5.",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 476.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone12mini.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1080.0,
+          "height": 2088.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 150.0,
+          "y": 60.0,
+          "width": 2040.0,
+          "height": 1020.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 150.0,
+          "y": 60.0,
+          "width": 2040.0,
+          "height": 1020.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 12",
+    "source": "https://safearea.info/iphone-12",
+    "nativeDefinition": "iPhone 12.simdevicetype",
+    "measurement": "Measured on iOS 26.5 (23F77), SDK 26.5.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone12.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 Pro Max",
+    "source": "https://safearea.info/iphone-13-pro-max",
+    "nativeDefinition": "iPhone 13 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1284,
+    "height": 2778,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone13ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1284.0,
+          "height": 2535.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "source": "https://safearea.info/iphone-13-pro",
+    "nativeDefinition": "iPhone 13 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone13Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13 mini",
+    "source": "https://safearea.info/iphone-13-mini",
+    "nativeDefinition": "iPhone 13 mini.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1080,
+    "height": 2340,
+    "dpi": 476.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone13mini.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1080.0,
+          "height": 2088.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 150.0,
+          "y": 60.0,
+          "width": 2040.0,
+          "height": 1020.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 150.0,
+          "y": 60.0,
+          "width": 2040.0,
+          "height": 1020.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 13",
+    "source": "https://safearea.info/iphone-13",
+    "nativeDefinition": "iPhone 13.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone13.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Plus",
+    "source": "https://safearea.info/iphone-14-plus",
+    "nativeDefinition": "iPhone 14 Plus.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1284,
+    "height": 2778,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone14Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1284.0,
+          "height": 2535.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1224.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Pro Max",
+    "source": "https://safearea.info/iphone-14-pro-max",
+    "nativeDefinition": "iPhone 14 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1290,
+    "height": 2796,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone14ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1290.0,
+          "height": 2517.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14 Pro",
+    "source": "https://safearea.info/iphone-14-pro",
+    "nativeDefinition": "iPhone 14 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1179,
+    "height": 2556,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone14Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1179.0,
+          "height": 2277.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 14",
+    "source": "https://safearea.info/iphone-14",
+    "nativeDefinition": "iPhone 14.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone14.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Plus",
+    "source": "https://safearea.info/iphone-15-plus",
+    "nativeDefinition": "iPhone 15 Plus.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1290,
+    "height": 2796,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone15Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1290.0,
+          "height": 2517.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Pro Max",
+    "source": "https://safearea.info/iphone-15-pro-max",
+    "nativeDefinition": "iPhone 15 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1290,
+    "height": 2796,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone15ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1290.0,
+          "height": 2517.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15 Pro",
+    "source": "https://safearea.info/iphone-15-pro",
+    "nativeDefinition": "iPhone 15 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1179,
+    "height": 2556,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone15Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1179.0,
+          "height": 2277.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 15",
+    "source": "https://safearea.info/iphone-15",
+    "nativeDefinition": "iPhone 15.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1179,
+    "height": 2556,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone15.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1179.0,
+          "height": 2277.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 16 Plus",
+    "source": "https://safearea.info/iphone-16-plus",
+    "nativeDefinition": "iPhone 16 Plus.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1290,
+    "height": 2796,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone16Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1290.0,
+          "height": 2517.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2442.0,
+          "height": 1230.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 16 Pro Max",
+    "source": "https://safearea.info/iphone-16-pro-max",
+    "nativeDefinition": "iPhone 16 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1320,
+    "height": 2868,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone16ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1320.0,
+          "height": 2580.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 16 Pro",
+    "source": "https://safearea.info/iphone-16-pro",
+    "nativeDefinition": "iPhone 16 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1206,
+    "height": 2622,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone16Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1206.0,
+          "height": 2334.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 16",
+    "source": "https://safearea.info/iphone-16",
+    "nativeDefinition": "iPhone 16.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1179,
+    "height": 2556,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone16.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1179.0,
+          "height": 2277.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 177.0,
+          "y": 60.0,
+          "width": 2202.0,
+          "height": 1119.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 16e",
+    "source": "https://safearea.info/iphone-16e",
+    "nativeDefinition": "iPhone 16e.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone16e.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 17 Pro Max",
+    "source": "https://safearea.info/iphone-17-pro-max",
+    "nativeDefinition": "iPhone 17 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1320,
+    "height": 2868,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone17ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1320.0,
+          "height": 2580.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 17 Pro",
+    "source": "https://safearea.info/iphone-17-pro",
+    "nativeDefinition": "iPhone 17 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1206,
+    "height": 2622,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone17Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1206.0,
+          "height": 2334.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 17",
+    "source": "https://safearea.info/iphone-17",
+    "nativeDefinition": "iPhone 17.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1206,
+    "height": 2622,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone17.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1206.0,
+          "height": 2334.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 17e",
+    "source": "https://safearea.info/iphone-17e",
+    "nativeDefinition": "iPhone 17e.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1170,
+    "height": 2532,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone17e.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1170.0,
+          "height": 2289.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 141.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1110.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 18 Pro Max",
+    "source": "https://safearea.info/iphone-18-pro-max",
+    "nativeDefinition": "iPhone 18 Pro Max.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1320,
+    "height": 2868,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone18ProMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1320.0,
+          "height": 2580.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2496.0,
+          "height": 1260.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 18 Pro",
+    "source": "https://safearea.info/iphone-18-pro",
+    "nativeDefinition": "iPhone 18 Pro.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1206,
+    "height": 2622,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone18Pro.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1206.0,
+          "height": 2334.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 186.0,
+          "y": 60.0,
+          "width": 2250.0,
+          "height": 1146.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 6s Plus",
+    "source": "https://safearea.info/iphone-6s-plus",
+    "nativeDefinition": "iPhone 6s Plus.simdevicetype",
+    "measurement": "Measured on iOS 15.5 (19F70), SDK 18.5.",
+    "width": 1080,
+    "height": 1920,
+    "dpi": 326.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone6sPlus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 6s",
+    "source": "https://safearea.info/iphone-6s",
+    "nativeDefinition": "iPhone 6s.simdevicetype",
+    "measurement": "Measured on iOS 15.5 (19F70), SDK 18.5.",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone6s.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 7 Plus",
+    "source": "https://safearea.info/iphone-7-plus",
+    "nativeDefinition": "iPhone 7 Plus.simdevicetype",
+    "measurement": "Measured on iOS 15.5 (19F70), SDK 18.5.",
+    "width": 1080,
+    "height": 1920,
+    "dpi": 326.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone7Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 7",
+    "source": "https://safearea.info/iphone-7",
+    "nativeDefinition": "iPhone 7.simdevicetype",
+    "measurement": "Measured on iOS 15.5 (19F70), SDK 18.5.",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone7.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 8 Plus",
+    "source": "https://safearea.info/iphone-8-plus",
+    "nativeDefinition": "iPhone 8 Plus.simdevicetype",
+    "measurement": "Measured on iOS 16.4 (20E247), SDK 17.5.",
+    "width": 1080,
+    "height": 1920,
+    "dpi": 326.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone8Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 8",
+    "source": "https://safearea.info/iphone-8",
+    "nativeDefinition": "iPhone 8.simdevicetype",
+    "measurement": "Measured on iOS 16.4 (20E247), SDK 17.5.",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone8.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone Air",
+    "source": "https://safearea.info/iphone-air",
+    "nativeDefinition": "iPhone Air.simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 1260,
+    "height": 2736,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneAir.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1260.0,
+          "height": 2430.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 204.0,
+          "y": 60.0,
+          "width": 2328.0,
+          "height": 1200.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 204.0,
+          "y": 60.0,
+          "width": 2328.0,
+          "height": 1200.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone Duo",
+    "source": "https://safearea.info/iphone-duo",
+    "nativeDefinition": "iPhone Duo.simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1398,
+    "height": 2034,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneDuoOuter.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1146.0,
+          "height": 1932.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1782.0,
+          "height": 1296.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 252.0,
+          "y": 102.0,
+          "width": 1782.0,
+          "height": 1296.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone Duo",
+    "source": "https://safearea.info/iphone-duo",
+    "nativeDefinition": "iPhone Duo.simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 2007,
+    "height": 2853,
+    "dpi": 460.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneDuoInner.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 2007.0,
+          "height": 2505.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 2601.0,
+          "height": 1905.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 2601.0,
+          "height": 1905.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 2007.0,
+          "height": 2505.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone SE (1st generation)",
+    "source": "https://safearea.info/iphone-se-1st-generation",
+    "nativeDefinition": "iPhone SE (1st generation).simdevicetype",
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 640,
+    "height": 1136,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhoneSE1stgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 640.0,
+          "height": 1096.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1136.0,
+          "height": 640.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1136.0,
+          "height": 640.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone SE (2nd generation)",
+    "source": "https://safearea.info/iphone-se-2nd-generation",
+    "nativeDefinition": "iPhone SE (2nd generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhoneSE2ndgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone SE (3rd generation)",
+    "source": "https://safearea.info/iphone-se-3rd-generation",
+    "nativeDefinition": "iPhone SE (3rd generation).simdevicetype",
+    "measurement": "Measured on iOS 27.0 (24A434), SDK 27.1.",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhoneSE3rdgeneration.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 2,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone X",
+    "source": "https://safearea.info/iphone-x",
+    "nativeDefinition": "iPhone X.simdevicetype",
+    "measurement": "Measured on iOS 16.4 (20E247), SDK 17.5.",
+    "width": 1125,
+    "height": 2436,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneX.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1125.0,
+          "height": 2202.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2172.0,
+          "height": 1062.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2172.0,
+          "height": 1062.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone Xs Max",
+    "source": "https://safearea.info/iphone-xs-max",
+    "nativeDefinition": "iPhone Xs Max.simdevicetype",
+    "measurement": "Measured on iOS 18.6 (22G86), SDK 27.1.",
+    "width": 1242,
+    "height": 2688,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneXsMax.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1242.0,
+          "height": 2454.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2424.0,
+          "height": 1179.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2424.0,
+          "height": 1179.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone Xs",
+    "source": "https://safearea.info/iphone-xs",
+    "nativeDefinition": "iPhone Xs.simdevicetype",
+    "measurement": "Measured on iOS 18.6 (22G86), SDK 27.1.",
+    "width": 1125,
+    "height": 2436,
+    "dpi": 458.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhoneXs.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 102.0,
+          "width": 1125.0,
+          "height": 2202.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2172.0,
+          "height": 1062.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 132.0,
+          "y": 63.0,
+          "width": 2172.0,
+          "height": 1062.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone XR",
+    "source": "https://safearea.info/iphone-xr",
+    "nativeDefinition": "iPhone Xʀ.simdevicetype",
+    "measurement": "Measured on iOS 18.6 (22G86), SDK 27.1.",
+    "width": 828,
+    "height": 1792,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhoneXR.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 68.0,
+          "width": 828.0,
+          "height": 1628.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 96.0,
+          "y": 42.0,
+          "width": 1600.0,
+          "height": 786.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 96.0,
+          "y": 42.0,
+          "width": 1600.0,
+          "height": 786.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 6 Plus",
+    "source": "https://safearea.info/iphone-6-plus",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1080,
+    "height": 1920,
+    "dpi": 401.0,
+    "scale": 3.0,
+    "profile": "Editor/Apple/iPhone6Plus.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1080.0,
+          "height": 1860.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1920.0,
+          "height": 1080.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 6",
+    "source": "https://safearea.info/iphone-6",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 750,
+    "height": 1334,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone6.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 750.0,
+          "height": 1294.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1334.0,
+          "height": 750.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPhone 5s",
+    "source": "https://safearea.info/iphone-5s",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 640,
+    "height": 1136,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPhone5s.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 640.0,
+          "height": 1096.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1136.0,
+          "height": 640.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1136.0,
+          "height": 640.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini 3",
+    "source": "https://safearea.info/ipad-mini-3",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadmini3.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad mini 2",
+    "source": "https://safearea.info/ipad-mini-2",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 326.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadmini2.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  },
+  {
+    "name": "iPad Air",
+    "source": "https://safearea.info/ipad-air",
+    "nativeDefinition": null,
+    "measurement": "Published legacy reference; OS version not specified",
+    "width": 1536,
+    "height": 2048,
+    "dpi": 264.0,
+    "scale": 2.0,
+    "profile": "Editor/Apple/iPadAir.device",
+    "orientations": [
+      {
+        "orientation": 1,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 1536.0,
+          "height": 2008.0
+        }
+      },
+      {
+        "orientation": 3,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      },
+      {
+        "orientation": 4,
+        "safeArea": {
+          "serializedVersion": "2",
+          "x": 0.0,
+          "y": 0.0,
+          "width": 2048.0,
+          "height": 1496.0
+        }
+      }
+    ]
+  }
+]

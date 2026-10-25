@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy Tab S9 Ultra",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1848,
+      "height": 2960,
+      "dpi": 239,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1814,
+            "height": 2960
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1816,
+              "y": 1383,
+              "width": 32,
+              "height": 194
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 34,
+            "y": 0,
+            "width": 1814,
+            "height": 2960
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 0,
+              "y": 1383,
+              "width": 32,
+              "height": 194
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2960,
+            "height": 1814
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1383,
+              "y": 1816,
+              "width": 194,
+              "height": 32
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 34,
+            "width": 2960,
+            "height": 1814
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1383,
+              "y": 0,
+              "width": 194,
+              "height": 32
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyTabS9Ultra.png",
+        "borderSize": {
+          "x": 65,
+          "y": 64,
+          "z": 77,
+          "w": 66
+        },
+        "cornerRadius": 32
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Tab S9 Ultra",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

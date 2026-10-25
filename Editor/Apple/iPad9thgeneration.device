@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad (9th generation)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1620,
+      "height": 2160,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1620.0,
+            "height": 2056.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 20.0,
+            "width": 2160.0,
+            "height": 1536.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 2160.0,
+            "height": 1560.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1620.0,
+            "height": 2056.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPad7thgeneration.png",
+        "borderSize": {
+          "x": 94.0,
+          "y": 166.0,
+          "z": 94.0,
+          "w": 166.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad12,2",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

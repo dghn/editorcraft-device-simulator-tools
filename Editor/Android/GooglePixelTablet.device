@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Google Pixel Tablet",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1600,
+      "height": 2560,
+      "dpi": 276,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 2560
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1600,
+            "height": 2560
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2560,
+            "height": 1600
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2560,
+            "height": 1600
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/GooglePixelTablet.png",
+        "borderSize": {
+          "x": 120,
+          "y": 119,
+          "z": 117,
+          "w": 119
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Google Pixel Tablet",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

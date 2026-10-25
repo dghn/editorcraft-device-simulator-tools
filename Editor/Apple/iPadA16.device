@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad (A16)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1640,
+      "height": 2360,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1640.0,
+            "height": 2256.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 20.0,
+            "width": 2360.0,
+            "height": 1556.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 2360.0,
+            "height": 1580.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1640.0,
+            "height": 2256.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPad10thgeneration.png",
+        "borderSize": {
+          "x": 118.0,
+          "y": 118.0,
+          "z": 118.0,
+          "w": 118.0
+        },
+        "cornerRadius": 50.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad15,7",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

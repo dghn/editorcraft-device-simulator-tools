@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2364,
+      "dpi": 408,
+      "navigationBarHeight": 122,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2250
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 507,
+              "y": 2252,
+              "width": 67,
+              "height": 67
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 114,
+            "width": 1080,
+            "height": 2250
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 506,
+              "y": 45,
+              "width": 67,
+              "height": 67
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 114,
+            "y": 0,
+            "width": 2250,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 45,
+              "y": 507,
+              "width": 67,
+              "height": 67
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2250,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2252,
+              "y": 506,
+              "width": 67,
+              "height": 67
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/GooglePixel10ProFoldOuterScreen.png",
+        "borderSize": {
+          "x": 84,
+          "y": 66,
+          "z": 72,
+          "w": 124
+        },
+        "cornerRadius": 120
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

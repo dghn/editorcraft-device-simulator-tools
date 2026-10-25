@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Google Pixel 9 Pro XL",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1344,
+      "height": 2992,
+      "dpi": 482,
+      "navigationBarHeight": 179,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1344,
+            "height": 2845
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 625.0,
+              "y": 2847,
+              "width": 94,
+              "height": 94
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 147,
+            "width": 1344,
+            "height": 2845
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 625.0,
+              "y": 51,
+              "width": 94,
+              "height": 94
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 147,
+            "y": 0,
+            "width": 2845,
+            "height": 1344
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 51,
+              "y": 625.0,
+              "width": 94,
+              "height": 94
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2845,
+            "height": 1344
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2847,
+              "y": 625.0,
+              "width": 94,
+              "height": 94
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/GooglePixel9ProXL.png",
+        "borderSize": {
+          "x": 57,
+          "y": 56,
+          "z": 65,
+          "w": 53
+        },
+        "cornerRadius": 108
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Google Pixel 9 Pro XL",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

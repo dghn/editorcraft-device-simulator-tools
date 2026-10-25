@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPad mini 4",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1536,
+      "height": 2048,
+      "dpi": 326.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1536.0,
+            "height": 2008.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2048.0,
+            "height": 1496.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2048.0,
+            "height": 1496.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPad5thgeneration.png",
+        "borderSize": {
+          "x": 94.0,
+          "y": 166.0,
+          "z": 94.0,
+          "w": 166.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad5,1",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

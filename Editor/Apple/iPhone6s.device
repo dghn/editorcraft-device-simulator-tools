@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPhone 6s",
+  "version": 1,
+  "screens": [
+    {
+      "width": 750,
+      "height": 1334,
+      "dpi": 326.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 750.0,
+            "height": 1294.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1334.0,
+            "height": 750.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1334.0,
+            "height": 750.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 750.0,
+            "height": 1294.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone6.png",
+        "borderSize": {
+          "x": 56.0,
+          "y": 222.0,
+          "z": 56.0,
+          "w": 222.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone8,1",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

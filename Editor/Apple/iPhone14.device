@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone 14",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1170,
+      "height": 2532,
+      "dpi": 460.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1170.0,
+            "height": 2289.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 141.0,
+            "y": 60.0,
+            "width": 2250.0,
+            "height": 1110.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 141.0,
+            "y": 60.0,
+            "width": 2250.0,
+            "height": 1110.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone14.png",
+        "borderSize": {
+          "x": 66.0,
+          "y": 66.0,
+          "z": 66.0,
+          "w": 66.0
+        },
+        "cornerRadius": 141.99999618530273
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone14,7",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

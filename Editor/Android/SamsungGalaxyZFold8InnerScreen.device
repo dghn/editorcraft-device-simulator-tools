@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy Z Fold8 \u2014 Inner Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 2448,
+      "height": 1848,
+      "dpi": 403,
+      "navigationBarHeight": 121,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2448,
+            "height": 1755
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1830,
+              "y": 1757,
+              "width": 61,
+              "height": 61
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 93,
+            "width": 2448,
+            "height": 1755
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 557,
+              "y": 30,
+              "width": 61,
+              "height": 61
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 93,
+            "y": 0,
+            "width": 1755,
+            "height": 2448
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 30,
+              "y": 1830,
+              "width": 61,
+              "height": 61
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1755,
+            "height": 2448
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 1757,
+              "y": 557,
+              "width": 61,
+              "height": 61
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyZFold8InnerScreen.png",
+        "borderSize": {
+          "x": 61,
+          "y": 60,
+          "z": 76,
+          "w": 61
+        },
+        "cornerRadius": 16
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Z Fold8 \u2014 Inner Screen",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

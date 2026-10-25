@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Xiaomi Redmi Note 14 Pro 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1220,
+      "height": 2712,
+      "dpi": 446,
+      "navigationBarHeight": 163,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1220,
+            "height": 2604
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 586.5,
+              "y": 2633,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 108,
+            "width": 1220,
+            "height": 2604
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 586.5,
+              "y": 32,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 108,
+            "y": 0,
+            "width": 2604,
+            "height": 1220
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 32,
+              "y": 586.5,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2604,
+            "height": 1220
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2633,
+              "y": 586.5,
+              "width": 47,
+              "height": 47
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/RedmiNote14Pro5G.png",
+        "borderSize": {
+          "x": 43,
+          "y": 43,
+          "z": 43,
+          "w": 43
+        },
+        "cornerRadius": 125
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Xiaomi Redmi Note 14 Pro 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

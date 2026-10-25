@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone 13 mini",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 476.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1080.0,
+            "height": 2088.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 150.0,
+            "y": 60.0,
+            "width": 2040.0,
+            "height": 1020.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 150.0,
+            "y": 60.0,
+            "width": 2040.0,
+            "height": 1020.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone13mini.png",
+        "borderSize": {
+          "x": 66.0,
+          "y": 66.0,
+          "z": 66.0,
+          "w": 66.0
+        },
+        "cornerRadius": 132.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone14,4",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

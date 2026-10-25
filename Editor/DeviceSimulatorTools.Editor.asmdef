@@ -1,0 +1,12 @@
+{
+  "name": "DeviceSimulatorTools.Editor",
+  "rootNamespace": "DeviceSimulatorTools.Editor",
+  "references": [
+    "Unity.Newtonsoft.Json",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "autoReferenced": true
+}

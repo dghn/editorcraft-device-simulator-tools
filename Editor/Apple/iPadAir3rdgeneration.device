@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad Air (3rd generation)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1668,
+      "height": 2224,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1668.0,
+            "height": 2160.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2224.0,
+            "height": 1604.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2224.0,
+            "height": 1604.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1668.0,
+            "height": 2160.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPadAir3rdgeneration.png",
+        "borderSize": {
+          "x": 94.0,
+          "y": 166.0,
+          "z": 94.0,
+          "w": 166.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad11,3",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

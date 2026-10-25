@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Samsung Galaxy Tab A9+",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1200,
+      "height": 1920,
+      "dpi": 206,
+      "navigationBarHeight": 96,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 1920
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1200,
+            "height": 1920
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1200
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1920,
+            "height": 1200
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyTabA9Plus.png",
+        "borderSize": {
+          "x": 86,
+          "y": 86,
+          "z": 98,
+          "w": 86
+        },
+        "cornerRadius": 32
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Tab A9+",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

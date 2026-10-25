@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy Z Flip8 \u2014 Inner Screen",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2520,
+      "dpi": 400,
+      "navigationBarHeight": 120,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2427
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 509,
+              "y": 2429,
+              "width": 62,
+              "height": 62
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 93,
+            "width": 1080,
+            "height": 2427
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 509,
+              "y": 29,
+              "width": 62,
+              "height": 62
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 93,
+            "y": 0,
+            "width": 2427,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 29,
+              "y": 509,
+              "width": 62,
+              "height": 62
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2427,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2429,
+              "y": 509,
+              "width": 62,
+              "height": 62
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyZFlip8InnerScreen.png",
+        "borderSize": {
+          "x": 55,
+          "y": 54,
+          "z": 68,
+          "w": 54
+        },
+        "cornerRadius": 35
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Z Flip8 \u2014 Inner Screen",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad Pro 11-inch (M5)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1668,
+      "height": 2420,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 1668.0,
+            "height": 2306.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2420.0,
+            "height": 1554.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2420.0,
+            "height": 1554.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 1668.0,
+            "height": 2306.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPadPro11inchM4.png",
+        "borderSize": {
+          "x": 92.0,
+          "y": 92.0,
+          "z": 92.0,
+          "w": 92.0
+        },
+        "cornerRadius": 60.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad17,2",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

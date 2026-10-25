@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone SE (1st generation)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 640,
+      "height": 1136,
+      "dpi": 326.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 640.0,
+            "height": 1096.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1136.0,
+            "height": 640.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1136.0,
+            "height": 640.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone5s.png",
+        "borderSize": {
+          "x": 56.0,
+          "y": 222.0,
+          "z": 56.0,
+          "w": 222.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone8,4",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

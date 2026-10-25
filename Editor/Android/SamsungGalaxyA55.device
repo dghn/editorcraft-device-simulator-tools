@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A55 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 390,
+      "navigationBarHeight": 144,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2249
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 509,
+              "y": 2251,
+              "width": 61,
+              "height": 59
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 91,
+            "width": 1080,
+            "height": 2249
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 510,
+              "y": 30,
+              "width": 61,
+              "height": 59
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 91,
+            "y": 0,
+            "width": 2249,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 30,
+              "y": 509,
+              "width": 59,
+              "height": 61
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2249,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2251,
+              "y": 510,
+              "width": 59,
+              "height": 61
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA55.png",
+        "borderSize": {
+          "x": 58,
+          "y": 68,
+          "z": 70,
+          "w": 80
+        },
+        "cornerRadius": 95
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A55 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

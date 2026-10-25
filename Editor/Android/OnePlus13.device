@@ -1,0 +1,105 @@
+{
+  "friendlyName": "OnePlus 13",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3168,
+      "dpi": 510,
+      "navigationBarHeight": 192,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3040
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 692.0,
+              "y": 3075,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 128,
+            "width": 1440,
+            "height": 3040
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 692.0,
+              "y": 37,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 128,
+            "y": 0,
+            "width": 3040,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 37,
+              "y": 692.0,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3040,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 3075,
+              "y": 692.0,
+              "width": 56,
+              "height": 56
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/OnePlus13.png",
+        "borderSize": {
+          "x": 51,
+          "y": 51,
+          "z": 51,
+          "w": 51
+        },
+        "cornerRadius": 155
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "OnePlus 13",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

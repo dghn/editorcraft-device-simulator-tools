@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone XR",
+  "version": 1,
+  "screens": [
+    {
+      "width": 828,
+      "height": 1792,
+      "dpi": 326.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 68.0,
+            "width": 828.0,
+            "height": 1628.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 96.0,
+            "y": 42.0,
+            "width": 1600.0,
+            "height": 786.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 96.0,
+            "y": 42.0,
+            "width": 1600.0,
+            "height": 786.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone11Pro.png",
+        "borderSize": {
+          "x": 58.0,
+          "y": 58.0,
+          "z": 58.0,
+          "w": 58.0
+        },
+        "cornerRadius": 83.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone11,8",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

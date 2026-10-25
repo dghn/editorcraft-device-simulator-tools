@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone 17 Pro Max",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1320,
+      "height": 2868,
+      "dpi": 460.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1320.0,
+            "height": 2580.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 186.0,
+            "y": 60.0,
+            "width": 2496.0,
+            "height": 1260.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 186.0,
+            "y": 60.0,
+            "width": 2496.0,
+            "height": 1260.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone16ProMax.png",
+        "borderSize": {
+          "x": 54.0,
+          "y": 54.0,
+          "z": 54.0,
+          "w": 54.0
+        },
+        "cornerRadius": 186.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone18,2",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

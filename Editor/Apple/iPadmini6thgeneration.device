@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad mini (6th generation)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1488,
+      "height": 2266,
+      "dpi": 326.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1488.0,
+            "height": 2162.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 20.0,
+            "width": 2266.0,
+            "height": 1404.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 2266.0,
+            "height": 1428.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 40.0,
+            "width": 1488.0,
+            "height": 2162.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPadmini6thgeneration.png",
+        "borderSize": {
+          "x": 120.0,
+          "y": 120.0,
+          "z": 120.0,
+          "w": 120.0
+        },
+        "cornerRadius": 43.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad14,1",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

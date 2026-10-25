@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad Pro (10.5-inch)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1668,
+      "height": 2224,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1668.0,
+            "height": 2184.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2224.0,
+            "height": 1628.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 2224.0,
+            "height": 1628.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 0.0,
+            "width": 1668.0,
+            "height": 2184.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPadPro105inch.png",
+        "borderSize": {
+          "x": 94.0,
+          "y": 166.0,
+          "z": 94.0,
+          "w": 166.0
+        },
+        "cornerRadius": 0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad7,3",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

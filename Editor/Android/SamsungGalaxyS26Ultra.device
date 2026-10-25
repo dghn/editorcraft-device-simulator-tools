@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy S26 Ultra",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1440,
+      "height": 3120,
+      "dpi": 500,
+      "navigationBarHeight": 150,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1440,
+            "height": 3006
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 681,
+              "y": 3008,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 114,
+            "width": 1440,
+            "height": 3006
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 679,
+              "y": 32,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 114,
+            "y": 0,
+            "width": 3006,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 32,
+              "y": 681,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 3006,
+            "height": 1440
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 3008,
+              "y": 679,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyS26Ultra.png",
+        "borderSize": {
+          "x": 54,
+          "y": 56,
+          "z": 67,
+          "w": 55
+        },
+        "cornerRadius": 130
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy S26 Ultra",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

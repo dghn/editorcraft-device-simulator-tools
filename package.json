@@ -1,0 +1,16 @@
+{
+  "name": "com.daghandemirci.device-simulator-tools",
+  "version": "0.1.0",
+  "displayName": "EditorCraft: Device Simulator Tools",
+  "description": "Device profiles, searchable filters, favorites, foldable screen switching, screenshots and safe-area inspection for Unity Device Simulator.",
+  "unity": "6000.6",
+  "author": {
+    "name": "Daghan Demirci"
+  },
+  "dependencies": {
+    "com.unity.device-simulator.devices": "1.0.1",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.ugui": "2.6.0"
+  },
+  "license": "SEE LICENSE.md"
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Google Pixel 9",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2424,
+      "dpi": 421,
+      "navigationBarHeight": 144,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2296
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 500.0,
+              "y": 2298,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 128,
+            "width": 1080,
+            "height": 2296
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 500.0,
+              "y": 46,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 128,
+            "y": 0,
+            "width": 2296,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 46,
+              "y": 500.0,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2296,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2298,
+              "y": 500.0,
+              "width": 80,
+              "height": 80
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/GooglePixel9.png",
+        "borderSize": {
+          "x": 55,
+          "y": 58,
+          "z": 63,
+          "w": 49
+        },
+        "cornerRadius": 87
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Google Pixel 9",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "friendlyName": "Samsung Galaxy A56 5G",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1080,
+      "height": 2340,
+      "dpi": 385,
+      "navigationBarHeight": 144,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1080,
+            "height": 2253
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 513,
+              "y": 2255,
+              "width": 54,
+              "height": 54
+            }
+          ]
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 87,
+            "width": 1080,
+            "height": 2253
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 513,
+              "y": 31,
+              "width": 54,
+              "height": 54
+            }
+          ]
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 87,
+            "y": 0,
+            "width": 2253,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 31,
+              "y": 513,
+              "width": 54,
+              "height": 54
+            }
+          ]
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 2253,
+            "height": 1080
+          },
+          "cutouts": [
+            {
+              "serializedVersion": "2",
+              "x": 2255,
+              "y": 513,
+              "width": 54,
+              "height": 54
+            }
+          ]
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyA56.png",
+        "borderSize": {
+          "x": 49,
+          "y": 53,
+          "z": 64,
+          "w": 70
+        },
+        "cornerRadius": 100
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy A56 5G",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

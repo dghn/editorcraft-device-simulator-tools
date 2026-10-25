@@ -1,0 +1,73 @@
+{
+  "friendlyName": "Samsung Galaxy Tab A11",
+  "version": 1,
+  "screens": [
+    {
+      "width": 800,
+      "height": 1340,
+      "dpi": 179,
+      "navigationBarHeight": 54,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 1340
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 800,
+            "height": 1340
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1340,
+            "height": 800
+          },
+          "cutouts": []
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0,
+            "y": 0,
+            "width": 1340,
+            "height": 800
+          },
+          "cutouts": []
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/SamsungGalaxyTabA11.png",
+        "borderSize": {
+          "x": 44,
+          "y": 78,
+          "z": 57,
+          "w": 78
+        },
+        "cornerRadius": 12
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "Samsung Galaxy Tab A11",
+    "deviceType": 1,
+    "operatingSystem": "Android (immersive layout reference)"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "friendlyName": "iPhone XS Max",
+  "version": 1,
+  "screens": [
+    {
+      "width": 1242,
+      "height": 2688,
+      "dpi": 458.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 102.0,
+            "width": 1242.0,
+            "height": 2454.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 132.0,
+            "y": 63.0,
+            "width": 2424.0,
+            "height": 1179.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 132.0,
+            "y": 63.0,
+            "width": 2424.0,
+            "height": 1179.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPhone11ProMax.png",
+        "borderSize": {
+          "x": 87.0,
+          "y": 87.0,
+          "z": 87.0,
+          "w": 87.0
+        },
+        "cornerRadius": 117.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPhone11,4",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}

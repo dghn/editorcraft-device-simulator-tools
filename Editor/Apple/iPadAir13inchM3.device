@@ -1,0 +1,68 @@
+{
+  "friendlyName": "iPad Air 13-inch (M3)",
+  "version": 1,
+  "screens": [
+    {
+      "width": 2048,
+      "height": 2732,
+      "dpi": 264.0,
+      "orientations": [
+        {
+          "orientation": 1,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2048.0,
+            "height": 2618.0
+          }
+        },
+        {
+          "orientation": 3,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2732.0,
+            "height": 1934.0
+          }
+        },
+        {
+          "orientation": 4,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2732.0,
+            "height": 1934.0
+          }
+        },
+        {
+          "orientation": 2,
+          "safeArea": {
+            "serializedVersion": "2",
+            "x": 0.0,
+            "y": 50.0,
+            "width": 2048.0,
+            "height": 2618.0
+          }
+        }
+      ],
+      "presentation": {
+        "overlayPath": "Overlays/iPadAir13inchM2.png",
+        "borderSize": {
+          "x": 118.0,
+          "y": 118.0,
+          "z": 118.0,
+          "w": 118.0
+        },
+        "cornerRadius": 36.0
+      }
+    }
+  ],
+  "systemInfo": {
+    "deviceModel": "iPad15,5",
+    "deviceType": 1,
+    "operatingSystem": "iOS reference"
+  }
+}
