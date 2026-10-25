@@ -19,9 +19,11 @@ tagging remain pending. Manufacturer-derived artwork remains intact.
 - [ ] Choose and verify a release tag before adding a release installation URL.
 - [x] Initial commit and private upload authorized by the maintainer.
 - [ ] Obtain authorization before changing visibility to public or publishing a release.
-- [ ] Test this root package in a separate clean Unity 6000.6.5f1 project.
-- [ ] After an authorized remote exists, install the exact Git URL/ref into a clean
-  project and verify compilation, picker, foldables, captures and safe-area inspection.
-- [ ] Record the tested commit and results before tagging.
+- [x] Git installation and Editor compilation in a clean Unity 6000.6.5f1 project;
+  see [verification](INSTALL_VERIFICATION.md), tested commit `18449199b852`.
+- [ ] Repeat interactive picker, foldable, capture and safe-area checks in the
+  clean Git-installed project (not covered by the batch compilation test).
+- [x] Record the tested commit and installation results; retest the selected release
+  candidate before tagging.
 
 Embedded-host validation does not by itself verify a Git-installed package.

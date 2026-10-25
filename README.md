@@ -29,8 +29,8 @@ local favorites, paired foldable screens, PNG capture and a safe-area inspector.
 Built and maintained by [Daghan Demirci](https://github.com/dghn).
 
 > **Pre-release.** This repository is private while manufacturer-derived
-> artwork distribution is reviewed. No release tag or clean Git installation has
-> been verified yet.
+> artwork distribution is reviewed. No release tag has been created. Clean Git installation and Editor compilation
+> passed on Unity 6000.6.5f1 (see the installation verification below).
 > See the [release checklist](Documentation~/RELEASE_CHECKLIST.md).
 
 The banner is an original schematic illustration, not a screenshot of the tool.
@@ -140,8 +140,8 @@ ssh://git@github.com/dghn/editorcraft-device-simulator-tools.git#main
 
 Configure SSH for your own GitHub account. A machine using the dedicated `github-dghn`
 SSH host alias can substitute that alias for `github.com` in the URL. Git must be
-installed locally. `main` is a development branch, not a versioned release; a clean
-Git installation still needs verification.
+installed locally. `main` is a development branch, not a versioned release. Clean Git installation
+and Editor compilation passed on Unity 6000.6.5f1.
 
 After public release, HTTPS installation will use:
 
@@ -193,6 +193,10 @@ diff, then let Unity resolve the package and check the Console for compilation
 errors. Report those results separately. Do not claim success from the manifest
 change alone. The package needs no agent plugin, Unity CLI or Pipeline installation.
 
+Clean-project Git installation, dependency resolution and Editor compilation were
+verified on 2026-10-25 at commit `18449199b852`.
+[Read the verification report](Documentation~/INSTALL_VERIFICATION.md) for evidence and scope.
+
 ## Compatibility
 
 The package declares Unity 6000.6 and has been verified in **6000.6.5f1**. It relies
@@ -221,8 +225,7 @@ python3 .github/scripts/validate_package.py
 ```
 
 The development Unity host and regeneration tools are maintained separately and are
-not part of this repository. Static validation does not replace Editor checks or a
-clean Git installation. See the [release checklist](Documentation~/RELEASE_CHECKLIST.md).
+not part of this repository. Static validation complements the recorded clean Git installation and Editor checks. See the [release checklist](Documentation~/RELEASE_CHECKLIST.md).
 
 ## License and credits
 
