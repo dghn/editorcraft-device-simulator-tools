@@ -1,8 +1,8 @@
 {
   "name": "com.daghandemirci.device-simulator-tools",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "displayName": "EditorCraft: Device Simulator Tools",
-  "description": "Device profiles, searchable filters, favorites, foldable screen switching, screenshots and safe-area inspection for Unity Device Simulator. Supports Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).",
+  "description": "Device profiles, search, favorites, foldable switching, screenshots, batch UI/safe-area audits and an in-Editor comparison gallery for Unity Device Simulator. Tested on Unity 2022.3.62f2 and 6000.6.5f1.",
   "unity": "2022.3",
   "author": {
     "name": "Daghan Demirci"

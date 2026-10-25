@@ -95,7 +95,7 @@ redistribution status documented in [Third-party notices](../THIRD_PARTY_NOTICES
 The screenshots are not blanket MIT-licensed images. Resolve this before public release.
 
 
-## Batch UI audit and native gallery — new on main
+## Batch UI audit and native gallery — new in v0.3.0
 
 ![Actual Unity UI audit gallery](assets/demos/ui-audit-gallery.jpg)
 
@@ -109,4 +109,4 @@ this view filters to portrait. This is a real tool screenshot, not a mockup, and
 fixture is intentionally simple. Checks are geometric; masked pixels, text clipping
 and physical hardware are outside their scope.
 
-[Read the workflow and limits](UI_AUDIT.md). Available on `main` for the next release.
+[Read the workflow and limits](UI_AUDIT.md). Included in **v0.3.0**.

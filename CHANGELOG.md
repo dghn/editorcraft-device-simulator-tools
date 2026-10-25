@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.3.0 — 2026-10-25
 
 - Add batch UI/safe-area audits using the existing device/capture runner: selected
   favorite devices, profile orientations, root/exclusion scope, per-edge pixel
