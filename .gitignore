@@ -16,3 +16,10 @@ __pycache__/
 *.sln
 /.idea/
 /.vs/
+
+# UPM ignores maintainer tools, but Git must retain them.
+!/Tools~/
+!/Tools~/**
+
+__pycache__/
+*.py[cod]

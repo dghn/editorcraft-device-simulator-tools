@@ -12,3 +12,5 @@ jobs:
           python-version: '3.9'
       - name: Validate UPM package
         run: python .github/scripts/validate_package.py
+      - name: Test manifest installer
+        run: python -m unittest discover -s "Tools~" -p "test_*.py"

@@ -131,7 +131,8 @@ Keep Simulator active and rendering before capturing. This repository is a UPM
 package; do not open it as a Unity project.
 
 **Private Git installation:** repository access and Git authentication are required.
-In Package Manager, choose **Install package from Git URL**:
+Open **Window → Package Management → Package Manager**, click **+**, then choose
+**Install package from Git URL** and paste:
 
 ```text
 ssh://git@github.com/dghn/editorcraft-device-simulator-tools.git#main
@@ -155,6 +156,43 @@ The installed tool does not require the Unity CLI or Pipeline. The repository ro
 package. No host scene or Unity project settings are included. `Documentation~`
 contains the GitHub presentation and provenance; Unity skips importing that folder.
 
+### One command for coding agents
+
+Run this from the **target Unity project root** (the folder containing `Assets`,
+`Packages` and `ProjectSettings`). Requires Python 3.9+, Git and SSH access to this
+private repository. Use Bash/zsh on macOS/Linux or PowerShell with `python3`
+available on Windows. Close Unity while editing its manifest, then reopen it.
+
+```sh
+python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "ssh://git@github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "main", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#main"], check=True)'
+```
+
+This clones the installer into a temporary directory and registers the Git dependency
+in `Packages/manifest.json`. Other dependencies and manifest fields are preserved.
+It saves an exact backup as `Packages/manifest.json.editorcraft-backup`, leaves an
+identical installation unchanged, and stops on a conflicting dependency or embedded
+package. It does not copy this repository into `Assets`, modify project settings,
+or edit `packages-lock.json`. Unity resolves dependencies when the project opens.
+Manifest registration is not confirmation that UPM resolution or compilation passed.
+
+For a dedicated SSH alias, set `EDITORCRAFT_GIT_URL` to
+`ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git` before running the
+command. In Bash/zsh you can prefix the command with
+`EDITORCRAFT_GIT_URL=ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git`.
+In PowerShell set `$env:EDITORCRAFT_GIT_URL` first. The value is the repository URL
+without a `#ref`; this development installer uses `main`.
+
+If the repository is already cloned, use the installer directly:
+
+```sh
+python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject"
+```
+
+Coding agents: run the command only in the intended project, inspect the manifest
+diff, then let Unity resolve the package and check the Console for compilation
+errors. Report those results separately. Do not claim success from the manifest
+change alone. The package needs no agent plugin, Unity CLI or Pipeline installation.
+
 ## Compatibility
 
 The package declares Unity 6000.6 and has been verified in **6000.6.5f1**. It relies
@@ -173,6 +211,7 @@ on internal Simulator APIs; other Editor versions need separate validation.
 | `package.json` | UPM identity, version and dependencies |
 | `Editor/` | Editor tooling, profiles and overlays |
 | `Documentation~/` | Device list, screenshots and provenance |
+| `Tools~/` | Agent-friendly manifest installer (not imported by Unity) |
 | `.github/` | Contribution templates and static integrity workflow |
 
 Run the offline integrity check with Python 3.9+:
