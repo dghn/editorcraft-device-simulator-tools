@@ -1,112 +1,72 @@
-# EditorCraft tools and foldable showcase
+# Jelly Garden on foldable screens
 
-**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+Fresh framed captures from **Unity 6000.6.5f1**, recorded **2026-10-26** using the
+original playable Jelly Garden sample. These are real Simulator profile renders,
+not physical-device photographs. Each pair shows separately rendered screens.
 
-## See the tools in action
+**iPhone Duo leads this showcase.** The hero and primary gameplay/screen-switch
+GIFs use Duo; the remaining devices demonstrate additional catalog coverage.
 
-Short, looping demos captured from the actual **Unity 2022.3.62f2** plugin panel.
-Timing is edited for readability; screenshot results are real exported PNGs.
+[Back to the feature tour](../README.md)
 
-### Search by model
-
-![Search the device catalog by model name](assets/demos/search.gif)
-
-### Filter by platform and device type
-
-![Combine Android and Foldable filters](assets/demos/filters.gif)
-
-### Save and filter favorites
-
-![Star inner and outer displays and show matching favorites](assets/demos/favorites.gif)
-
-### Export clean and framed screenshots
-
-![Open Test Tools and export clean or framed PNGs](assets/demos/screenshots.gif)
-
-### Batch capture favorites into an HTML gallery
-
-![Capture favorite screens and create an HTML gallery](assets/demos/batch-gallery.gif)
-
-Star the screens you want, then choose **Test Tools → Capture selected favorites…**.
-The batch honors the current search and filters and creates `index.html` plus a PNG
-for each matching favorite. Device and orientation are restored after capture.
-The final GIF frame arranges the actual exported PNGs for comparison; it is not a
-browser screenshot. [Open the example HTML gallery](assets/demos/favorite-gallery/index.html)
-from a local checkout (GitHub displays the HTML source).
-
-### Switch inner and outer displays
-
-![Switch from the inner display to the outer display and back](assets/demos/screen-switch.gif)
-
-Use **Outer ↔ / Inner ↔** in the plugin panel to switch the paired Pixel 10 Pro Fold
-profiles. This shows actual Simulator viewport changes, not a hinge animation.
-
-Open **Control Panel → EditorCraft Device Tools** to use the picker, then
-**Test Tools** for screenshots and **Capture selected favorites…** for an HTML gallery.
-These demos show Simulator profiles, not measurements of physical devices.
-
-## Foldable captures
-
-Captured on 2026-10-25 in Unity 6000.6.5f1 with the package framed PNG exporter.
-The original neutral UI was rendered in a temporary additive scene; no unrelated
-application content was used. Full-resolution screen and device pixels are preserved. The exterior gray preview
-backing was removed using the exporter’s boundary-connected transparency mask.
-These are profile simulations, not physical-device measurements.
-
-### iPhone Duo
-
-![Duo inner and outer screen switching](assets/screenshots/duo-screen-switch.gif)
-
-Click **Inner ↔ / Outer ↔** to switch Duo displays. Recorded in Unity with the
-EditorCraft demo layout; this loop shows two real screen states, not a hinge animation.
+## iPhone Duo — featured device
 
 | Inner screen | Outer screen |
 | :---: | :---: |
-| <img src="assets/screenshots/duo-inner.png" alt="iPhone Duo inner screen" height="360" /> | <img src="assets/screenshots/duo-outer.png" alt="iPhone Duo outer screen" height="360" /> |
+| <img src="assets/screenshots/duo-inner.png" alt="iPhone Duo inner display" height="380" /> | <img src="assets/screenshots/duo-outer.png" alt="iPhone Duo outer display" height="380" /> |
 
-### Pixel 10 Pro Fold
-
-| Inner screen | Outer screen |
-| :---: | :---: |
-| <img src="assets/screenshots/pixel-fold-inner.png" alt="Pixel 10 Pro Fold inner screen" height="360" /> | <img src="assets/screenshots/pixel-fold-outer.png" alt="Pixel 10 Pro Fold outer screen" height="360" /> |
-
-### Galaxy Z Fold8
+## Pixel 10 Pro Fold
 
 | Inner screen | Outer screen |
 | :---: | :---: |
-| <img src="assets/screenshots/galaxy-fold-inner.png" alt="Galaxy Z Fold8 inner screen" height="360" /> | <img src="assets/screenshots/galaxy-fold-outer.png" alt="Galaxy Z Fold8 outer screen" height="360" /> |
+| <img src="assets/screenshots/pixel-fold-inner.png" alt="Pixel 10 Pro Fold inner display" height="380" /> | <img src="assets/screenshots/pixel-fold-outer.png" alt="Pixel 10 Pro Fold outer display" height="380" /> |
 
-### Galaxy Z Fold8 Ultra
-
-| Inner screen | Outer screen |
-| :---: | :---: |
-| <img src="assets/screenshots/galaxy-fold-ultra-inner.png" alt="Galaxy Z Fold8 Ultra inner screen" height="360" /> | <img src="assets/screenshots/galaxy-fold-ultra-outer.png" alt="Galaxy Z Fold8 Ultra outer screen" height="360" /> |
-
-### Galaxy Z Flip8
+## Galaxy Z Flip8
 
 | Inner screen | Outer screen |
 | :---: | :---: |
-| <img src="assets/screenshots/galaxy-flip-inner.png" alt="Galaxy Z Flip8 inner screen" height="360" /> | <img src="assets/screenshots/galaxy-flip-outer.png" alt="Galaxy Z Flip8 outer screen" height="360" /> |
+| <img src="assets/screenshots/galaxy-flip-inner.png" alt="Galaxy Z Flip8 inner display" height="380" /> | <img src="assets/screenshots/galaxy-flip-outer.png" alt="Galaxy Z Flip8 outer display" height="380" /> |
 
-## Artwork scope
+## Galaxy Z Fold8
 
-The demo layout is original. Device frame artwork retains the provenance and unresolved
-redistribution status documented in [Third-party notices](../THIRD_PARTY_NOTICES.md).
-The screenshots are not blanket MIT-licensed images. Resolve this before public release.
+| Inner screen | Outer screen |
+| :---: | :---: |
+| <img src="assets/screenshots/galaxy-fold-inner.png" alt="Galaxy Z Fold8 inner display" height="380" /> | <img src="assets/screenshots/galaxy-fold-outer.png" alt="Galaxy Z Fold8 outer display" height="380" /> |
 
+## Galaxy Z Fold8 Ultra
 
-## Batch UI audit and native gallery — new in v0.3.0
+| Inner screen | Outer screen |
+| :---: | :---: |
+| <img src="assets/screenshots/galaxy-fold-ultra-inner.png" alt="Galaxy Z Fold8 Ultra inner display" height="380" /> | <img src="assets/screenshots/galaxy-fold-ultra-outer.png" alt="Galaxy Z Fold8 Ultra outer display" height="380" /> |
 
-![Actual Unity UI audit gallery](assets/demos/ui-audit-gallery.jpg)
+## OPPO Find N5
 
-A neutral test fixture makes the issue visible: the red UI element extends 80 px
-past the right screen edge on two devices. The native gallery shows safe-area
-outlines, per-edge warnings and links back to the object and device. Filter the
-orientation to compare matching views, then export HTML/JSON reports and PNGs.
+| Inner screen | Outer screen |
+| :---: | :---: |
+| <img src="assets/screenshots/oppo-find-n5-inner.png" alt="OPPO Find N5 inner display" height="380" /> | <img src="assets/screenshots/oppo-find-n5-outer.png" alt="OPPO Find N5 outer display" height="380" /> |
 
-Captured from Unity 6000.6.5f1. The batch captured eight device/orientation snapshots;
-this view filters to portrait. This is a real tool screenshot, not a mockup, and the
-fixture is intentionally simple. Checks are geometric; masked pixels, text clipping
-and physical hardware are outside their scope.
+## Recording notes
 
-[Read the workflow and limits](UI_AUDIT.md). Included in **v0.3.0**.
+The seven refreshed GIFs contain **180 frames over 15 seconds**, played at **12 fps**.
+Gameplay and screen switching come from successive real Unity Simulator
+captures through the tool's framed PNG export path, preserving the actual device
+surround and camera/notch masks. Playback timing is edited; no intermediate game
+frames are synthesized.
+
+Search, filter, favorite, export and comparison tours combine fresh desktop UI captures
+with a separately recorded gameplay pane. Both panes are labelled. They are instructional
+edits, not continuous desktop video; the tool actions and game moves are not synchronized.
+
+The native gallery screenshot is a real window capture. The sample report contains 11
+snapshots on iPhone 16 and Pixel Fold inner/outer profiles. Every snapshot checked 329
+objects with zero geometric issues and zero skipped objects. Full-screen scenery is
+outside the selected audit root. Geometry checks do not assess usability or readability.
+
+[Media metadata](assets/demos/recordings.json) ·
+[Actual report](assets/demos/puzzle-audit/report.json) ·
+[HTML and original PNGs](assets/demos/puzzle-audit/index.html)
+
+The old intentional-overflow fixture remains in `assets/demos/ui-audit-report` as
+historical regression evidence; it is not the new puzzle showcase.
+
+Device surrounds retain their separate [third-party terms](../THIRD_PARTY_NOTICES.md).

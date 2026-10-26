@@ -1,312 +1,201 @@
 <p align="center">
-  <img src="Documentation~/assets/hero.svg" alt="Device Simulator Tools — find devices, inspect layouts, capture screenshots" width="100%" />
+  <img src="Documentation~/assets/hero.png" alt="Jelly Garden running on the inner and outer iPhone Duo screens in Unity Device Simulator" width="100%" />
 </p>
 
-<p align="center">
-  <strong>EditorCraft · Device Simulator Tools</strong><br />
-  Independent tools for Unity. Built for the details.
-</p>
+# EditorCraft · Device Simulator Tools
 
-<p align="center">
-  <img alt="Version: 0.3.1" src="https://img.shields.io/badge/version-0.3.1-70e0c4?style=flat-square" />
-  <img alt="Supported: Unity 2022.3.62f2 (2022 LTS)" src="https://img.shields.io/badge/Unity_2022_LTS-2022.3.62f2-70e0c4?style=flat-square" />
-  <img alt="Supported: Unity 6 (6000.6.5f1)" src="https://img.shields.io/badge/Unity-6000.6.5f1-94adc9?style=flat-square" />
-  <img alt="181 custom profiles" src="https://img.shields.io/badge/profiles-181-70e0c4?style=flat-square" />
-  <img alt="Editor only" src="https://img.shields.io/badge/scope-editor_only-94adc9?style=flat-square" />
-</p>
+**Find the right device. Check your game's layout. Capture and compare.**
 
-<p align="center">
-  <a href="#the-workflow">The workflow</a> ·
-  <a href="#get-started">Get started</a> ·
-  <a href="#compatibility">Compatibility</a> ·
-  <a href="CONTRIBUTING.md">Contributing</a> ·
-  <a href="#license-and-credits">License</a>
-</p>
+A focused toolkit inside Unity's Device Simulator: searchable devices, favorites,
+foldable screen switching, clean/framed PNGs, safe-area inspection and batch UI audits.
+Built by [Daghan Demirci](https://github.com/dghn).
 
----
+**181 maintained profiles · 6 foldable pairs · Editor-only tooling**
+Tested tool versions: **Unity 2022.3.62f2** and **Unity 6000.6.5f1**.
 
-**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
-
-The first tool in the **EditorCraft** collection, Device Simulator Tools extends Unity's Device Simulator with a compact device picker,
-local favorites, paired foldable screens, PNG capture, batch UI audits and a native comparison gallery.
-Built and maintained by [Daghan Demirci](https://github.com/dghn).
-
-> **v0.3.1** · Supports Unity **2022.3.62f2 (2022 LTS)** and **6000.6.5f1 (Unity 6)**.
-> [Release notes](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.3.1) · [Installation verification](Documentation~/INSTALL_VERIFICATION.md).
-
-The banner is an original schematic illustration, not a screenshot of the tool.
-
-## Device coverage
-
-**181 maintained screen profiles · 175 model names · 6 foldable pairs**
-
-| Catalog | Screen profiles |
-| --- | ---: |
-| Apple | 89 |
-| Android | 92 |
-| Total custom profiles | **181** |
-
-Inner and outer screens count as separate profiles, not separate physical devices.
-The six paired models are iPhone Duo, Pixel 10 Pro Fold, Galaxy Z Fold8,
-Galaxy Z Fold8 Ultra, Galaxy Z Flip8 and OPPO Find N5. Model-name counts merge these pairs;
-this is a catalog count, not a claim of physical-device testing.
-
-All **181 maintained profiles** were validated in both **Unity 2022.3.62f2 (2022 LTS)**
-and **Unity 6 (6000.6.5f1)**, covering **676 orientations per Editor version**.
-Unity's bundled devices and presets add selectable entries; that total varies with
-the Editor and registry catalog and is not a count of distinct physical models.
-
-[Browse the maintained device list](Documentation~/DEVICES.md).
-
-## See the tools in action
-
-The workflow GIFs below were captured from the actual **Unity 2022.3.62f2** plugin panel.
-Timing is edited for readability; screenshot results are real exported PNGs.
-
-### Find UI overflow across devices — new in v0.3.0
-
-![Batch UI audit and native comparison gallery](Documentation~/assets/demos/ui-audit-gallery.jpg)
-
-Check a UI root across favorite devices and their recorded orientations. See exactly
-which object crosses the screen or safe-area boundary, with per-edge pixel distances.
-Exclude intentional backgrounds, adjust tolerance and click an issue to select its
-object and device. Compare snapshots side by side in Unity, filtered by orientation.
-
-This is an actual **Unity 6000.6.5f1** gallery showing a neutral test fixture on Redmi
-13C and POCO F7. The red element intentionally extends **80 px** beyond the right
-screen edge; green outlines show the safe area. Eight snapshots were captured; the
-gallery is filtered to the two portrait results. Captures are sequential and checks
-cover geometry, not clipping or text readability.
-
-[Usage and limits](Documentation~/UI_AUDIT.md) ·
-[Actual JSON report](Documentation~/assets/demos/ui-audit-report/report.json) ·
-[HTML report and PNGs](Documentation~/assets/demos/ui-audit-report/index.html)
-
-The HTML report opens locally after downloading; GitHub displays its source.
-These features are included in **v0.3.0** and were tested in Unity
-**2022.3.62f2** and **6000.6.5f1**.
-
-### Search by model
-
-![Search the device catalog by model name](Documentation~/assets/demos/search.gif)
-
-### Filter by platform and device type
-
-![Combine Android and Foldable filters](Documentation~/assets/demos/filters.gif)
-
-### Save and filter favorites
-
-![Star inner and outer displays and show matching favorites](Documentation~/assets/demos/favorites.gif)
-
-### Export clean and framed screenshots
-
-![Open Test Tools and export clean or framed PNGs](Documentation~/assets/demos/screenshots.gif)
-
-### Batch capture favorites into an HTML gallery
-
-![Capture favorite screens and create an HTML gallery](Documentation~/assets/demos/batch-gallery.gif)
-
-Star the screens you want, then choose **Test Tools → Capture selected favorites…**.
-The batch honors the current search and filters and creates `index.html` plus a PNG
-for each matching favorite. Device and orientation are restored after capture.
-The final GIF frame arranges the actual exported PNGs for comparison; it is not a
-browser screenshot. [Open the example HTML gallery](Documentation~/assets/demos/favorite-gallery/index.html)
-from a local checkout (GitHub displays the HTML source).
-
-### Switch inner and outer displays
-
-![Switch from the inner display to the outer display and back](Documentation~/assets/demos/screen-switch.gif)
-
-Use **Outer ↔ / Inner ↔** in the plugin panel to switch the paired Pixel 10 Pro Fold
-profiles. This shows actual Simulator viewport changes, not a hinge animation.
-
-Open **Control Panel → EditorCraft Device Tools** to use the picker, then
-**Test Tools** for screenshots and **Capture selected favorites…** for an HTML gallery.
-These demos show Simulator profiles, not measurements of physical devices.
-
-## Foldable showcase
-
-Real framed PNG captures from Unity 6000.6.5f1, using an original English-only
-EditorCraft demo layout. These are Simulator profile renders, not photographs of
-physical devices or screenshots of manufacturer software. Inner and outer screens
-are rendered separately.
-
-### iPhone Duo
-
-![Duo inner and outer screen switching](Documentation~/assets/screenshots/duo-screen-switch.gif)
-
-Click **Inner ↔ / Outer ↔** to switch Duo displays. Recorded in Unity with the
-EditorCraft demo layout; this loop shows two real screen states, not a hinge animation.
-
-| Inner screen | Outer screen |
-| :---: | :---: |
-| <img src="Documentation~/assets/screenshots/duo-inner.png" alt="iPhone Duo inner screen" height="360" /> | <img src="Documentation~/assets/screenshots/duo-outer.png" alt="iPhone Duo outer screen" height="360" /> |
-
-### Pixel 10 Pro Fold
-
-| Inner screen | Outer screen |
-| :---: | :---: |
-| <img src="Documentation~/assets/screenshots/pixel-fold-inner.png" alt="Pixel 10 Pro Fold inner screen" height="360" /> | <img src="Documentation~/assets/screenshots/pixel-fold-outer.png" alt="Pixel 10 Pro Fold outer screen" height="360" /> |
-
-### Galaxy Z Flip8
-
-| Inner screen | Outer screen |
-| :---: | :---: |
-| <img src="Documentation~/assets/screenshots/galaxy-flip-inner.png" alt="Galaxy Z Flip8 inner screen" height="360" /> | <img src="Documentation~/assets/screenshots/galaxy-flip-outer.png" alt="Galaxy Z Flip8 outer screen" height="360" /> |
-
-[View all five foldable pairs](Documentation~/SHOWCASE.md), including Galaxy Z Fold8 and Fold8 Ultra.
-
-These captures include the existing manufacturer-derived frames and remain subject
-to the same [publication restrictions](THIRD_PARTY_NOTICES.md).
-
-## The workflow
-
-### 01 — Find the right screen
-
-Search devices by name. Combine iOS/Android and Phone/Tablet/Foldable filters.
-Star the devices you revisit. Search, filters and favorites stay local and persist
-between sessions. The picker prefers maintained profiles over matching bundled names
-while leaving Unity's registry catalog unchanged.
-
-### 02 — Audit the layout
-
-Inspect a single UI element or audit a whole UI root across favorite devices and
-profile orientations. Review per-edge screen/safe-area overflow, exclude intentional
-backgrounds and jump from a warning to the affected scene object. Switch between
-paired inner and outer foldable profiles from the EditorCraft Device Tools panel.
-
-### 03 — Capture and compare
-
-Export a clean PNG or include the device frame. Compare up to four snapshots side by
-side inside Unity, with an orientation filter and paged thumbnails. Export HTML/JSON
-reports plus PNGs, or use the existing favorite-capture HTML gallery. Batch completion
-or cancellation restores the original device and orientation and retains completed
-results.
-
-| Capability | Included today |
-| --- | --- |
-| Device catalog | 89 Apple and 92 Android custom screen profiles |
-| Picker | Search, platform/type filters, favorites, keyboard navigation |
-| Foldables | Paired inner/outer profile switching |
-| Captures | Clean/framed PNG, orientation handling, sequential batch gallery |
-| Comparison | Native four-tile gallery, orientation filter, HTML/JSON/PNG export |
-| Layout inspection | Single-object inspector; batch screen/safe-area audit, exclusions and per-edge warnings |
-| Package scope | Editor-only assembly, installed through UPM |
-
-## Batch UI audit and Unity comparison gallery
-
-Choose **Test Tools → Batch UI audit & comparison…** to check a scene UI root across
-filtered favorite devices and their profile orientations. Reports show per-edge
-screen/safe-area overflow, exclusions and unsupported objects; click an issue to
-select its device and scene object. **Comparison gallery…** also works without a
-UI audit, with four snapshots side by side and an orientation filter.
-
-Export HTML/JSON reports and full-resolution PNGs. Captures are sequential; checks
-cover geometric bounds rather than clipping, occlusion or text readability.
-[Usage and limits](Documentation~/UI_AUDIT.md).
+[Install](#get-started) · [Try the puzzle](#play-with-jelly-garden) ·
+[Features](#the-workflow) · [Device list](Documentation~/DEVICES.md) ·
+[Compatibility](#compatibility)
 
 ## Get started
 
-**Local package:** open a separate Unity **2022.3.62f2 or 6000.6.5f1** project. In Package Manager,
-choose **Install package from disk** and select this repository's `package.json`.
-Then open **Window → General → Device Simulator**, show the Control Panel and
-expand **EditorCraft Device Tools** for the picker and **Test Tools**.
-Keep Simulator active and rendering before capturing. This repository is a UPM
-package; do not open it as a Unity project.
-
-**Git installation:** open **Window → Package Management → Package Manager**,
-click **+ → Install package from Git URL**, and paste:
+In **Package Manager → + → Install package from Git URL**, paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.1
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.0
 ```
 
-Git must be installed locally. Public HTTPS installation needs no GitHub account or
-SSH key. The URL is pinned to **v0.3.1**, including both supported Unity versions and the features shown here.
+Open **Window → General → Device Simulator → Control Panel → EditorCraft Device Tools**.
+The device button opens the picker; **Test Tools** contains capture and audit commands.
+Keep Simulator active and rendering when capturing.
 
+Git must be installed. No GitHub account, SSH key, Unity CLI or Pipeline package is
+needed. UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependencies.
 
-UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependencies.
-The installed tool does not require the Unity CLI or Pipeline. The repository root is the
-package. No host scene or Unity project settings are included. `Documentation~`
-contains the GitHub presentation and provenance; Unity skips importing that folder.
+**Working from this checkout?** Install its `package.json` with **Install package
+from disk** in an existing Unity project. This repository is a UPM package, not a
+standalone Unity project. The optional Jelly Garden sample and refreshed iPhone Duo showcase are included
+in **v0.4.0**.
 
-### One command for coding agents
+[Agent-friendly installer](Documentation~/AGENT_INSTALL.md) ·
+[Installation verification](Documentation~/INSTALL_VERIFICATION.md) ·
+[Released v0.4.0](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.0)
 
-Run this from the **target Unity project root** (the folder containing `Assets`,
-`Packages` and `ProjectSettings`). Requires Python 3.9+ and Git. No GitHub account or SSH key is needed. Use Bash/zsh on macOS/Linux or PowerShell with `python3`
-available on Windows. Close Unity while editing its manifest, then reopen it.
+## Play with Jelly Garden
 
-```sh
-python3 -c 'import os, pathlib, subprocess, sys, tempfile; url=os.environ.get("EDITORCRAFT_GIT_URL", "https://github.com/dghn/editorcraft-device-simulator-tools.git"); tmp=tempfile.TemporaryDirectory(prefix="editorcraft-"); repo=pathlib.Path(tmp.name)/"package"; subprocess.run(["git", "clone", "--depth", "1", "--branch", "v0.3.1", url, str(repo)], check=True); subprocess.run([sys.executable, str(repo/"Tools~"/"install.py"), "--project", os.getcwd(), "--url", url+"#v0.3.1"], check=True)'
-```
+**iPhone Duo is the lead showcase device:** the gameplay and screen-switch demos
+below use its real inner/outer profiles and device surrounds.
 
-This clones the installer into a temporary directory and registers the Git dependency
-in `Packages/manifest.json`. Other dependencies and manifest fields are preserved.
-It saves an exact backup as `Packages/manifest.json.editorcraft-backup`, leaves an
-identical installation unchanged, and stops on a conflicting dependency or embedded
-package. It does not copy this repository into `Assets`, modify project settings,
-or edit `packages-lock.json`. Unity resolves dependencies when the project opens.
-Manifest registration is not confirmation that UPM resolution or compilation passed.
+![Playable Jelly Garden puzzle on iPhone Duo, recorded from Unity](Documentation~/assets/demos/gameplay.gif)
 
-For a dedicated SSH alias, set `EDITORCRAFT_GIT_URL` to
-`ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git` before running the
-command. In Bash/zsh you can prefix the command with
-`EDITORCRAFT_GIT_URL=ssh://git@github-dghn/dghn/editorcraft-device-simulator-tools.git`.
-In PowerShell set `$env:EDITORCRAFT_GIT_URL` first. The value is the repository URL
-without a `#ref`; this command uses `v0.3.1`.
+A small **playable tap-to-pop puzzle**, with soft scenery, animated jellies, collection
+goals, falling tiles and a move limit. Tap matching groups, collect all three targets,
+and reset to replay the seeded board. Portrait and foldable layouts respect the
+safe area; wide landscape layouts put the goals beside the board.
 
-If the repository is already cloned, use the installer directly:
+In Package Manager, select this local package and **Samples → Jelly Garden → Import**.
+Open `JellyGarden.unity` from the imported sample and press **Play**. All sample art is
+procedural; there are no external game assets or SDKs.
 
-```sh
-python3 "/path/to/editorcraft-device-simulator-tools/Tools~/install.py" --project "/path/to/UnityProject" --url "https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.1"
-```
+For an audit, select `Jelly Garden/Safe area/Game` as the UI root. The full-screen
+scenery intentionally extends outside the safe area. The sample is optional runtime
+content; it enters your `Assets` folder only when imported.
 
-Coding agents: run the command only in the intended project, inspect the manifest
-diff, then let Unity resolve the package and check the Console for compilation
-errors. Report those results separately. Do not claim success from the manifest
-change alone. The package needs no agent plugin, Unity CLI or Pipeline installation.
+## The workflow
 
-Clean-project Git installation, dependency resolution and Editor compilation were
-verified on 2026-10-25 at commit `18449199b852`.
-[Read the verification report](Documentation~/INSTALL_VERIFICATION.md) for evidence and scope.
+### 1. Find and keep your test devices
+
+Search by model, combine **iOS / Android** with **Phone / Tablet / Foldable**, and star
+the screens you test most. Favorites, search and filters persist locally. Arrow keys
+navigate the list; Enter selects. Maintained profiles take precedence over duplicate
+bundled names without modifying Unity's catalog.
+
+![Device search walkthrough with the playable puzzle](Documentation~/assets/demos/search.gif)
+
+<details>
+<summary>Platform/type filtering and favorites</summary>
+
+![Platform and device filters](Documentation~/assets/demos/filters.gif)
+
+![Favorite inner and outer screens](Documentation~/assets/demos/favorites.gif)
+
+Favorites still honor the current search and filters. A batch operates on that
+matching shortlist, not every starred device.
+
+</details>
+
+### 2. iPhone Duo: check both screens
+
+Switch paired displays with **Inner ↔ / Outer ↔**. Use the **Safe area inspector** for
+one selected RectTransform, or **Batch UI audit & comparison…** for a whole UI root.
+The audit reports per-edge screen/safe-area overflow, supports exclusions and tolerance,
+and lets you jump from an issue to its scene object and device.
+
+![iPhone Duo switching outer, inner and outer displays with its device surrounds](Documentation~/assets/demos/screen-switch.gif)
+
+<details>
+<summary>Additional device coverage: Pixel Fold and iPhone 16 audit</summary>
+
+The audit gallery uses **clean screen captures** so its boundary guides align with
+screen pixels. Device surrounds are preserved in the framed gameplay GIFs and PNGs.
+
+![Real Unity gallery comparing Jelly Garden on three profiles](Documentation~/assets/demos/ui-audit-gallery.jpg)
+
+Fresh sample check: **3 profiles · 11 recorded orientations · 329 UI objects per
+snapshot · 0 geometric warnings · 0 skipped objects**, in Unity **6000.6.5f1**.
+This is a layout-bounds result, not a guarantee of readability or physical-device accuracy.
+
+[Audit usage and limits](Documentation~/UI_AUDIT.md) ·
+[Actual sample report](Documentation~/assets/demos/puzzle-audit/report.json)
+
+</details>
+
+### 3. Capture and compare
+
+Export a **Clean PNG** at the simulated screen resolution or a **Framed PNG** with
+the device surround and transparent exterior. **Capture selected favorites…** produces
+an HTML gallery and a PNG per matching screen. **Settings…** remembers separate
+image/gallery destinations; output names are timestamped and collision-safe.
+
+For deeper review, use the native **Comparison gallery…**: up to four snapshots per
+page, an orientation filter, and HTML/JSON/full-resolution PNG export. Audit and
+comparison share the same sequential capture runner. Completion or cancellation
+restores the original device and orientation and retains completed captures.
+
+<details>
+<summary>PNG export and batch comparison walkthroughs</summary>
+
+![Clean and framed screenshot export](Documentation~/assets/demos/screenshots.gif)
+
+![Batch UI audit and native comparison workflow](Documentation~/assets/demos/batch-gallery.gif)
+
+</details>
+
+[Clean PNG](Documentation~/assets/demos/puzzle-clean.png) ·
+[Framed PNG](Documentation~/assets/demos/puzzle-framed.png) ·
+[Sample audit HTML](Documentation~/assets/demos/puzzle-audit/index.html) ·
+[Favorite capture HTML](Documentation~/assets/demos/favorite-gallery/index.html)
+
+Download the HTML and neighboring images to open locally; GitHub displays HTML source.
+
+## Device coverage
+
+| Maintained catalog | Screen profiles |
+| --- | ---: |
+| Apple | 89 |
+| Android | 92 |
+| **Total** | **181** |
+
+These represent **175 model names**, including six paired models: iPhone Duo,
+Pixel 10 Pro Fold, Galaxy Z Fold8, Galaxy Z Fold8 Ultra, Galaxy Z Flip8 and OPPO Find N5.
+Inner and outer screens are counted separately. Unity's bundled devices and presets
+add entries; picker totals vary by Editor and catalog version.
+
+All 181 profile definitions were validated over 676 orientations in each supported
+Editor version. Definitions include varying levels of geometry evidence; catalog
+coverage is not physical-device testing.
+
+[Device list and geometry notes](Documentation~/DEVICES.md) ·
+[All six foldable pairs with fresh puzzle captures](Documentation~/SHOWCASE.md)
 
 ## Compatibility
 
-The package declares Unity **2022.3** and is tested in **2022.3.62f2** and
-**6000.6.5f1**. Its UI uses the official DeviceSimulatorPlugin API; necessary internal
-selection/capture access is isolated behind a compatibility adapter. See the
-[plugin compatibility report](Documentation~/PLUGIN_COMPATIBILITY.md). Other patches need validation.
+The package declares Unity **2022.3**. Tooling was tested in **2022.3.62f2** and
+**6000.6.5f1**; other patches require validation. The new sample and refreshed media
+were verified in **6000.6.5f1** on **2026-10-26**.
 
-- Safe areas describe recorded OS/system-UI configurations, not universal hardware values.
-- UI inspection checks rectangular bounds, not visible pixels or clipping.
-- Batch capture is sequential while the application runs, not a frozen replay or automated visual test.
-- Foldable profiles simulate one screen at a time.
-- Capture requires a ready Simulator render.
+- Safe areas represent the profile's recorded OS/system-UI configuration.
+- Audits measure rectangular bounds; they do not test masks, clipping, overlap or text readability.
+- Captures are sequential while the game runs, not a frozen replay or automated visual test.
+- Foldables simulate one screen at a time, not hinge motion.
+
+Each new GIF is **15 seconds / 180 frames / 12 fps playback**. Gameplay and screen
+switching use actual framed Simulator capture sequences. The other tours combine newly
+captured tool steps with separately recorded gameplay, clearly labelled in-frame;
+they are edited walkthroughs, not continuous desktop recordings.
+
+[Compatibility evidence](Documentation~/PLUGIN_COMPATIBILITY.md) ·
+[Capture provenance](Documentation~/SHOWCASE.md#recording-notes)
 
 ## Inside the repository
 
 | Path | Purpose |
 | --- | --- |
-| `package.json` | UPM identity, version and dependencies |
-| `Editor/` | Editor tooling, profiles and overlays |
-| `Documentation~/` | Device list, screenshots and provenance |
-| `Tools~/` | Agent-friendly manifest installer (not imported by Unity) |
-| `.github/` | Contribution templates and static integrity workflow |
+| `Editor/` | Editor-only tooling, device profiles and overlays |
+| `Samples~/Jelly Garden/` | Optional playable puzzle scene and source |
+| `Documentation~/` | Guides, captures, reports and geometry provenance |
+| `Tools~/` | Manifest installer and compatibility probes |
+| `.github/` | Integrity validation and contribution templates |
 
-Run the offline integrity check with Python 3.9+:
+Run `python3 .github/scripts/validate_package.py` and
+`python3 -m unittest discover -s 'Tools~' -p 'test_*.py'` from the package checkout.
 
-```sh
-python3 .github/scripts/validate_package.py
-```
-
-The development Unity host and regeneration tools are maintained separately and are
-not part of this repository. Static validation complements the recorded clean Git installation and Editor checks. See the [release checklist](Documentation~/RELEASE_CHECKLIST.md).
+[Contributing](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
 
 ## License and credits
 
-Original editor tooling and maintainer scripts use [MIT](LICENSE.md).
-Manufacturer-derived artwork and third-party materials are excluded from that grant;
-read [Third-party notices](THIRD_PARTY_NOTICES.md) before redistribution.
-The original repository banner is also available under MIT.
+Original tooling, sample code and procedural sample artwork use [MIT](LICENSE.md).
+Manufacturer-derived surrounds and other third-party materials are excluded; see
+[Third-party notices](THIRD_PARTY_NOTICES.md).
 
-An independent tool for Unity. Not affiliated with or endorsed by Unity or device manufacturers.
+Independent tooling, not affiliated with Unity or device manufacturers.

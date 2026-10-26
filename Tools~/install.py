@@ -8,7 +8,7 @@ import sys
 import tempfile
 
 PACKAGE = "com.daghandemirci.device-simulator-tools"
-DEFAULT_URL = "https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.3.1"
+DEFAULT_URL = "https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.0"
 
 
 def unique_keys(pairs):

@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.4.0 — 2026-10-26
+
+- Add the optional Jelly Garden playable puzzle sample with portrait, foldable and landscape layouts.
+- Replace the application-style showcase with fresh puzzle captures and 15-second, 180-frame walkthrough GIFs.
+- Feature iPhone Duo in the hero and primary gameplay/inner–outer switching demos, retaining real device surrounds and camera masks.
+- Reorganize the README around installation, finding devices, layout audits and capture comparison.
+
 ## 0.3.1 — 2026-10-25
 
 - Refresh the gallery’s matching-favorite count when picker preferences change and

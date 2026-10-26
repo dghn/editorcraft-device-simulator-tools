@@ -1,0 +1,43 @@
+{
+  "captured": "2026-10-26",
+  "editor": "6000.6.5f1",
+  "featuredDevice": "iPhone Duo",
+  "format": "Edited UI walkthroughs with separately recorded gameplay; gameplay and screen-switch use actual framed capture sequences.",
+  "gifs": {
+    "search": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1316017
+    },
+    "filters": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1295797
+    },
+    "favorites": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1294564
+    },
+    "screenshots": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1434524
+    },
+    "batch-gallery": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1301478
+    },
+    "gameplay": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1499808
+    },
+    "screen-switch": {
+      "frames": 180,
+      "duration_seconds": 15,
+      "bytes": 1606163
+    }
+  }
+}

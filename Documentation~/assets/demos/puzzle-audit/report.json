@@ -1,0 +1,221 @@
+{
+    "createdUtc": "2026-10-26T09:08:44.9278040Z",
+    "status": "Complete",
+    "root": "Jelly Garden/Safe area/Game",
+    "scope": "Active UI Graphics and Selectables",
+    "audit": true,
+    "tolerance": 1.0,
+    "limitations": "Sequential snapshots of a running application. Geometric bounds only; masks, occlusion, text overflow and physical hardware are not validated. Safe areas depend on the device profile. Skipped items are not passes.",
+    "exclusions": [],
+    "frames": [
+        {
+            "device": "Google Pixel 10 Pro Fold — Inner Screen",
+            "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
+            "image": "000_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait.png",
+            "thumbnail": "000_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 2076,
+            "height": 2152,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 2076.0,
+                "height": 2030.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Inner Screen",
+            "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
+            "image": "001_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown.png",
+            "thumbnail": "001_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown_thumb.png",
+            "orientation": 2,
+            "width": 2076,
+            "height": 2152,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 122.0,
+                "width": 2076.0,
+                "height": 2030.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Inner Screen",
+            "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
+            "image": "002_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft.png",
+            "thumbnail": "002_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2152,
+            "height": 2076,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 122.0,
+                "y": 0.0,
+                "width": 2030.0,
+                "height": 2076.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Inner Screen",
+            "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
+            "image": "003_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight.png",
+            "thumbnail": "003_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2152,
+            "height": 2076,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 2030.0,
+                "height": 2076.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Outer Screen",
+            "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
+            "image": "004_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait.png",
+            "thumbnail": "004_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 1080,
+            "height": 2364,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 1080.0,
+                "height": 2250.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Outer Screen",
+            "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
+            "image": "005_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown.png",
+            "thumbnail": "005_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown_thumb.png",
+            "orientation": 2,
+            "width": 1080,
+            "height": 2364,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 114.0,
+                "width": 1080.0,
+                "height": 2250.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Outer Screen",
+            "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
+            "image": "006_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft.png",
+            "thumbnail": "006_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2364,
+            "height": 1080,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 114.0,
+                "y": 0.0,
+                "width": 2250.0,
+                "height": 1080.0
+            },
+            "issues": []
+        },
+        {
+            "device": "Google Pixel 10 Pro Fold — Outer Screen",
+            "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
+            "image": "007_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight.png",
+            "thumbnail": "007_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2364,
+            "height": 1080,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 0.0,
+                "width": 2250.0,
+                "height": 1080.0
+            },
+            "issues": []
+        },
+        {
+            "device": "iPhone 16",
+            "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
+            "image": "008_iPhone_16_Portrait.png",
+            "thumbnail": "008_iPhone_16_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 1179,
+            "height": 2556,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 1179.0,
+                "height": 2277.0
+            },
+            "issues": []
+        },
+        {
+            "device": "iPhone 16",
+            "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
+            "image": "009_iPhone_16_LandscapeLeft.png",
+            "thumbnail": "009_iPhone_16_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2556,
+            "height": 1179,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 177.0,
+                "y": 60.0,
+                "width": 2202.0,
+                "height": 1119.0
+            },
+            "issues": []
+        },
+        {
+            "device": "iPhone 16",
+            "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
+            "image": "010_iPhone_16_LandscapeRight.png",
+            "thumbnail": "010_iPhone_16_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2556,
+            "height": 1179,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 177.0,
+                "y": 60.0,
+                "width": 2202.0,
+                "height": 1119.0
+            },
+            "issues": []
+        }
+    ]
+}

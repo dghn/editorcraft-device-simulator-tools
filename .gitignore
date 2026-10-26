@@ -23,3 +23,7 @@ __pycache__/
 
 __pycache__/
 *.py[cod]
+
+# Optional UPM puzzle sample
+!/Samples~/
+!/Samples~/**

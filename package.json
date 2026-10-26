@@ -1,6 +1,6 @@
 {
   "name": "com.daghandemirci.device-simulator-tools",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "displayName": "EditorCraft: Device Simulator Tools",
   "description": "Device profiles, search, favorites, foldable switching, screenshots, batch UI/safe-area audits and an in-Editor comparison gallery for Unity Device Simulator. Tested on Unity 2022.3.62f2 and 6000.6.5f1.",
   "unity": "2022.3",
@@ -12,5 +12,12 @@
     "com.unity.nuget.newtonsoft-json": "3.2.2",
     "com.unity.ugui": "1.0.0"
   },
-  "license": "SEE LICENSE.md"
+  "license": "SEE LICENSE.md",
+  "samples": [
+    {
+      "displayName": "Jelly Garden",
+      "description": "Playable tap-to-pop puzzle with animated jellies, collection goals and safe-area responsive uGUI. Open JellyGarden.unity and press Play.",
+      "path": "Samples~/Jelly Garden"
+    }
+  ]
 }
