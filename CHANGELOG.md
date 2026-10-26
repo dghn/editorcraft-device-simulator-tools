@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.3 — 2026-10-26
+
+- Rerun the sample audit across 18 orientations on five profiles, with iPhone Duo outer/inner first.
+- Capture matching framed PNGs in the same audit callback as clean images; show device surrounds and camera cutouts on the hosted audit page.
+- Preserve clean-coordinate PNGs and original audit JSON, and disclose four Duo landscape title-bounds warnings rather than carrying forward the old zero-warning result.
+
 ## 0.4.2 — 2026-10-26
 
 - Recapture the five-device HTML showcase with real device surrounds and camera masks, leading with iPhone Duo outer and inner screens.

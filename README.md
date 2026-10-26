@@ -22,7 +22,7 @@ Tested tool versions: **Unity 2022.3.62f2** and **Unity 6000.6.5f1**.
 In **Package Manager → + → Install package from Git URL**, paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.2
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.3
 ```
 
 Open **Window → General → Device Simulator → Control Panel → EditorCraft Device Tools**.
@@ -35,11 +35,11 @@ needed. UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependen
 **Working from this checkout?** Install its `package.json` with **Install package
 from disk** in an existing Unity project. This repository is a UPM package, not a
 standalone Unity project. The optional Jelly Garden sample and refreshed iPhone Duo showcase are included
-in **v0.4.2**.
+in **v0.4.3**.
 
 [Agent-friendly installer](Documentation~/AGENT_INSTALL.md) ·
 [Installation verification](Documentation~/INSTALL_VERIFICATION.md) ·
-[Released v0.4.2](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.2)
+[Released v0.4.3](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.3)
 
 ## Play with Jelly Garden
 
