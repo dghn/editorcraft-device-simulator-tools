@@ -1,0 +1,114 @@
+{
+  "createdUtc": "2026-10-26T12:13:14.4795180Z",
+  "source": "Shipping framed PNG capture, same callback as the audit; no additional game update",
+  "frames": [
+    {
+      "device": "iPhone Duo \u2014 Outer Screen",
+      "orientation": 1,
+      "clean": "000_iPhone_Duo___Outer_Screen_Portrait.png",
+      "framed": "000_iPhone_Duo___Outer_Screen_Portrait_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Outer Screen",
+      "orientation": 3,
+      "clean": "001_iPhone_Duo___Outer_Screen_LandscapeLeft.png",
+      "framed": "001_iPhone_Duo___Outer_Screen_LandscapeLeft_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Outer Screen",
+      "orientation": 4,
+      "clean": "002_iPhone_Duo___Outer_Screen_LandscapeRight.png",
+      "framed": "002_iPhone_Duo___Outer_Screen_LandscapeRight_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Inner Screen",
+      "orientation": 1,
+      "clean": "003_iPhone_Duo___Inner_Screen_Portrait.png",
+      "framed": "003_iPhone_Duo___Inner_Screen_Portrait_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Inner Screen",
+      "orientation": 3,
+      "clean": "004_iPhone_Duo___Inner_Screen_LandscapeLeft.png",
+      "framed": "004_iPhone_Duo___Inner_Screen_LandscapeLeft_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Inner Screen",
+      "orientation": 4,
+      "clean": "005_iPhone_Duo___Inner_Screen_LandscapeRight.png",
+      "framed": "005_iPhone_Duo___Inner_Screen_LandscapeRight_framed.png"
+    },
+    {
+      "device": "iPhone Duo \u2014 Inner Screen",
+      "orientation": 2,
+      "clean": "006_iPhone_Duo___Inner_Screen_PortraitUpsideDown.png",
+      "framed": "006_iPhone_Duo___Inner_Screen_PortraitUpsideDown_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Inner Screen",
+      "orientation": 1,
+      "clean": "007_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait.png",
+      "framed": "007_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Inner Screen",
+      "orientation": 2,
+      "clean": "008_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown.png",
+      "framed": "008_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Inner Screen",
+      "orientation": 3,
+      "clean": "009_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft.png",
+      "framed": "009_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Inner Screen",
+      "orientation": 4,
+      "clean": "010_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight.png",
+      "framed": "010_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+      "orientation": 1,
+      "clean": "011_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait.png",
+      "framed": "011_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+      "orientation": 2,
+      "clean": "012_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown.png",
+      "framed": "012_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+      "orientation": 3,
+      "clean": "013_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft.png",
+      "framed": "013_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft_framed.png"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold \u2014 Outer Screen",
+      "orientation": 4,
+      "clean": "014_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight.png",
+      "framed": "014_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight_framed.png"
+    },
+    {
+      "device": "iPhone 16",
+      "orientation": 1,
+      "clean": "015_iPhone_16_Portrait.png",
+      "framed": "015_iPhone_16_Portrait_framed.png"
+    },
+    {
+      "device": "iPhone 16",
+      "orientation": 3,
+      "clean": "016_iPhone_16_LandscapeLeft.png",
+      "framed": "016_iPhone_16_LandscapeLeft_framed.png"
+    },
+    {
+      "device": "iPhone 16",
+      "orientation": 4,
+      "clean": "017_iPhone_16_LandscapeRight.png",
+      "framed": "017_iPhone_16_LandscapeRight_framed.png"
+    }
+  ]
+}

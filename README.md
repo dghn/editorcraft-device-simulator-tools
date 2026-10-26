@@ -97,16 +97,16 @@ and lets you jump from an issue to its scene object and device.
 ![iPhone Duo switching outer, inner and outer displays with its device surrounds](Documentation~/assets/demos/screen-switch.gif)
 
 <details>
-<summary>Additional device coverage: Pixel Fold and iPhone 16 audit</summary>
+<summary>Fresh framed audit: iPhone Duo, Pixel Fold and iPhone 16</summary>
 
-The audit gallery uses **clean screen captures** so its boundary guides align with
-screen pixels. Device surrounds are preserved in the framed gameplay GIFs and PNGs.
+[Open the fresh framed audit](https://dghn.github.io/editorcraft-device-simulator-tools/puzzle-audit/).
+Every device/orientation is shown with its real surround and camera cutouts, starting with Duo.
+Clean screen PNGs and the original audit JSON remain available for coordinate checks.
 
-![Real Unity gallery comparing Jelly Garden on three profiles](Documentation~/assets/demos/ui-audit-gallery.jpg)
-
-Fresh sample check: **3 profiles · 11 recorded orientations · 329 UI objects per
-snapshot · 0 geometric warnings · 0 skipped objects**, in Unity **6000.6.5f1**.
-This is a layout-bounds result, not a guarantee of readability or physical-device accuracy.
+Fresh sample check: **5 profiles · 18 recorded orientations · 329 UI objects per
+snapshot · 4 geometric warnings · 0 skipped objects**, in Unity **6000.6.5f1**.
+The four warnings concern the JELLY title's RectTransform extending beyond the safe
+area in Duo landscape views. These are bounds checks, not a readability assessment.
 
 [Audit usage and limits](Documentation~/UI_AUDIT.md) ·
 [Actual sample report](Documentation~/assets/demos/puzzle-audit/report.json)

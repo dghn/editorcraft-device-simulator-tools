@@ -1,5 +1,5 @@
 {
-    "createdUtc": "2026-10-26T09:08:44.9278040Z",
+    "createdUtc": "2026-10-26T12:13:14.4795180Z",
     "status": "Complete",
     "root": "Jelly Garden/Safe area/Game",
     "scope": "Active UI Graphics and Selectables",
@@ -9,10 +9,247 @@
     "exclusions": [],
     "frames": [
         {
+            "device": "iPhone Duo — Outer Screen",
+            "deviceGuid": "c3eb217a95a9041ceb8ed36ca52a8e4f",
+            "image": "000_iPhone_Duo___Outer_Screen_Portrait.png",
+            "thumbnail": "000_iPhone_Duo___Outer_Screen_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 1398,
+            "height": 2034,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 1146.0,
+                "height": 1932.0
+            },
+            "issues": []
+        },
+        {
+            "device": "iPhone Duo — Outer Screen",
+            "deviceGuid": "c3eb217a95a9041ceb8ed36ca52a8e4f",
+            "image": "001_iPhone_Duo___Outer_Screen_LandscapeLeft.png",
+            "thumbnail": "001_iPhone_Duo___Outer_Screen_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2034,
+            "height": 1398,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 1782.0,
+                "height": 1296.0
+            },
+            "issues": [
+                {
+                    "path": "Jelly Garden/Safe area/Game/JELLY",
+                    "objectId": "GlobalObjectId_V1-2-51b55a107303d4fe1b5c1cd481f03e7e-1521141478-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": -17.82002067565918,
+                        "y": 1017.300048828125,
+                        "width": 772.199951171875,
+                        "height": 154.43994140625
+                    },
+                    "safeOverflow": {
+                        "x": 17.82002067565918,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 17.82002067565918,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "iPhone Duo — Outer Screen",
+            "deviceGuid": "c3eb217a95a9041ceb8ed36ca52a8e4f",
+            "image": "002_iPhone_Duo___Outer_Screen_LandscapeRight.png",
+            "thumbnail": "002_iPhone_Duo___Outer_Screen_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2034,
+            "height": 1398,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 252.0,
+                "y": 102.0,
+                "width": 1782.0,
+                "height": 1296.0
+            },
+            "issues": [
+                {
+                    "path": "Jelly Garden/Safe area/Game/JELLY",
+                    "objectId": "GlobalObjectId_V1-2-51b55a107303d4fe1b5c1cd481f03e7e-1521141478-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": 234.17991638183594,
+                        "y": 1017.300048828125,
+                        "width": 772.199951171875,
+                        "height": 154.43994140625
+                    },
+                    "safeOverflow": {
+                        "x": 17.820083618164063,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "iPhone Duo — Inner Screen",
+            "deviceGuid": "66d124df23332426e95515f7310479bb",
+            "image": "003_iPhone_Duo___Inner_Screen_Portrait.png",
+            "thumbnail": "003_iPhone_Duo___Inner_Screen_Portrait_thumb.png",
+            "orientation": 1,
+            "width": 2007,
+            "height": 2853,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 2007.0,
+                "height": 2505.0
+            },
+            "issues": []
+        },
+        {
+            "device": "iPhone Duo — Inner Screen",
+            "deviceGuid": "66d124df23332426e95515f7310479bb",
+            "image": "004_iPhone_Duo___Inner_Screen_LandscapeLeft.png",
+            "thumbnail": "004_iPhone_Duo___Inner_Screen_LandscapeLeft_thumb.png",
+            "orientation": 3,
+            "width": 2853,
+            "height": 2007,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 2601.0,
+                "height": 1905.0
+            },
+            "issues": [
+                {
+                    "path": "Jelly Garden/Safe area/Game/JELLY",
+                    "objectId": "GlobalObjectId_V1-2-51b55a107303d4fe1b5c1cd481f03e7e-1521141478-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": -26.00998878479004,
+                        "y": 1444.650146484375,
+                        "width": 1127.10009765625,
+                        "height": 225.419921875
+                    },
+                    "safeOverflow": {
+                        "x": 26.00998878479004,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 26.00998878479004,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "iPhone Duo — Inner Screen",
+            "deviceGuid": "66d124df23332426e95515f7310479bb",
+            "image": "005_iPhone_Duo___Inner_Screen_LandscapeRight.png",
+            "thumbnail": "005_iPhone_Duo___Inner_Screen_LandscapeRight_thumb.png",
+            "orientation": 4,
+            "width": 2853,
+            "height": 2007,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 2601.0,
+                "height": 1905.0
+            },
+            "issues": [
+                {
+                    "path": "Jelly Garden/Safe area/Game/JELLY",
+                    "objectId": "GlobalObjectId_V1-2-51b55a107303d4fe1b5c1cd481f03e7e-1521141478-0",
+                    "message": "",
+                    "bounds": {
+                        "serializedVersion": "2",
+                        "x": -26.00998878479004,
+                        "y": 1444.650146484375,
+                        "width": 1127.10009765625,
+                        "height": 225.419921875
+                    },
+                    "safeOverflow": {
+                        "x": 26.00998878479004,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "screenOverflow": {
+                        "x": 26.00998878479004,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    },
+                    "skipped": false
+                }
+            ]
+        },
+        {
+            "device": "iPhone Duo — Inner Screen",
+            "deviceGuid": "66d124df23332426e95515f7310479bb",
+            "image": "006_iPhone_Duo___Inner_Screen_PortraitUpsideDown.png",
+            "thumbnail": "006_iPhone_Duo___Inner_Screen_PortraitUpsideDown_thumb.png",
+            "orientation": 2,
+            "width": 2007,
+            "height": 2853,
+            "checkedCount": 329,
+            "skippedCount": 0,
+            "safeArea": {
+                "serializedVersion": "2",
+                "x": 0.0,
+                "y": 102.0,
+                "width": 2007.0,
+                "height": 2505.0
+            },
+            "issues": []
+        },
+        {
             "device": "Google Pixel 10 Pro Fold — Inner Screen",
             "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
-            "image": "000_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait.png",
-            "thumbnail": "000_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait_thumb.png",
+            "image": "007_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait.png",
+            "thumbnail": "007_Google_Pixel_10_Pro_Fold___Inner_Screen_Portrait_thumb.png",
             "orientation": 1,
             "width": 2076,
             "height": 2152,
@@ -30,8 +267,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Inner Screen",
             "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
-            "image": "001_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown.png",
-            "thumbnail": "001_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown_thumb.png",
+            "image": "008_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown.png",
+            "thumbnail": "008_Google_Pixel_10_Pro_Fold___Inner_Screen_PortraitUpsideDown_thumb.png",
             "orientation": 2,
             "width": 2076,
             "height": 2152,
@@ -49,8 +286,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Inner Screen",
             "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
-            "image": "002_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft.png",
-            "thumbnail": "002_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft_thumb.png",
+            "image": "009_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft.png",
+            "thumbnail": "009_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeLeft_thumb.png",
             "orientation": 3,
             "width": 2152,
             "height": 2076,
@@ -68,8 +305,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Inner Screen",
             "deviceGuid": "f233f8084066e45269c9fac77f8a6583",
-            "image": "003_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight.png",
-            "thumbnail": "003_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight_thumb.png",
+            "image": "010_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight.png",
+            "thumbnail": "010_Google_Pixel_10_Pro_Fold___Inner_Screen_LandscapeRight_thumb.png",
             "orientation": 4,
             "width": 2152,
             "height": 2076,
@@ -87,8 +324,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Outer Screen",
             "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
-            "image": "004_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait.png",
-            "thumbnail": "004_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait_thumb.png",
+            "image": "011_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait.png",
+            "thumbnail": "011_Google_Pixel_10_Pro_Fold___Outer_Screen_Portrait_thumb.png",
             "orientation": 1,
             "width": 1080,
             "height": 2364,
@@ -106,8 +343,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Outer Screen",
             "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
-            "image": "005_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown.png",
-            "thumbnail": "005_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown_thumb.png",
+            "image": "012_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown.png",
+            "thumbnail": "012_Google_Pixel_10_Pro_Fold___Outer_Screen_PortraitUpsideDown_thumb.png",
             "orientation": 2,
             "width": 1080,
             "height": 2364,
@@ -125,8 +362,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Outer Screen",
             "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
-            "image": "006_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft.png",
-            "thumbnail": "006_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft_thumb.png",
+            "image": "013_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft.png",
+            "thumbnail": "013_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeLeft_thumb.png",
             "orientation": 3,
             "width": 2364,
             "height": 1080,
@@ -144,8 +381,8 @@
         {
             "device": "Google Pixel 10 Pro Fold — Outer Screen",
             "deviceGuid": "6adad487d29bd47f980cce60fc2ba5b7",
-            "image": "007_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight.png",
-            "thumbnail": "007_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight_thumb.png",
+            "image": "014_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight.png",
+            "thumbnail": "014_Google_Pixel_10_Pro_Fold___Outer_Screen_LandscapeRight_thumb.png",
             "orientation": 4,
             "width": 2364,
             "height": 1080,
@@ -163,8 +400,8 @@
         {
             "device": "iPhone 16",
             "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
-            "image": "008_iPhone_16_Portrait.png",
-            "thumbnail": "008_iPhone_16_Portrait_thumb.png",
+            "image": "015_iPhone_16_Portrait.png",
+            "thumbnail": "015_iPhone_16_Portrait_thumb.png",
             "orientation": 1,
             "width": 1179,
             "height": 2556,
@@ -182,8 +419,8 @@
         {
             "device": "iPhone 16",
             "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
-            "image": "009_iPhone_16_LandscapeLeft.png",
-            "thumbnail": "009_iPhone_16_LandscapeLeft_thumb.png",
+            "image": "016_iPhone_16_LandscapeLeft.png",
+            "thumbnail": "016_iPhone_16_LandscapeLeft_thumb.png",
             "orientation": 3,
             "width": 2556,
             "height": 1179,
@@ -201,8 +438,8 @@
         {
             "device": "iPhone 16",
             "deviceGuid": "749dd78ae7e524d538efcb8454e35fc0",
-            "image": "010_iPhone_16_LandscapeRight.png",
-            "thumbnail": "010_iPhone_16_LandscapeRight_thumb.png",
+            "image": "017_iPhone_16_LandscapeRight.png",
+            "thumbnail": "017_iPhone_16_LandscapeRight_thumb.png",
             "orientation": 4,
             "width": 2556,
             "height": 1179,

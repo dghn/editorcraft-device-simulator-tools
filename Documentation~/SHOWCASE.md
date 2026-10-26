@@ -58,10 +58,14 @@ at 12 fps playback. Timing is edited; no intermediate game frames are synthesize
 Filter, favorite, export and comparison tours show recorded UI steps on their own,
 without unrelated gameplay alongside them.
 
-The native gallery screenshot is a real window capture. The sample report contains 11
-snapshots on iPhone 16 and Pixel Fold inner/outer profiles. Every snapshot checked 329
-objects with zero geometric issues and zero skipped objects. Full-screen scenery is
-outside the selected audit root. Geometry checks do not assess usability or readability.
+The audit was rerun on 2026-10-26 at 12:13 UTC: **18 orientations across five
+profiles**, with Duo outer/inner first, then Pixel Fold inner/outer and iPhone 16.
+Each result checks 329 objects; there are four title-rectangle bounds warnings in
+Duo landscape orientations and zero skipped objects. Framed PNGs are captured in
+the same callback as each clean audit image, before another game update. The hosted
+page shows the framed files and links to the unchanged clean-coordinate evidence.
+Full-screen scenery is outside the selected audit root; geometry checks do not
+assess usability or readability.
 
 [Media metadata](assets/demos/recordings.json) ·
 [Actual report](assets/demos/puzzle-audit/report.json) ·
