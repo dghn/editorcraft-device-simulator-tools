@@ -22,7 +22,7 @@ Tested tool versions: **Unity 2022.3.62f2** and **Unity 6000.6.5f1**.
 In **Package Manager → + → Install package from Git URL**, paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.0
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.1
 ```
 
 Open **Window → General → Device Simulator → Control Panel → EditorCraft Device Tools**.
@@ -35,11 +35,11 @@ needed. UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependen
 **Working from this checkout?** Install its `package.json` with **Install package
 from disk** in an existing Unity project. This repository is a UPM package, not a
 standalone Unity project. The optional Jelly Garden sample and refreshed iPhone Duo showcase are included
-in **v0.4.0**.
+in **v0.4.1**.
 
 [Agent-friendly installer](Documentation~/AGENT_INSTALL.md) ·
 [Installation verification](Documentation~/INSTALL_VERIFICATION.md) ·
-[Released v0.4.0](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.0)
+[Released v0.4.1](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.1)
 
 ## Play with Jelly Garden
 
@@ -70,7 +70,10 @@ the screens you test most. Favorites, search and filters persist locally. Arrow 
 navigate the list; Enter selects. Maintained profiles take precedence over duplicate
 bundled names without modifying Unity's catalog.
 
-![Device search walkthrough with the playable puzzle](Documentation~/assets/demos/search.gif)
+Duo leads the tour: outer → inner → landscape → Pixel Fold inner/outer → iPhone 16 → Duo.
+The picker and Simulator are recorded in the same session; the visible device changes with the selection.
+
+![Real device switching with matching Simulator frames](Documentation~/assets/demos/search.gif)
 
 <details>
 <summary>Platform/type filtering and favorites</summary>
@@ -133,10 +136,11 @@ restores the original device and orientation and retains completed captures.
 
 [Clean PNG](Documentation~/assets/demos/puzzle-clean.png) ·
 [Framed PNG](Documentation~/assets/demos/puzzle-framed.png) ·
-[Sample audit HTML](Documentation~/assets/demos/puzzle-audit/index.html) ·
-[Favorite capture HTML](Documentation~/assets/demos/favorite-gallery/index.html)
+[Sample audit HTML](https://dghn.github.io/editorcraft-device-simulator-tools/puzzle-audit/) ·
+[Favorite capture HTML](https://dghn.github.io/editorcraft-device-simulator-tools/favorite-gallery/)
 
-Download the HTML and neighboring images to open locally; GitHub displays HTML source.
+These links open the rendered reports directly in your browser, including their PNGs.
+[All report previews](https://dghn.github.io/editorcraft-device-simulator-tools/)
 
 ## Device coverage
 
@@ -169,10 +173,11 @@ were verified in **6000.6.5f1** on **2026-10-26**.
 - Captures are sequential while the game runs, not a frozen replay or automated visual test.
 - Foldables simulate one screen at a time, not hinge motion.
 
-Each new GIF is **15 seconds / 180 frames / 12 fps playback**. Gameplay and screen
-switching use actual framed Simulator capture sequences. The other tours combine newly
-captured tool steps with separately recorded gameplay, clearly labelled in-frame;
-they are edited walkthroughs, not continuous desktop recordings.
+The device tour shows **39 native captures over 31.2 seconds**, with actual device
+selection followed by the matching Simulator window. Gameplay and Duo screen switching
+use **15 seconds / 180 frames / 12 fps playback** from real framed exports. The other
+walkthroughs show recorded UI steps on their own. Playback timing is edited; no
+independent gameplay is placed beside the picker.
 
 [Compatibility evidence](Documentation~/PLUGIN_COMPATIBILITY.md) ·
 [Capture provenance](Documentation~/SHOWCASE.md#recording-notes)

@@ -2,42 +2,51 @@
   "captured": "2026-10-26",
   "editor": "6000.6.5f1",
   "featuredDevice": "iPhone Duo",
-  "format": "Edited UI walkthroughs with separately recorded gameplay; gameplay and screen-switch use actual framed capture sequences.",
+  "format": "Search: chronological native device tour. Controls: single-pane recorded UI steps. Gameplay and screen-switch: actual framed capture sequences. No independent gameplay beside a picker.",
   "gifs": {
-    "search": {
-      "frames": 180,
-      "duration_seconds": 15,
-      "bytes": 1316017
-    },
     "filters": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1295797
+      "bytes": 260255
     },
     "favorites": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1294564
+      "bytes": 281308
     },
     "screenshots": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1434524
+      "bytes": 272176
     },
     "batch-gallery": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1301478
+      "bytes": 336270
     },
     "gameplay": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1499808
+      "bytes": 1544420
     },
     "screen-switch": {
       "frames": 180,
       "duration_seconds": 15,
-      "bytes": 1606163
+      "bytes": 1658415
+    },
+    "search": {
+      "frames": 39,
+      "duration_seconds": 31.2,
+      "bytes": 1996117,
+      "source": "Whole native Simulator windows and picker popups, one chronological session",
+      "devices": [
+        "iPhone Duo outer",
+        "iPhone Duo inner",
+        "Pixel 10 Pro Fold inner",
+        "Pixel 10 Pro Fold outer",
+        "iPhone 16",
+        "iPhone Duo outer"
+      ]
     }
   }
 }

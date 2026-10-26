@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1 — 2026-10-26
+
+- Replace the mismatched split-pane search demo with a chronological, whole-window tour: iPhone Duo, Pixel Fold, iPhone 16, then Duo again.
+- Show UI walkthroughs without unrelated gameplay and host the actual HTML reports on GitHub Pages.
+- Keep falling Jelly Garden tiles above slot backgrounds and update their click targets after gravity.
+
 ## 0.4.0 — 2026-10-26
 
 - Add the optional Jelly Garden playable puzzle sample with portrait, foldable and landscape layouts.

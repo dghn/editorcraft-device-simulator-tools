@@ -148,7 +148,13 @@ namespace EditorCraft.Samples
         }
         void DrawTile(int x,int y) {
             var r=Jelly(board,cells[x,y],new Vector2((x-3)*96,(3-y)*96+3),78);tiles[x,y]=r;r.name="Jelly "+x+","+y;
-            var image=r.GetComponent<Image>();image.raycastTarget=true;var b=r.gameObject.AddComponent<Button>();b.targetGraphic=image;b.onClick.AddListener(()=>Tap(x,y));
+            var image=r.GetComponent<Image>();image.raycastTarget=true;var b=r.gameObject.AddComponent<Button>();b.targetGraphic=image;BindTile(x,y);
+        }
+        void BindTile(int x,int y) {
+            var tile=tiles[x,y];tile.name="Jelly "+x+","+y;
+            tile.SetAsLastSibling(); // Falling tiles must stay above every slot background.
+            var button=tile.GetComponent<Button>();button.onClick.RemoveAllListeners();
+            button.onClick.AddListener(()=>Tap(x,y));
         }
         List<Vector2Int> Group(int x,int y) {
             var found=new List<Vector2Int>(); var pending=new Queue<Vector2Int>();pending.Enqueue(new Vector2Int(x,y));
@@ -176,6 +182,7 @@ namespace EditorCraft.Samples
                 for(int y=Rows-1;y>=0;y--)if(cells[x,y]>=0){cells[x,bottom]=cells[x,y];tiles[x,bottom]=tiles[x,y];bottom--;}
                 for(int y=bottom;y>=0;y--){cells[x,y]=random.Next(colors.Length);DrawTile(x,y);tiles[x,y].anchoredPosition+=Vector2.up*300;}
             }
+            for(int y=0;y<Rows;y++)for(int x=0;x<Columns;x++)BindTile(x,y);
             var starts=new Vector2[Columns,Rows];for(int y=0;y<Rows;y++)for(int x=0;x<Columns;x++)starts[x,y]=tiles[x,y].anchoredPosition;
             for(float t=0;t<1;t+=Time.unscaledDeltaTime*2.6f){for(int y=0;y<Rows;y++)for(int x=0;x<Columns;x++)tiles[x,y].anchoredPosition=Vector2.Lerp(starts[x,y],new Vector2((x-3)*96,(3-y)*96+3),1-Mathf.Pow(1-t,3));yield return null;}
             for(int y=0;y<Rows;y++)for(int x=0;x<Columns;x++)tiles[x,y].anchoredPosition=new Vector2((x-3)*96,(3-y)*96+3);

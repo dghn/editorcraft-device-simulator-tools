@@ -47,15 +47,16 @@ GIFs use Duo; the remaining devices demonstrate additional catalog coverage.
 
 ## Recording notes
 
-The seven refreshed GIFs contain **180 frames over 15 seconds**, played at **12 fps**.
-Gameplay and screen switching come from successive real Unity Simulator
-captures through the tool's framed PNG export path, preserving the actual device
-surround and camera/notch masks. Playback timing is edited; no intermediate game
-frames are synthesized.
+The main device tour is a chronological recording of actual Unity windows: Duo
+outer → Duo inner → landscape → Pixel Fold inner/outer → iPhone 16 → Duo.
+It contains 39 native captures over 31.2 seconds; pauses are shortened for readability.
+The picker popup appears as its own step, followed by the actual selected device.
+Device controls, names and surrounds stay together in the whole-window captures.
 
-Search, filter, favorite, export and comparison tours combine fresh desktop UI captures
-with a separately recorded gameplay pane. Both panes are labelled. They are instructional
-edits, not continuous desktop video; the tool actions and game moves are not synchronized.
+Gameplay and Duo screen switching use 180 real framed exports over 15 seconds
+at 12 fps playback. Timing is edited; no intermediate game frames are synthesized.
+Filter, favorite, export and comparison tours show recorded UI steps on their own,
+without unrelated gameplay alongside them.
 
 The native gallery screenshot is a real window capture. The sample report contains 11
 snapshots on iPhone 16 and Pixel Fold inner/outer profiles. Every snapshot checked 329
@@ -64,7 +65,7 @@ outside the selected audit root. Geometry checks do not assess usability or read
 
 [Media metadata](assets/demos/recordings.json) ·
 [Actual report](assets/demos/puzzle-audit/report.json) ·
-[HTML and original PNGs](assets/demos/puzzle-audit/index.html)
+[HTML and original PNGs](https://dghn.github.io/editorcraft-device-simulator-tools/puzzle-audit/)
 
 The old intentional-overflow fixture remains in `assets/demos/ui-audit-report` as
 historical regression evidence; it is not the new puzzle showcase.
