@@ -1,6 +1,6 @@
 # Device Simulator plugin compatibility
 
-**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+**Verified versions: Unity 2022.3.62f2 and Unity 6000.6.5f1.** These are test results, not minimum requirements. Earlier Unity versions may work but have not been verified. Compatibility depends on the available Device Simulator APIs and package dependencies.
 
 The tools use Unity's official `UnityEditor.DeviceSimulation.DeviceSimulatorPlugin`.
 Open **Window > General > Device Simulator**, show its **Control Panel**, then expand
@@ -41,8 +41,11 @@ Verified on 2026-10-25 in **2022.3.62f2** and **6000.6.5f1** on macOS.
 Both passed 181 profile selections, 676 orientation checks, eight PNG captures
 and a two-device HTML gallery, including state restoration and cancellation.
 
-The UPM manifest declares Unity **2022.3** and requests uGUI **1.0.0**, which is
-available in that editor. The Unity 6 host retains its directly requested uGUI 2.6.0.
+The UPM manifest does not declare a minimum Editor version. Removing the `unity`
+field avoids treating the oldest tested Editor as a requirement; it is not proof
+of compatibility with every older version. Device Simulator APIs and dependencies
+still need to be available in the target Editor. The package requests uGUI **1.0.0**.
+See the [Unity manifest reference](https://docs.unity3d.com/Manual/upm-manifestPkg.html#unity). The Unity 6 host retains its directly requested uGUI 2.6.0.
 The Unity 6-only play-mode tint property is conditionally compiled.
 The host project itself remains a Unity 6000.6 project; do not downgrade it to test
 2022.3. Use an empty project and install the package from disk.

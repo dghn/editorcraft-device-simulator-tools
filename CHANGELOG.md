@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.2 — 2026-10-26
+
+- Recapture the five-device HTML showcase with real device surrounds and camera masks, leading with iPhone Duo outer and inner screens.
+- Replace filename captions with readable device/screen labels and links to full-resolution framed PNGs.
+- Remove the package-level Unity 2022.3 minimum. Document 2022.3.62f2 and 6000.6.5f1 as verified versions; earlier Editors remain unverified and depend on compatible APIs/dependencies.
+
 ## 0.4.1 — 2026-10-26
 
 - Replace the mismatched split-pane search demo with a chronological, whole-window tour: iPhone Duo, Pixel Fold, iPhone 16, then Duo again.

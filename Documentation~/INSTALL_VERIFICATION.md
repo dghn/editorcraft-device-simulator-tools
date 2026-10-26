@@ -1,6 +1,6 @@
 # Clean UPM installation verification
 
-**Supported and tested: Unity 2022.3.62f2 (2022 LTS) and Unity 6 (6000.6.5f1).** Supports both the older LTS generation and Unity 6; other Editor patches require validation.
+**Verified versions: Unity 2022.3.62f2 and Unity 6000.6.5f1.** These are test results, not minimum requirements. Earlier Unity versions may work but have not been verified. Compatibility depends on the available Device Simulator APIs and package dependencies.
 
 This historical Git-installation run was verified on 2026-10-25 with Unity **6000.6.5f1** on macOS.
 

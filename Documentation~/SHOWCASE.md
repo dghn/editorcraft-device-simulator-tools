@@ -71,3 +71,5 @@ The old intentional-overflow fixture remains in `assets/demos/ui-audit-report` a
 historical regression evidence; it is not the new puzzle showcase.
 
 Device surrounds retain their separate [third-party terms](../THIRD_PARTY_NOTICES.md).
+
+The [framed device gallery](https://dghn.github.io/editorcraft-device-simulator-tools/favorite-gallery/) uses five fresh framed PNG exports, with Duo outer and inner first. Its presentation page adds readable model labels and links to the original full-resolution framed files. The geometric audit retains clean captures so its coordinate guides remain aligned.

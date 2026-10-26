@@ -22,7 +22,7 @@ Tested tool versions: **Unity 2022.3.62f2** and **Unity 6000.6.5f1**.
 In **Package Manager → + → Install package from Git URL**, paste:
 
 ```text
-https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.1
+https://github.com/dghn/editorcraft-device-simulator-tools.git#v0.4.2
 ```
 
 Open **Window → General → Device Simulator → Control Panel → EditorCraft Device Tools**.
@@ -35,11 +35,11 @@ needed. UPM resolves the Unity device catalog, Newtonsoft JSON and uGUI dependen
 **Working from this checkout?** Install its `package.json` with **Install package
 from disk** in an existing Unity project. This repository is a UPM package, not a
 standalone Unity project. The optional Jelly Garden sample and refreshed iPhone Duo showcase are included
-in **v0.4.1**.
+in **v0.4.2**.
 
 [Agent-friendly installer](Documentation~/AGENT_INSTALL.md) ·
 [Installation verification](Documentation~/INSTALL_VERIFICATION.md) ·
-[Released v0.4.1](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.1)
+[Released v0.4.2](https://github.com/dghn/editorcraft-device-simulator-tools/releases/tag/v0.4.2)
 
 ## Play with Jelly Garden
 
@@ -137,7 +137,7 @@ restores the original device and orientation and retains completed captures.
 [Clean PNG](Documentation~/assets/demos/puzzle-clean.png) ·
 [Framed PNG](Documentation~/assets/demos/puzzle-framed.png) ·
 [Sample audit HTML](https://dghn.github.io/editorcraft-device-simulator-tools/puzzle-audit/) ·
-[Favorite capture HTML](https://dghn.github.io/editorcraft-device-simulator-tools/favorite-gallery/)
+[Framed device gallery](https://dghn.github.io/editorcraft-device-simulator-tools/favorite-gallery/)
 
 These links open the rendered reports directly in your browser, including their PNGs.
 [All report previews](https://dghn.github.io/editorcraft-device-simulator-tools/)
@@ -164,8 +164,10 @@ coverage is not physical-device testing.
 
 ## Compatibility
 
-The package declares Unity **2022.3**. Tooling was tested in **2022.3.62f2** and
-**6000.6.5f1**; other patches require validation. The new sample and refreshed media
+There is **no package-declared minimum Unity version**. Tooling was verified in
+**2022.3.62f2** and **6000.6.5f1**; these are tested versions, not requirements.
+Earlier Editors may work but have not been verified; Device Simulator APIs and
+package dependencies must be available. The new sample and refreshed media
 were verified in **6000.6.5f1** on **2026-10-26**.
 
 - Safe areas represent the profile's recorded OS/system-UI configuration.
